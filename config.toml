@@ -1,6 +1,6 @@
 ############################ Default configuration #########################
 baseURL = "https://medicionpsicologica.netlify.com/"
-languageCode = "en-us"
+languageCode = "es-es"
 # site title 
 title = "Avances en Medición Psicológica"
 # theme
@@ -10,7 +10,7 @@ paginate = "5"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "medicionpsicologica." # get your shortname form here : https://disqus.com
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -42,31 +42,31 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "contactanos"
+name = "Contáctanos"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "herramientas"
+name = "Herramientas"
 weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+URL = "contactanos"
+name = "Contáctanos"
 weight = 1
 
 [[menu.footer]]
-URL = "tools"
-name = "tools"
+URL = "herramientas"
+name = "Herramientas"
 weight = 2
 
 
 ######################### Default Parameters ###########################
 [params]
 # home
-home = "Home"
+home = "Inicio"
 # logo
 logo = "images/logo.svg"
 # meta data
