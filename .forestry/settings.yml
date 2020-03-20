@@ -11,7 +11,7 @@ sections:
   match: "*"
 - type: directory
   path: content/contact
-  label: Contáctanos
+  label: Contact
   create: all
   match: "**/*"
 - type: directory
