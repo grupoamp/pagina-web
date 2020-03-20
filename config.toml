@@ -10,7 +10,7 @@ paginate = "5"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "medicionpsicologica." # get your shortname form here : https://disqus.com
+disqusShortname = "" # get your shortname form here : https://disqus.com
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -42,31 +42,31 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contactanos"
-name = "Contáctanos"
+URL = "contact"
+name = "Contact"
 weight = 1
 
 [[menu.main]]
-URL = "herramientas"
-name = "Herramientas"
+URL = "tools"
+name = "tools"
 weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contactanos"
-name = "Contáctanos"
+URL = "contact"
+name = "Contact"
 weight = 1
 
 [[menu.footer]]
-URL = "herramientas"
-name = "Herramientas"
+URL = "tools"
+name = "tools"
 weight = 2
 
 
 ######################### Default Parameters ###########################
 [params]
 # home
-home = "Inicio"
+home = "Home"
 # logo
 logo = "images/logo.svg"
 # meta data
