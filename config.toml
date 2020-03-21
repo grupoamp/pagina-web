@@ -43,34 +43,34 @@ link = "plugins/search/search.js"
 # main menu
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contáctanos"
 weight = 1
 
 [[menu.main]]
 URL = "tools"
-name = "tools"
+name = "Herramientas"
 weight = 2
 
 # footer menu
 [[menu.footer]]
 URL = "contact"
-name = "Contact"
+name = "Contáctanos"
 weight = 1
 
 [[menu.footer]]
 URL = "tools"
-name = "tools"
+name = "Herramientas"
 weight = 2
 
 
 ######################### Default Parameters ###########################
 [params]
 # home
-home = "Home"
+home = "Inicio"
 # logo
-logo = "images/logo.svg"
+logo = "images/Logo-low-size.png"
 # meta data
-author = "Themefisher"
+author = "Avances en Medición Psicológica"
 description = "This is meta description"
 # google tag manager
 google_tag_manager = "" # your id
@@ -79,7 +79,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2020 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; 2020 Avances en Medición Psicológica. Por una ciencia libre."
 
 # preloader
 [params.preloader]
@@ -94,32 +94,32 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
+title = "Bienvenidos a Avances en Medición Psicológica. <br> Un grupo de la UNMSM."
 image = "images/banner/illustration.svg"
 
 
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+image = "images/ampi-mascota.png"
+title = "Nuestras actividades e investigaciones"
+description = "Puede encontrar los materiales de nuestras actividades/investigaciones totalmente libres para compartir."
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "¡Entre aquí!"
+link = "https://osf.io/rvbpm/"
 
 
 ############################## Social Site ##########################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/amp.unmsm/"
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/ge_amp"
 [[params.social]]
 icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/grupoamp/"
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-link = "#"
+icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UC7KqLj6zWBuJtklHSbHp4Cg"
