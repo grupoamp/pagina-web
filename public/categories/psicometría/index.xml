@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Avances en Medición Psicológica</title>
-    <link>/</link>
-    <description>Recent content on Avances en Medición Psicológica</description>
+    <title>Psicometría on Avances en Medición Psicológica</title>
+    <link>/categories/psicometr%C3%ADa/</link>
+    <description>Recent content in Psicometría on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/psicometr%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/post/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</guid>
       <description>Considerando que los tests son instrumentos de medida ampliamente utilizados por los psicólogos para tomar serias decisiones sobre la vida de las personas, es esencial constatar que estos cumplan con estrictos estándares científicos y asegurar así su calidad e idoneidad para la medición de constructos psicológicos.</description>
-    </item>
-    
-    <item>
-      <title>Oscar Meza</title>
-      <link>/author/oscar-meza/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/author/oscar-meza/</guid>
-      <description>Estudiante de Psicología de la Universidad Nacional Mayor de San Marcos.</description>
     </item>
     
   </channel>
