@@ -24,4 +24,4 @@ De esta manera, los autores recalcan que cada fase de construcción es important
 
 **Referencia**
 
-Muñiz, J., y Fonseca-Pedrero, E. (2019). Diez pasos para la construcción de un test. Psicothema, 31(1), 7-16. https://doi.org/10.7334/psicothema2018.291 
+Muñiz, J., y Fonseca-Pedrero, E. (2019). Diez pasos para la construcción de un test. *Psicothema, 31*(1), 7-16. https://doi.org/10.7334/psicothema2018.291 
