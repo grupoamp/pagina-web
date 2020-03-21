@@ -74,13 +74,13 @@ home = "Inicio"
 logo = "images/Logo-low-size.png"
 # meta data
 author = "Avances en Medición Psicológica"
-description = "This is meta description"
+description = "AMP es un grupo de estudios de la UNMSM dedicado a la investigación y desarrollo de actividades a favr de la ciencia Psicológica."
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
 google_analitycs_id = "" # your id
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+contact_form_action = "https://formspree.io/mqklybap" # contact form works with : https://formspree.io
 # copyright
 copyright = "&copy; 2020 Avances en Medición Psicológica. Por una ciencia libre."
 
