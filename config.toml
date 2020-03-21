@@ -13,6 +13,9 @@ summaryLength = "10"
 disqusShortname = "medicionpsicologica" # get your shortname form here : https://disqus.com
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
  
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
