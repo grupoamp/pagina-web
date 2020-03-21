@@ -18,7 +18,7 @@ Considerando que los tests son instrumentos de medida ampliamente utilizados por
 
 Si bien es un proceso complejo, el trabajo de Muñiz y Fonseca-Pedrero (2019), basado en estándares internacionales y literatura especializada, describe de forma sintética diez pasos a considerar en el desarrollo de un test. El artículo abarca temas como la justificación para la construcción de un test, la definición de la variable de medición, las directrices para la elaboración de ítems, los estudios pilotos, el análisis de las propiedades psicométricas, hasta llegar a la elaboración de la versión final del test. Un resumen de estos diez pasos puede visualizarse en la siguiente figura:
 
-
+![](/post/2020-03-20-qué-aspectos-hay-que-tener-en-cuenta-para-construir-un-test_files/Esquema Diez Pasos.png){width=640px}
 
 De esta manera, los autores recalcan que cada fase de construcción es importante y debe ser desarrollada con la rigurosidad que una ciencia exige, en este caso, la Psicología. Además, resaltan que estos pasos no son estáticos y pueden adaptarse a los constantes cambios tecnológicos y metodológicos, pero, apuntando a un mismo objetivo: construir un test de calidad con evidencia empírica.
 
