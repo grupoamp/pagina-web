@@ -1,0 +1,22 @@
+---
+title: Post de Prueba
+author: Brian Peña
+date: '2020-03-21'
+description: Este es un post de prueba
+image: /images/post/prueba.jpg
+slug: post-de-prueba
+categories:
+  - Prueba
+tags:
+  - Prueba
+---
+
+Se ejecutó un análisis TRI de una parámetro (Rasch) con el paquete TAM del software libre R 3.6.2. Cada subdimensión fue tratada de forma independiente y se ejecutó con el total de personas (1 a 36 meses de edad). Cada edad por tanto, tuvo consigo valores perdidos que fueron tratados como tal. Así, cada grupo etáreo respondió una cantidad de preguntas distintas al resto de grupos. Sobre ello se estimó la habilidad de cada persona, es decir la capacidad medida en ese momento con respecto a la subdimensión que se evalúe.
+
+Es habitual encontrar ítems que sean más difíciles de responder que otros, así como viceversa. Esto es positivo en los instrumentos siempre y cuando sean administrados y balanceados adecuadamente, es decir, tener ítems fáciles, intermedios y difíciles que permitan a la persona acertar y fallar acorde al nivel de su habilidad presente. El análisis con Rasch nos permite observar esto, siendo de enorme utilidad para poder decidir que ítems están superponiéndose en la capacidad de obtener información de una determinada habilidad y que áreas (habilidad) se están descuidando.
+
+a)Interacción con Otros
+
+![](/post/2020-03-21-post-de-prueba_files/ejemplo2.png){width=100%}
+
+b) XXXX

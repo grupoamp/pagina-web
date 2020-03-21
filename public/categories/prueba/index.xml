@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prueba on Avances en Medición Psicológica</title>
+    <link>/categories/prueba/</link>
+    <description>Recent content in Prueba on Avances en Medición Psicológica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/prueba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post de Prueba</title>
+      <link>/2020/03/21/post-de-prueba/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/21/post-de-prueba/</guid>
+      <description>Se ejecutó un análisis TRI de una parámetro (Rasch) con el paquete TAM del software libre R 3.</description>
+    </item>
+    
+  </channel>
+</rss>

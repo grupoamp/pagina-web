@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Post de Prueba</title>
+      <link>/2020/03/21/post-de-prueba/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/21/post-de-prueba/</guid>
+      <description>Se ejecutó un análisis TRI de una parámetro (Rasch) con el paquete TAM del software libre R 3.</description>
+    </item>
+    
+    <item>
       <title>¿Qué aspectos hay que tener en cuenta para construir un test?</title>
       <link>/2020/03/21/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
