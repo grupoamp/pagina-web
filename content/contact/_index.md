@@ -2,7 +2,7 @@
 description: this is meta description
 draft: false
 image: images/contact.svg
-title: Contact Us
+title: Contáctanos
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+Si tienes alguna duda o deseas darnos a conocer tu opinión/idea sobre algo en específico. No dudes en escribirnos.
