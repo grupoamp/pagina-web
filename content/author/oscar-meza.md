@@ -4,4 +4,4 @@ image: /images/author/oscar-meza.jpg
 title: Oscar Meza
 ---
 
-Estudiante de Psicología de la Universidad Nacional Mayor de San Marcos. Co-coordinador general del Grupos de Estudios Avances en Medición Psicológica (AMP) y miembro del grupo de estudio Práctica, Supervisión e Investigación en el ámbito Clínico (PSIAC). Co-jefe del servicio de Psicología de la Posta de Salud Docente San Fernando.
+Estudiante de pregrado de Psicología de la Universidad Nacional Mayor de San Marcos (UNMSM). Co-coordinador general del Grupo de Estudios Avances en Medición Psicológica. Miembro del Grupo de Estudio Práctica, Supervisión e Investigación en el Ámbito Clínico (PSIAC). Co-jefe del Servicio de Psicología de la Posta de Salud Docente San Fernando.
