@@ -6,10 +6,46 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fiabilidad</title>
+      <link>/categories/fiabilidad/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/fiabilidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psicometría</title>
+      <link>/categories/psicometr%C3%ADa/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/psicometr%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulación</title>
+      <link>/categories/simulaci%C3%B3n/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/simulaci%C3%B3n/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adaptación de pruebas</title>
@@ -17,15 +53,6 @@
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/adaptaci%C3%B3n-de-pruebas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psicometría</title>
-      <link>/categories/psicometr%C3%ADa/</link>
-      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/psicometr%C3%ADa/</guid>
       <description></description>
     </item>
     
@@ -44,15 +71,6 @@
       <pubDate>Mon, 17 Feb 2020 04:03:03 +0000</pubDate>
       
       <guid>/categories/gr%C3%A1ficos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Mon, 17 Feb 2020 04:03:03 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,206 @@
+---
+title: Algunas malconcepciones en psicometría
+author: Brian N. Peña-Calero
+date: '2020-05-01'
+description: La creación de instrumentos de medición trae consigo el uso de análisis psicométrico y empleo de análisis estadístico. Estimadores como coeficiente alfa, omega o glb, no siempre son realmente entendidos, causando errores en la construcción del instrumento.
+image: /images/post/imagen-simulacion.png
+slug: algunas-malconcepciones-en-psicometría
+categories:
+  - Psicometría
+  - R
+  - Simulación
+  - Fiabilidad
+tags:
+  - Psicometría
+  - R
+  - Construcción de Pruebas
+  - Simulación
+  - Monte Carlo
+  - Fiabilidad
+  - Alfa de Cronbach
+  - Omega de Mc'Donald
+  - glb
+---
+
+
+
+<p>Sijtsma narra su experiencia, ideas, críticas y propuestas hacia la psicometría desde que fue presidente de la Dutch Committee on Tests and Testing (COTAN). En dicha institución se viene realizando una evaluación a las pruebas psicométricas creadas en su país desde los años 80 con diferentes criterios como: bases teóricas del test, calidad de los materiales, exhaustividad del manual, normas, fiabilidad, validez de constructo y de criterio. La evaluación es necesaria para todo, a fin de que un instrumento pueda ser utilizado. Sin embargo, esto no ha sido suficiente puesto que la evolución de la calidad de la construcción de los instrumentos no ha avanzado en la manera en que se esperaba desde los años 80:</p>
+<ol style="list-style-type: decimal">
+<li>El uso de las normas sigue siendo preocupante.</li>
+<li>Las muestras son demasiado pequeñas o poca representativas para los objetivos de la prueba (instrumento de aplicación nacional por ejemplo).</li>
+<li>No ha habido mejora en la validez de criterio.</li>
+<li>Pequeños cambios en fiabilidad y validez de constructo que siguen siendo minoritarios.</li>
+<li>Uso predominante de la teoría clásica de los test (TCT).</li>
+</ol>
+<p>Sijtsma conceptualiza algunas explicaciones del porqué de esta situación. Los investigadores siguen utilizando métodos clásicos y antiguos y muchos de ellos muestran resistencia al cambio o de aceptar que otros métodos de análisis pueden ser mejores que los usados clásicamente (ej. el coeficiente alfa, o TRI). La mejor manera de cambiar esto es mediante una adecuada enseñanza.</p>
+<p>Otro aspecto importante a tratar es la enorme confusión que hay acerca de los estadísticos utilizados en los diferentes métodos de estimación de la fiabilidad. Muchos investigadores tienen la idea de que el uso de procedimientos en por test-retest, métodos paralelos y/o consistencia interna tienen objetivos totalmente distintos y no brindan evidencia de lo mismo. Esto refuerza enormemente la resistencia a utilizar estimadores distintos al coeficiente alfa, debido a que, al ser un estadístico distinto el que se vaya a usar, no se podrían realizar las mismas interpretaciones que se realizaban anteriormente y mucho menos, realizar una comparación entre los mismo. De esta manera, el coeficiente alfa se considera como el límite inferior “teóricamente fundamentado”, que no puede cuestionarse fácilmente. Esto, nuevamente, recae en un inadecuado aprendizaje de los conceptos psicométricos fundamentales.</p>
+<p>Haciendo un ensayo por simulación Monte Carlo podemos evidenciar que las estimaciones apuntan a lo mismo siempre y cuando se respesten las asunciones sobre los cuales fueron construidos:</p>
+<p><strong>1. Condiciones ideales (tauequivalencia en los ítems)</strong></p>
+<pre class="r"><code>library(lavaan)</code></pre>
+<pre><code>## This is lavaan 0.6-5</code></pre>
+<pre><code>## lavaan is BETA software! Please report any bugs.</code></pre>
+<pre class="r"><code># Modelo 1
+modelo_01 &lt;- &quot; # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.7*Item02 + 0.7*Item03 + 0.7*Item04 + 0.7*Item05&quot;
+
+data_01 &lt;- simulateData(modelo_01, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_01,
+                                      poly = FALSE)</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;GGally&#39;:
+##   method from   
+##   +.gg   ggplot2</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;lme4&#39;:
+##   method                          from
+##   cooks.distance.influence.merMod car 
+##   influence.merMod                car 
+##   dfbeta.influence.merMod         car 
+##   dfbetas.influence.merMod        car</code></pre>
+<pre><code>## 
+## Information about this analysis:
+## 
+##                  Dataframe: data_01
+##                      Items: all
+##               Observations: 250
+##      Positive correlations: 10 out of 10 (100%)
+## 
+## Estimates assuming interval level:
+## 
+##              Omega (total): 0.86
+##       Omega (hierarchical): 0.78
+##    Revelle&#39;s omega (total): 0.88
+## Greatest Lower Bound (GLB): 0.87
+##              Coefficient H: 0.86
+##           Cronbach&#39;s alpha: 0.86
+## Confidence intervals:
+##              Omega (total): [0.83, 0.89]
+##           Cronbach&#39;s alpha: [0.83, 0.89]
+## 
+## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
+<p>Podemos observar en los resultados que el coeficiente alfa y omega presentan estimaciones idénticas. Esto es debido a que cuando se cumplen los supuestos de los estimadores, todos estiman la fiabilidad verdadera. GLB se ve un poco sesgado en condiciones de normalidad y poca muestra.</p>
+<p><strong>2. Condiciones más realistas (cargas factoriales variables)</strong></p>
+<pre class="r"><code>modelo_02 &lt;- &quot; # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05&quot;
+
+data_02 &lt;- simulateData(modelo_02, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_02,
+                                      poly = FALSE)</code></pre>
+<pre><code>## 
+## Information about this analysis:
+## 
+##                  Dataframe: data_02
+##                      Items: all
+##               Observations: 250
+##      Positive correlations: 10 out of 10 (100%)
+## 
+## Estimates assuming interval level:
+## 
+##              Omega (total): 0.81
+##       Omega (hierarchical): 0.76
+##    Revelle&#39;s omega (total): 0.82
+## Greatest Lower Bound (GLB): 0.85
+##              Coefficient H: 0.88
+##           Cronbach&#39;s alpha: 0.79
+## Confidence intervals:
+##              Omega (total): [0.77, 0.84]
+##           Cronbach&#39;s alpha: [0.74, 0.83]
+## 
+## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
+<p>En esta ocasión, el coeficiente omega presenta una estimación mayor que el coeficiente alfa. Esto debido a que omega considera las variaciones en las cargas factoriales, mientras que el coeficiente alfa asume que son iguales (<em>tauequivalencia</em>).</p>
+<p><strong>3. Condiciones más realistas y con asimetría y curtosis</strong></p>
+<pre class="r"><code>modelo_03 &lt;- &quot; # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05&quot;
+
+data_03 &lt;- simulateData(modelo_03, sample.nobs=250, standardized=TRUE,
+                        skewness = c(-3, -2.2, -1, -0.5, -0.3),
+                        kurtosis = c(1, 1.5, 2, 1.3, 1.1),
+                        seed = 2020)</code></pre>
+<pre><code>## Warning in fleishman1978_abcd(skewness = SK[i], kurtosis = KU[i]): lavaan
+## WARNING: ValeMaurelli1983 method did not convergence, or it did not find the
+## roots
+
+## Warning in fleishman1978_abcd(skewness = SK[i], kurtosis = KU[i]): lavaan
+## WARNING: ValeMaurelli1983 method did not convergence, or it did not find the
+## roots</code></pre>
+<pre class="r"><code>userfriendlyscience::scaleReliability(data_03,
+                                      poly = FALSE)</code></pre>
+<pre><code>## 
+## Information about this analysis:
+## 
+##                  Dataframe: data_03
+##                      Items: all
+##               Observations: 250
+##      Positive correlations: 10 out of 10 (100%)
+## 
+## Estimates assuming interval level:
+## 
+##              Omega (total): 0.75
+##       Omega (hierarchical): 0.69
+##    Revelle&#39;s omega (total): 0.78
+## Greatest Lower Bound (GLB): 0.83
+##              Coefficient H: 0.85
+##           Cronbach&#39;s alpha: 0.74
+## Confidence intervals:
+##              Omega (total): [0.7, 0.8]
+##           Cronbach&#39;s alpha: [0.69, 0.79]
+## 
+## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
+<p>Las estimaciones omega y alfa se ven más afectada, manteniendo las mismas cargas factoriales que en el caso 2. Mientras que glb es quien presenta una estimación más parecida a lo anterior mostrado.</p>
+<p><strong>4. Condiciones más realistas e ítems dicotómicos</strong></p>
+<pre class="r"><code>modelo_04 &lt;- &quot; # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05
+               # Umbrales para cada ítem
+               Item01 | -1.5*t1 
+               Item02 | 1.1*t1              
+               Item03 | -1.5*t1 
+               Item04 | -0.2*t1 
+               Item05 | 0.3*t1 &quot;
+
+data_04 &lt;- simulateData(modelo_04, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_04,
+                                      poly = TRUE)</code></pre>
+<pre><code>## Warning in lav_model_vcov(lavmodel = lavmodel2, lavsamplestats = lavsamplestats, : lavaan WARNING:
+##     The variance-covariance matrix of the estimated parameters (vcov)
+##     does not appear to be positive definite! The smallest eigenvalue
+##     (= -4.495975e-19) is smaller than zero. This may be a symptom that
+##     the model is not identified.</code></pre>
+<pre><code>## 
+## Information about this analysis:
+## 
+##                  Dataframe: data_04
+##                      Items: all
+##               Observations: 250
+##      Positive correlations: 10 out of 10 (100%)
+## 
+## Estimates assuming interval level:
+## 
+##              Omega (total): 0.51
+##       Omega (hierarchical): 0.48
+##    Revelle&#39;s omega (total): 0.66
+## Greatest Lower Bound (GLB): 0.66
+##              Coefficient H: 0.69
+##           Cronbach&#39;s alpha: 0.55
+## Confidence intervals:
+##              Omega (total): [0.42, 0.61]
+##           Cronbach&#39;s alpha: [0.47, 0.64]
+## 
+## Estimates assuming ordinal level:
+## 
+##      Ordinal Omega (total): 0.83
+##  Ordinal Omega (hierarch.): 0.81
+##   Ordinal Cronbach&#39;s alpha: 0.82
+## Confidence intervals:
+##      Ordinal Omega (total): [0.8, 0.86]
+##   Ordinal Cronbach&#39;s alpha: [0.78, 0.85]
+## 
+## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
+<p>Por último, los coeficientes de fiabilidad en general se ven afectadas cuando se enfrentan a ítems ordinales (lo cual es en la mayor cantidad de los casos), puesto que la matriz de correlación que se utiliza es la de pearson. Mientras que el coeficiente alfa y omega tienen procedimientos desarrollados para consideraciones ordinales. A medida que las categorías de los ítems se incremente, el sesgo producido en su estimación, será menor.</p>
+<div id="referencia" class="section level3">
+<h3>Referencia</h3>
+<p>Sijtsma, K. (2012). Future of Psychometrics: Ask What Psychometrics Can Do for Psychology. <em>Psychometrika, 77</em>(1), 4–20. <a href="https://doi.org/10.1007/s11336-011-9242-4" class="uri">https://doi.org/10.1007/s11336-011-9242-4</a></p>
+</div>

@@ -1,0 +1,116 @@
+---
+title: Algunas malconcepciones en psicometría
+author: Brian N. Peña-Calero
+date: '2020-05-01'
+description: La creación de instrumentos de medición trae consigo el uso de análisis psicométrico y empleo de análisis estadístico. Estimadores como coeficiente alfa, omega o glb, no siempre son realmente entendidos, causando errores en la construcción del instrumento.
+image: /images/post/imagen-simulacion.png
+slug: algunas-malconcepciones-en-psicometría
+categories:
+  - Psicometría
+  - R
+  - Simulación
+  - Fiabilidad
+tags:
+  - Psicometría
+  - R
+  - Construcción de Pruebas
+  - Simulación
+  - Monte Carlo
+  - Fiabilidad
+  - Alfa de Cronbach
+  - Omega de Mc'Donald
+  - glb
+---
+
+Sijtsma narra su experiencia, ideas, críticas y propuestas hacia la psicometría desde que fue presidente de la Dutch Committee on Tests and Testing (COTAN). En dicha institución se viene realizando una evaluación a las pruebas psicométricas creadas en su país desde los años 80 con diferentes criterios como: bases teóricas del test, calidad de los materiales, exhaustividad del manual, normas, fiabilidad, validez de constructo y de criterio. La evaluación es necesaria para todo, a fin de que un instrumento pueda ser utilizado. Sin embargo, esto no ha sido suficiente puesto que la evolución de la calidad de la construcción de los instrumentos no ha avanzado en la manera en que se esperaba desde los años 80:
+
+1. El uso de las normas sigue siendo preocupante.
+2. Las muestras son demasiado pequeñas o poca representativas para los objetivos de la prueba (instrumento de aplicación nacional por ejemplo).
+3. No ha habido mejora en la validez de criterio.
+4. Pequeños cambios en fiabilidad y validez de constructo que siguen siendo minoritarios.
+5. Uso predominante de la teoría clásica de los test (TCT).
+
+Sijtsma conceptualiza algunas explicaciones del porqué de esta situación. Los investigadores siguen utilizando métodos clásicos y antiguos y muchos de ellos muestran resistencia al cambio o de aceptar que otros métodos de análisis pueden ser mejores que los usados clásicamente (ej. el coeficiente alfa, o TRI). La mejor manera de cambiar esto es mediante una adecuada enseñanza. 
+
+Otro aspecto importante a tratar es la enorme confusión que hay acerca de los estadísticos utilizados en los diferentes métodos de estimación de la fiabilidad. Muchos investigadores tienen la idea de que el uso de procedimientos en por test-retest, métodos paralelos y/o consistencia interna tienen objetivos totalmente distintos y no brindan evidencia de lo mismo. Esto refuerza enormemente la resistencia a utilizar estimadores distintos al coeficiente alfa, debido a que, al ser un estadístico distinto el que se vaya a usar, no se podrían realizar las mismas interpretaciones que se realizaban anteriormente y mucho menos, realizar una comparación entre los mismo. De esta manera, el coeficiente alfa se considera como el límite inferior “teóricamente fundamentado”, que no puede cuestionarse fácilmente. Esto, nuevamente, recae en un inadecuado aprendizaje de los conceptos psicométricos fundamentales. 
+
+Haciendo un ensayo por simulación Monte Carlo podemos evidenciar que las estimaciones apuntan a lo mismo siempre y cuando se respesten las asunciones sobre los cuales fueron construidos:
+
+**1. Condiciones ideales (tauequivalencia en los ítems)**
+```{r}
+library(lavaan)
+# Modelo 1
+modelo_01 <- " # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.7*Item02 + 0.7*Item03 + 0.7*Item04 + 0.7*Item05"
+
+data_01 <- simulateData(modelo_01, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_01,
+                                      poly = FALSE)
+
+
+```
+
+Podemos observar en los resultados que el coeficiente alfa y omega presentan estimaciones idénticas. Esto es debido a que cuando se cumplen los supuestos de los estimadores, todos estiman la fiabilidad verdadera. GLB se ve un poco sesgado en condiciones de normalidad y poca muestra.
+
+**2. Condiciones más realistas (cargas factoriales variables)**
+```{r}
+modelo_02 <- " # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05"
+
+data_02 <- simulateData(modelo_02, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_02,
+                                      poly = FALSE)
+
+```
+En esta ocasión, el coeficiente omega presenta una estimación mayor que el coeficiente alfa. Esto debido a que omega considera las variaciones en las cargas factoriales, mientras que el coeficiente alfa asume que son iguales (*tauequivalencia*).
+
+**3. Condiciones más realistas y con asimetría y curtosis**
+```{r}
+modelo_03 <- " # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05"
+
+data_03 <- simulateData(modelo_03, sample.nobs=250, standardized=TRUE,
+                        skewness = c(-3, -2.2, -1, -0.5, -0.3),
+                        kurtosis = c(1, 1.5, 2, 1.3, 1.1),
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_03,
+                                      poly = FALSE)
+```
+Las estimaciones omega y alfa se ven más afectada, manteniendo las mismas cargas factoriales que en el caso 2. Mientras que glb es quien presenta una estimación más parecida a lo anterior mostrado.
+
+**4. Condiciones más realistas e ítems dicotómicos**
+```{r}
+modelo_04 <- " # Modelo de medición
+               F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05
+               # Umbrales para cada ítem
+               Item01 | -1.5*t1 
+               Item02 | 1.1*t1              
+               Item03 | -1.5*t1 
+               Item04 | -0.2*t1 
+               Item05 | 0.3*t1 "
+
+data_04 <- simulateData(modelo_04, sample.nobs=250, standardized=TRUE,
+                        seed = 2020)
+
+userfriendlyscience::scaleReliability(data_04,
+                                      poly = TRUE)
+
+```
+Por último, los coeficientes de fiabilidad en general se ven afectadas cuando se enfrentan a ítems ordinales (lo cual es en la mayor cantidad de los casos), puesto que la matriz de correlación que se utiliza es la de pearson. Mientras que el coeficiente alfa y omega tienen procedimientos desarrollados para consideraciones ordinales. A medida que las categorías de los ítems se incremente, el sesgo producido en su estimación, será menor.
+
+### Referencia
+Sijtsma, K. (2012). Future of Psychometrics: Ask What Psychometrics Can Do for Psychology. *Psychometrika, 77*(1), 4–20. https://doi.org/10.1007/s11336-011-9242-4
+
+
+
+
+
+
+
+
+
