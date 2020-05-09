@@ -1,6 +1,6 @@
 ---
 title: Algunas malconcepciones en psicometría
-author: Brian N. Peña-Calero
+author: Brian Peña
 date: '2020-05-01'
 description: La creación de instrumentos de medición trae consigo el uso de análisis psicométrico y empleo de análisis estadístico. Estimadores como coeficiente alfa, omega o glb, no siempre son realmente entendidos, causando errores en la construcción del instrumento.
 image: /images/post/imagen-simulacion.png
@@ -104,7 +104,7 @@ userfriendlyscience::scaleReliability(data_04,
 Por último, los coeficientes de fiabilidad en general se ven afectadas cuando se enfrentan a ítems ordinales (lo cual es en la mayor cantidad de los casos), puesto que la matriz de correlación que se utiliza es la de pearson. Mientras que el coeficiente alfa y omega tienen procedimientos desarrollados para consideraciones ordinales. A medida que las categorías de los ítems se incremente, el sesgo producido en su estimación, será menor.
 
 ### Referencia
-Sijtsma, K. (2012). Future of Psychometrics: Ask What Psychometrics Can Do for Psychology. *Psychometrika, 77*(1), 4–20. https://doi.org/10.1007/s11336-011-9242-4
+Sijtsma, K. (2012). Future of Psychometrics: Ask What Psychometrics Can Do for Psychology. *Psychometrika, 77*(1), 4–20. [https://doi.org/10.1007/s11336-011-9242-4](https://doi.org/10.1007/s11336-011-9242-4){target="_blank"}
 
 
 
