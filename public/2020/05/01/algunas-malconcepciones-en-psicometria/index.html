@@ -121,7 +121,8 @@
 <p>Sijtsma conceptualiza algunas explicaciones del porqué de esta situación. Los investigadores siguen utilizando métodos clásicos y antiguos y muchos de ellos muestran resistencia al cambio o de aceptar que otros métodos de análisis pueden ser mejores que los usados clásicamente (ej. el coeficiente alfa, o TRI). La mejor manera de cambiar esto es mediante una adecuada enseñanza.</p>
 <p>Otro aspecto importante a tratar es la enorme confusión que hay acerca de los estadísticos utilizados en los diferentes métodos de estimación de la fiabilidad. Muchos investigadores tienen la idea de que el uso de procedimientos en por test-retest, métodos paralelos y/o consistencia interna tienen objetivos totalmente distintos y no brindan evidencia de lo mismo. Esto refuerza enormemente la resistencia a utilizar estimadores distintos al coeficiente alfa, debido a que, al ser un estadístico distinto el que se vaya a usar, no se podrían realizar las mismas interpretaciones que se realizaban anteriormente y mucho menos, realizar una comparación entre los mismo. De esta manera, el coeficiente alfa se considera como el límite inferior “teóricamente fundamentado”, que no puede cuestionarse fácilmente. Esto, nuevamente, recae en un inadecuado aprendizaje de los conceptos psicométricos fundamentales.</p>
 <p>Haciendo un ensayo por simulación Monte Carlo podemos evidenciar que las estimaciones apuntan a lo mismo siempre y cuando se respesten las asunciones sobre los cuales fueron construidos:</p>
-<p><strong>1. Condiciones ideales (tauequivalencia en los ítems)</strong></p>
+<div id="condiciones-ideales-tauequivalencia-en-los-ítems" class="section level3">
+<h3>1. Condiciones ideales (tauequivalencia en los ítems)</h3>
 <pre class="r"><code>library(lavaan)</code></pre>
 <pre><code>## This is lavaan 0.6-5</code></pre>
 <pre><code>## lavaan is BETA software! Please report any bugs.</code></pre>
@@ -165,7 +166,9 @@ userfriendlyscience::scaleReliability(data_01,
 ## 
 ## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
 <p>Podemos observar en los resultados que el coeficiente alfa y omega presentan estimaciones idénticas. Esto es debido a que cuando se cumplen los supuestos de los estimadores, todos estiman la fiabilidad verdadera. GLB se ve un poco sesgado en condiciones de normalidad y poca muestra.</p>
-<p><strong>2. Condiciones más realistas (cargas factoriales variables)</strong></p>
+</div>
+<div id="condiciones-más-realistas-cargas-factoriales-variables" class="section level3">
+<h3>2. Condiciones más realistas (cargas factoriales variables)</h3>
 <pre class="r"><code>modelo_02 &lt;- &quot; # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05&quot;
 
@@ -196,7 +199,9 @@ userfriendlyscience::scaleReliability(data_02,
 ## 
 ## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
 <p>En esta ocasión, el coeficiente omega presenta una estimación mayor que el coeficiente alfa. Esto debido a que omega considera las variaciones en las cargas factoriales, mientras que el coeficiente alfa asume que son iguales (<em>tauequivalencia</em>).</p>
-<p><strong>3. Condiciones más realistas y con asimetría y curtosis</strong></p>
+</div>
+<div id="condiciones-más-realistas-y-con-asimetría-y-curtosis" class="section level3">
+<h3>3. Condiciones más realistas y con asimetría y curtosis</h3>
 <pre class="r"><code>modelo_03 &lt;- &quot; # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05&quot;
 
@@ -235,7 +240,9 @@ data_03 &lt;- simulateData(modelo_03, sample.nobs=250, standardized=TRUE,
 ## 
 ## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
 <p>Las estimaciones omega y alfa se ven más afectada, manteniendo las mismas cargas factoriales que en el caso 2. Mientras que glb es quien presenta una estimación más parecida a lo anterior mostrado.</p>
-<p><strong>4. Condiciones más realistas e ítems dicotómicos</strong></p>
+</div>
+<div id="condiciones-más-realistas-e-ítems-dicotómicos" class="section level3">
+<h3>4. Condiciones más realistas e ítems dicotómicos</h3>
 <pre class="r"><code>modelo_04 &lt;- &quot; # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05
                # Umbrales para cada ítem
@@ -286,6 +293,7 @@ userfriendlyscience::scaleReliability(data_04,
 ## 
 ## Note: the normal point estimate and confidence interval for omega are based on the procedure suggested by Dunn, Baguley &amp; Brunsden (2013) using the MBESS function ci.reliability, whereas the psych package point estimate was suggested in Revelle &amp; Zinbarg (2008). See the help (&#39;?scaleStructure&#39;) for more information.</code></pre>
 <p>Por último, los coeficientes de fiabilidad en general se ven afectadas cuando se enfrentan a ítems ordinales (lo cual es en la mayor cantidad de los casos), puesto que la matriz de correlación que se utiliza es la de pearson. Mientras que el coeficiente alfa y omega tienen procedimientos desarrollados para consideraciones ordinales. A medida que las categorías de los ítems se incremente, el sesgo producido en su estimación, será menor.</p>
+</div>
 <div id="referencia" class="section level3">
 <h3>Referencia</h3>
 <p>Sijtsma, K. (2012). Future of Psychometrics: Ask What Psychometrics Can Do for Psychology. <em>Psychometrika, 77</em>(1), 4–20. <a href="https://doi.org/10.1007/s11336-011-9242-4" target="_blank">https://doi.org/10.1007/s11336-011-9242-4</a></p>

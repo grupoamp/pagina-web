@@ -36,7 +36,8 @@ Otro aspecto importante a tratar es la enorme confusión que hay acerca de los e
 
 Haciendo un ensayo por simulación Monte Carlo podemos evidenciar que las estimaciones apuntan a lo mismo siempre y cuando se respesten las asunciones sobre los cuales fueron construidos:
 
-**1. Condiciones ideales (tauequivalencia en los ítems)**
+### 1. Condiciones ideales (tauequivalencia en los ítems)
+
 ```{r}
 library(lavaan)
 # Modelo 1
@@ -54,7 +55,8 @@ userfriendlyscience::scaleReliability(data_01,
 
 Podemos observar en los resultados que el coeficiente alfa y omega presentan estimaciones idénticas. Esto es debido a que cuando se cumplen los supuestos de los estimadores, todos estiman la fiabilidad verdadera. GLB se ve un poco sesgado en condiciones de normalidad y poca muestra.
 
-**2. Condiciones más realistas (cargas factoriales variables)**
+### 2. Condiciones más realistas (cargas factoriales variables)
+
 ```{r}
 modelo_02 <- " # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05"
@@ -68,7 +70,8 @@ userfriendlyscience::scaleReliability(data_02,
 ```
 En esta ocasión, el coeficiente omega presenta una estimación mayor que el coeficiente alfa. Esto debido a que omega considera las variaciones en las cargas factoriales, mientras que el coeficiente alfa asume que son iguales (*tauequivalencia*).
 
-**3. Condiciones más realistas y con asimetría y curtosis**
+### 3. Condiciones más realistas y con asimetría y curtosis
+
 ```{r}
 modelo_03 <- " # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05"
@@ -83,7 +86,8 @@ userfriendlyscience::scaleReliability(data_03,
 ```
 Las estimaciones omega y alfa se ven más afectada, manteniendo las mismas cargas factoriales que en el caso 2. Mientras que glb es quien presenta una estimación más parecida a lo anterior mostrado.
 
-**4. Condiciones más realistas e ítems dicotómicos**
+### 4. Condiciones más realistas e ítems dicotómicos
+
 ```{r}
 modelo_04 <- " # Modelo de medición
                F1 =~ 0.7*Item01 + 0.45*Item02 + 0.9*Item03 + 0.39*Item04 + 0.65*Item05
