@@ -1,0 +1,217 @@
+---
+title: 'Arte con R: Especial de San Valentín'
+author: Brian Peña
+date: '2020-02-17'
+description: Arte con R consiste en crear un conjunto de datos que puedan graficarse en fabulosas imágenes. En esta ocasión se mostrará gráficos con motivos de San Valentín.
+slug: arte-con-r-especial-de-san-valentin
+categories:
+  - Gráficos
+  - R
+tags:
+  - Gráficos
+  - R
+  - San Valentín
+featured_image: /wp-content/uploads/2020/02/presentacion5.png
+---
+
+El software R es un lenguaje de programación con múltiples funcionalidades enfocado en el análisis estadístico y producción de gráficos. Sin embargo, existe muchas otras cosas que R puede hacer y que no es tan conocido por los usuarios noveles y/o que se encuentran iniciándose en el mundo del análisis de datos con R. Entre las múltiples cosas que puede hacer R, se encuentra la creación de artículos, documentos científicos y/o libros (paquete [Bookdown](https://bookdown.org/)); creación de presentaciones tipo PowerPoint(paquete [Xaringan](https://github.com/yihui/xaringan)); páginas web (paquete [Blogdown](https://github.com/rstudio/blogdown)); animación de gráficos (paquete [gganimate](https://github.com/thomasp85/gganimate)); etc.
+
+En esta ocasión presentaremos una aplicación relativamente reciente de R entorno a los gráficos: arte con R. Mediante la creación de puntos aleatorios y/o dirigidos, se realizan creaciones en formas de líneas, curvas o círculos con diferentes colores, grosores e intensidades que permiten generar imágenes realmente espectaculares con la ayuda de [ggplot2](https://ggplot2.tidyverse.org/) en la mayoría de casos. Por ejemplo en el [github de Marcus Volz](https://github.com/marcusvolz/mathart) se pueden observar gráficos tridimensionales creados bajo esta descripción.
+
+Desde hace unos meses Danielle Navarro, psicóloga especializada en _computational cognitive_, ha desarrollado un paquete llamado [*jasmines*](https://github.com/djnavarro/jasmines), que permite hacer este tipo de creaciones desde el enfoque [tidyverse](https://es.r4ds.hadley.nz/). En esta publicación te enseñaremos como realizar la instalación de los paquetes, y el código de algunas imágenes con temática de San Valentín. Lo primero que tendremos que hacer, es instalar (en caso no lo tengas), el paquete [devtools](https://github.com/r-lib/devtools).
+
+```{r eval = FALSE}
+install.packages("devtools")
+```
+
+Una vez se tenga instalado, instalaremos los paquetes pertinentes para poder reproducir las imágenes mencionadas.
+
+```{r eval = FALSE}
+devtools::install_github('thomasp85/ambient')
+remotes::install_github("djnavarro/jasmines")
+remotes::install_github("djnavarro/rosemary")
+```
+
+
+Dependiendo del sistema operativo que utilices, durante el proceso de instalación se podría requerir la instalación de alguna dependencia. Sin embargo, con los códigos mostrados anteriormente, debería ser suficiente para la mayoría de las personas. A continuación presentaremos 9 gráficos realizados con estos paquetes inspirados en la lista de [Danielle](https://github.com/djnavarro/tweetart).
+
+**Nota**: Primero cargaremos los paquetes a utilizar
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+library(jasmines)
+```
+
+## 1. Primer gráfico
+
+```{r}
+# Creación de la imagen
+plot1 <- use_seed(4) %>% 
+  entity_heart(7000) %>%  
+  unfold_tempest(iterations = 5, scale = 0.1, 
+                           scatter = TRUE) %>% 
+  style_ribbon(type = "curve", 
+                         curvature = 1, size = 0.25,
+                         alpha = c(0.2, 0.03), background = "black", 
+                         palette = palette_manual("red")) %>% 
+  style_overlay(border = "#ffffff88", 
+                          fill = "#22222288") 
+plot1 # mostrará el gráfico generado dentro de R(rstudio)
+```
+
+```{r eval = FALSE}
+# Exportar imagen
+export_image(plot1, "plot1.png", xlim = c(.2,.9), ylim = c(.2,.9),
+             dpi = 300) 
+```
+
+## 2. Segundo gráfico
+
+```{r}
+# Creación de la imagen
+plot2 <- use_seed(182) %>% 
+  entity_heart(2000) %>% 
+  unfold_tempest(20, scale = .01) %>% 
+  unfold_inside() %>% 
+  mutate(order = (inside>0) * order) %>% 
+  style_ribbon("oslo", background = "gray10")
+plot2
+```
+
+```{r eval = FALSE}
+# Exportar imagen
+export_image(plot2, "plot2.png", xlim = c(.2,.9),
+               ylim = c(.2,.9), dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 3. Tercer gráfico
+
+```{r}
+# Creación de la imagen 
+plot3 <- use_seed(26) %>%
+  entity_heart(5000, size = 2) %>%
+  unfold_tempest(100, .0075) %>%
+  unfold_worley(scatter = TRUE) %>%
+  unfold_inside() %>%
+  mutate(x = x*(inside>0)) %>%
+  style_ribbon("bamako", alpha = c(.1,.01), background = "white") 
+plot3
+```
+
+```{r eval = FALSE}
+# Exportar la imagen
+export_image(plot3, "plot3.png", xlim = c(.2,.95), ylim = c(.2,.95),
+             dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 4. Cuarto gráfico
+
+```{r}
+# Creación de la imagen
+plot4 <- use_seed(31) %>%
+  entity_heart(1000) %>%
+  unfold_meander() %>%
+  unfold_inside() %>%
+  mutate(y = (inside > 0)*y) %>%
+  style_ribbon("lajolla", "ind", c(.3,.1), "wheat") 
+plot4
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot4, "plot4.png", dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 5. Quinto gráfico
+
+```{r}
+# Creación de la imagen
+plot5 <- use_seed(33) %>% 
+  entity_heart(2000, size = 4) %>% 
+  filter(ind %in% 200:1800) %>% 
+  unfold_meander() %>% 
+  style_ribbon("cork", "ind", c(.7, 0), "lavender", 50) 
+plot5
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot5, "plot5.png", xlim = c(.1,.9), ylim = c(.1,.9),
+             dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 6. Sexto gráfico
+
+```{r}
+# Creación de la imagen
+plot6 <- use_seed(31) %>% 
+  entity_heart(1000) %>% 
+  unfold_slice() %>% 
+  unfold_inside() %>% 
+  mutate(y = (inside > 0)*y) %>% 
+  style_ribbon("grayC", "order", c(.3,.1)) 
+plot6
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot6, "plot6.png", xlim=c(.1,.9), ylim=c(.1,.9),
+             dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 7. Séptimo gráfico
+
+```{r}
+# Creación de la imagen
+plot7 <- use_seed(2) %>% 
+  scene_grid(1:3, 1:3, "heart", 1000, .5) %>% 
+  unfold_slice(10) %>% 
+  unfold_inside() %>% 
+  mutate(id = id + inside) %>% 
+  style_ribbon("rainbow", "id", c(.3, .7)) %>% 
+  style_overlay(fill = "#00000088")
+plot7
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot7, "plot7.png", xlim=c(.1,.9), ylim=c(.1,.9),
+             dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 8. Octavo gráfico
+
+```{r}
+# Creación de la imagen
+plot8 <- use_seed(1) %>% 
+  entity_heart(1000) %>% 
+  unfold_tempest(100, .01)  %>% 
+  style_ribbon(palette_manual("white","black","black","red","orange"),"time") %>% 
+  style_overlay(fill = "#00000088")
+plot8
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot8, "plot8.png", xlim = c(.2,.8), ylim = c(.2,.8),
+             dpi = 300) # se puede aumentar el dpi para más resolución
+```
+
+## 9. Noveno gráfico 
+
+```{r}
+# Creación de la imagen
+plot9 <- use_seed(1) %>% 
+  scene_grid(1:5, 1:5, "heart", 500, .4) %>% 
+  unfold_tempest(100, .01) %>% 
+  style_ribbon(palette_manual("white","black","black","red","orange"),"time", c(.3,.05)) %>% 
+  style_overlay(fill = "white") 
+plot9
+```
+
+```{r eval = FALSE}
+# Exportación de la imagen
+export_image(plot9, "plot9.png", xlim = c(.1,.9), ylim = c(.1,.9),
+             dpi = 300)  # se puede aumentar el dpi para más resolución
+```
+
