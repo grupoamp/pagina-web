@@ -35,7 +35,8 @@ remotes::install_github("djnavarro/rosemary")
 
 Dependiendo del sistema operativo que utilices, durante el proceso de instalación se podría requerir la instalación de alguna dependencia. Sin embargo, con los códigos mostrados anteriormente, debería ser suficiente para la mayoría de las personas. A continuación presentaremos 9 gráficos realizados con estos paquetes inspirados en la lista de [Danielle](https://github.com/djnavarro/tweetart).
 
-**Nota**: Primero cargaremos los paquetes a utilizar
+#### Nota: 
+**Primero cargaremos los paquetes a utilizar**
 
 ```{r}
 library(dplyr, warn.conflicts = FALSE)
