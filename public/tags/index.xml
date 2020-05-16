@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Alfa de Cronbach</title>
       <link>/tags/alfa-de-cronbach/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/alfa-de-cronbach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiabilidad</title>
+      <link>/tags/fiabilidad/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fiabilidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Omega de Mc&#39;Donald</title>
+      <link>/tags/omega-de-mcdonald/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/omega-de-mcdonald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psicometría</title>
+      <link>/tags/psicometr%C3%ADa/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/psicometr%C3%ADa/</guid>
       <description></description>
     </item>
     
@@ -26,15 +53,6 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/construcci%C3%B3n-de-pruebas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiabilidad</title>
-      <link>/tags/fiabilidad/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fiabilidad/</guid>
       <description></description>
     </item>
     
@@ -53,24 +71,6 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/monte-carlo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Omega de Mc&#39;Donald</title>
-      <link>/tags/omega-de-mcdonald/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/omega-de-mcdonald/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psicometría</title>
-      <link>/tags/psicometr%C3%ADa/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/psicometr%C3%ADa/</guid>
       <description></description>
     </item>
     
