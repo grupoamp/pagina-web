@@ -1,17 +1,18 @@
 ---
-title: La disyunción en la comprensión de la validez
+title: Las discrepancias en el uso y comprensión de la validez
 author: Jackeline Garcia
 date: '2020-05-30'
 image: /images/post/validez-portada.png
-slug: la-disyunción-en-la-comprensión-de-la-validez
+slug: las-discrepancias-en-el-uso-y-comprensión-de-la-validez
 categories:
   - Psicometría
   - Validez
 tags:
-  - Psicometría
-  - Validez
   - Validación de Escalas
+  - Validez
+  - Psicometría
 ---
+
 
 #### ¿Cómo surgen los Standards?
 
@@ -19,7 +20,8 @@ Desde 1950, la American Psychological Association (APA), American Educational Re
 
 >No te referirás a la validez de la prueba, como si fuera una propiedad de las pruebas y no usarás etiquetas modificadoras. Esta última promovida por las tres primeras ediciones, pero rechazada por la cuarta y quinta (Newton & Shaw, 2017).
 
-![](/post/2020-05-30-la-disyunción-en-la-comprensión-de-la-validez_files/validez-post.jpg){width=100%}
+
+![](/post/2020-05-30-las-discrepancias-en-el-uso-y-comprensión-de-la-validez_files/validez-post.jpg){width=100%}
 
 #### Los cambios en dos normas de los Standards 
 
