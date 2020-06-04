@@ -6,24 +6,15 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fiabilidad</title>
-      <link>/categories/fiabilidad/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/fiabilidad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Psicometría</title>
       <link>/categories/psicometr%C3%ADa/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/psicometr%C3%ADa/</guid>
       <description></description>
@@ -35,6 +26,15 @@
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/validez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiabilidad</title>
+      <link>/categories/fiabilidad/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/fiabilidad/</guid>
       <description></description>
     </item>
     

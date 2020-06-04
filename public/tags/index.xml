@@ -6,28 +6,10 @@
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Alfa de Cronbach</title>
-      <link>/tags/alfa-de-cronbach/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/alfa-de-cronbach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiabilidad</title>
-      <link>/tags/fiabilidad/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fiabilidad/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Psicometría</title>
@@ -53,6 +35,24 @@
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/validez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alfa de Cronbach</title>
+      <link>/tags/alfa-de-cronbach/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alfa-de-cronbach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiabilidad</title>
+      <link>/tags/fiabilidad/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fiabilidad/</guid>
       <description></description>
     </item>
     
