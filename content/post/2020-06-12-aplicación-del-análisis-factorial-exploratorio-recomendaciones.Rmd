@@ -1,6 +1,6 @@
 ---
 title: 'Aplicación del Análisis Factorial Exploratorio: Recomendaciones'
-author: Fernandez Antonella
+author: Antonella Fernandez
 date: '2020-06-12'
 image: /images/post/aplicacion-afe-ecomendaciones.png
 slug: aplicación-del-análisis-factorial-exploratorio-recomendaciones
