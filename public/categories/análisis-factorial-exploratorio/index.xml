@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análisis Factorial Exploratorio on Avances en Medición Psicológica</title>
+    <link>/categories/an%C3%A1lisis-factorial-exploratorio/</link>
+    <description>Recent content in Análisis Factorial Exploratorio on Avances en Medición Psicológica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/an%C3%A1lisis-factorial-exploratorio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aplicación del Análisis Factorial Exploratorio: Recomendaciones</title>
+      <link>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</guid>
+      <description>El Análisis factorial exploratorio (AFE) es considerada la técnica por excelencia para hallar las variables latentes o factores comunes de un conjunto de datos o ítems.</description>
+    </item>
+    
+  </channel>
+</rss>
