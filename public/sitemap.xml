@@ -3,17 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/alfa-de-cronbach/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+<<<<<<< HEAD
+    <loc>/tags/an%C3%A1lisis-factorial-confirmatorio/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/an%C3%A1lisis-factorial-confirmatorio/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/psicometr%C3%ADa/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/psicometr%C3%ADa/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/alfa-de-cronbach/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -25,16 +61,50 @@
   <url>
     <loc>/categories/fiabilidad/</loc>
     <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+=======
+    <loc>/tags/an%C3%A1lisis-factorial-exploratorio/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/an%C3%A1lisis-factorial-exploratorio/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/psicometr%C3%ADa/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/psicometr%C3%ADa/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
   </url>
   
   <url>
@@ -43,21 +113,14 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+<<<<<<< HEAD
     <loc>/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/psicometr%C3%ADa/</loc>
-    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+=======
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
     <loc>/tags/validaci%C3%B3n-de-escalas/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url>
@@ -70,6 +133,21 @@
   <url>
     <loc>/categories/validez/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/alfa-de-cronbach/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fiabilidad/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/fiabilidad/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -353,7 +431,7 @@
   </url>
   
   <url>
-    <loc>/author/josue-salas/</loc>
+    <loc>/author/antonella-fernandez/</loc>
   </url>
   
   <url>
@@ -362,6 +440,10 @@
   
   <url>
     <loc>/author/brian-pe%C3%B1a/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/christian-moreau/</loc>
   </url>
   
   <url>
@@ -377,7 +459,7 @@
   </url>
   
   <url>
-    <loc>/author/jorge-huanca/</loc>
+    <loc>/author/josue-salas/</loc>
   </url>
   
   <url>

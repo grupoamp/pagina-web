@@ -6,10 +6,44 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+<<<<<<< HEAD
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+<<<<<<< HEAD
+      <title>Análisis Factorial Confirmatorio</title>
+      <link>/categories/an%C3%A1lisis-factorial-confirmatorio/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/an%C3%A1lisis-factorial-confirmatorio/</guid>
+=======
+      <title>Análisis Factorial Exploratorio</title>
+      <link>/categories/an%C3%A1lisis-factorial-exploratorio/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/an%C3%A1lisis-factorial-exploratorio/</guid>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psicometría</title>
+      <link>/categories/psicometr%C3%ADa/</link>
+<<<<<<< HEAD
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+=======
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
+      
+      <guid>/categories/psicometr%C3%ADa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fiabilidad</title>
@@ -21,20 +55,20 @@
     </item>
     
     <item>
-      <title>Psicometría</title>
-      <link>/categories/psicometr%C3%ADa/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/psicometr%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Validez</title>
       <link>/categories/validez/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/validez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiabilidad</title>
+      <link>/categories/fiabilidad/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/fiabilidad/</guid>
       <description></description>
     </item>
     

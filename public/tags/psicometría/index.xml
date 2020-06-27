@@ -6,10 +6,32 @@
     <description>Recent content in Psicometría on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
+<<<<<<< HEAD
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
     
 	<atom:link href="/tags/psicometr%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+<<<<<<< HEAD
+      <title>Prácticas cuestionables en investigación al emplear Análisis Factorial Confirmatorio</title>
+      <link>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <description>Crede y Harms (2019) afirman que actualmente los journals muestran una tendencia a ocultar evidencia que refute una teoría, modelo o hipótesis, y presentan principalmente aquella que las apoye, aun cuando esas supuestas evidencias sean el resultado de decisiones cuestionables durante el análisis de los datos.</description>
+=======
+      <title>Aplicación del Análisis Factorial Exploratorio: Recomendaciones</title>
+      <link>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</guid>
+      <description>El Análisis factorial exploratorio (AFE) es considerada la técnica por excelencia para hallar las variables latentes o factores comunes de un conjunto de datos o ítems.</description>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
+    </item>
     
     <item>
       <title>Las discrepancias en el uso y comprensión de la validez</title>

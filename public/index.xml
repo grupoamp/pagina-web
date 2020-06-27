@@ -6,18 +6,37 @@
     <description>Recent content on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+<<<<<<< HEAD
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
+      <title>Prácticas cuestionables en investigación al emplear Análisis Factorial Confirmatorio</title>
+      <link>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <description>Crede y Harms (2019) afirman que actualmente los journals muestran una tendencia a ocultar evidencia que refute una teoría, modelo o hipótesis, y presentan principalmente aquella que las apoye, aun cuando esas supuestas evidencias sean el resultado de decisiones cuestionables durante el análisis de los datos.</description>
+    </item>
+    
+    <item>
       <title>Publicación de prueba</title>
       <link>/2020/06/03/publicaci%C3%B3n-de-prueba/</link>
       <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+=======
+      <title>Aplicación del Análisis Factorial Exploratorio: Recomendaciones</title>
+      <link>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</link>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+>>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
       
-      <guid>/2020/06/03/publicaci%C3%B3n-de-prueba/</guid>
-      <description>¿Cómo surgen los Standards?Desde 1950, la American Psychological Association (APA), American Educational Research Association (AERA) y la National Council on Measurement in Education (NCME) han creado normas dirigidas a la medición educativa y psicológica, proporcionando una base para el desarrollo, uso y evaluación de la calidad de las pruebas.</description>
+      <guid>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</guid>
+      <description>El Análisis factorial exploratorio (AFE) es considerada la técnica por excelencia para hallar las variables latentes o factores comunes de un conjunto de datos o ítems.</description>
     </item>
     
     <item>
@@ -417,12 +436,12 @@ Si deseas, puedes leerlo aquí mismo [embeddoc url=»https://www.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/author/josue-salas/</link>
+      <title>Antonella Fernandez</title>
+      <link>/author/antonella-fernandez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/author/josue-salas/</guid>
-      <description></description>
+      <guid>/author/antonella-fernandez/</guid>
+      <description>Estudiante de pregrado de Psicología de la Universidad Nacional Mayor de San Marcos (UNMSM).</description>
     </item>
     
     <item>
@@ -432,6 +451,15 @@ Si deseas, puedes leerlo aquí mismo [embeddoc url=»https://www.</description>
       
       <guid>/author/brian-pe%C3%B1a/</guid>
       <description>Bachiller en Psicología por la Universidad Nacional Mayor de San Marcos (UNMSM).</description>
+    </item>
+    
+    <item>
+      <title>Christian Moreau</title>
+      <link>/author/christian-moreau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/christian-moreau/</guid>
+      <description>Estudiante de pregrado de Psicología de la Universidad Nacional Mayor de San Marcos (UNMSM).</description>
     </item>
     
     <item>
@@ -453,12 +481,12 @@ Si deseas, puedes leerlo aquí mismo [embeddoc url=»https://www.</description>
     </item>
     
     <item>
-      <title>Jorge Huanca</title>
-      <link>/author/jorge-huanca/</link>
+      <title>Josue Salas</title>
+      <link>/author/josue-salas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/author/jorge-huanca/</guid>
-      <description>Bachiller en Psicología por la Universidad Nacional Mayor de San Marcos (UNMSM).</description>
+      <guid>/author/josue-salas/</guid>
+      <description>Egresado de Psicología por la Universidad Nacional Mayor de San Marcos (UNMSM).</description>
     </item>
     
     <item>

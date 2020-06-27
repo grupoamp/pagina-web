@@ -1,3 +1,7 @@
 ---
-{}
+description: Miembro de Avances en Medición Psicológica
+image: /images/author/josue-salas.jpg
+title: Josue Salas
 ---
+
+Egresado de Psicología por la Universidad Nacional Mayor de San Marcos (UNMSM). Miembro del Grupo de Estudios Avances en Medición Psicológica (AMP). Sus líneas de trabajo e investigación están relacionados con las temáticas sobre el análisis conductual aplicado (ACA), dificultades específicas de aprendizaje (DEA) y trastornos del neurodesarrollo.
