@@ -6,17 +6,12 @@
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-<<<<<<< HEAD
     <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
->>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>Análisis Factorial Confirmatorio</title>
       <link>/tags/an%C3%A1lisis-factorial-confirmatorio/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
@@ -35,32 +30,15 @@
     </item>
     
     <item>
-      <title>Alfa de Cronbach</title>
-      <link>/tags/alfa-de-cronbach/</link>
-      <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
-=======
       <title>Análisis Factorial Exploratorio</title>
       <link>/tags/an%C3%A1lisis-factorial-exploratorio/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
->>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
       
       <guid>/tags/an%C3%A1lisis-factorial-exploratorio/</guid>
       <description></description>
     </item>
     
     <item>
-<<<<<<< HEAD
-=======
-      <title>Psicometría</title>
-      <link>/tags/psicometr%C3%ADa/</link>
-      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/psicometr%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
->>>>>>> faa4a893371f338acd642e493218e21c6f7357a6
       <title>Validación de Escalas</title>
       <link>/tags/validaci%C3%B3n-de-escalas/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
