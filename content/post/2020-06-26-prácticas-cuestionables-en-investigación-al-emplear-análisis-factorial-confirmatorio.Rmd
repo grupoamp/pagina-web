@@ -1,0 +1,30 @@
+---
+title: Prácticas cuestionables en investigación al emplear Análisis Factorial Confirmatorio
+author: Christian Moreau
+date: '2020-06-26'
+image: /images/post/AFC-portada.jpg
+slug: prácticas-cuestionables-en-investigación-al-emplear-análisis-factorial-confirmatorio
+categories:
+  - Psicometría
+  - Análisis Factorial Confirmatorio
+tags:
+  - Psicometría
+  - Análisis Factorial Confirmatorio
+---
+
+
+Crede y Harms (2019) afirman que actualmente los journals muestran una tendencia a ocultar evidencia que refute una teoría, modelo o hipótesis, y presentan principalmente aquella que las apoye, aun cuando esas supuestas evidencias sean el resultado de decisiones cuestionables durante el análisis de los datos.
+
+Estas decisiones, a las cuales nos referiremos en adelante como prácticas cuestionables en investigación, suelen ser muchas. Los autores se centran en esta ocasión en las que ocurren durante el empleo del Análisis Factorial Confirmatorio, puesto que es ampliamente utilizada en psicología como técnica estadística para evaluar la relación hipotetizada entre ítem-constructo y/o variables latentes. Por lo que, su mal uso, puede ralentizar el progreso de nuestra ciencia. Estas prácticas son:
+
+![](/post/2020-06-26-prácticas-cuestionables-en-investigación-al-emplear-análisis-factorial-confirmatorio_files/AFC_post.jpg){width=100%}
+
+Crede y Harme (2019) postulan posibles razones por las cuáles estas prácticas sucedan. Puede que se trate de errores de transcripción y edición, confusión acerca de qué índice reportar a causa de que los softwares reportan más de uno con el mismo símbolo, o no comprender las repercusiones negativas de estas prácticas. Sin embargo, también pueden ser resultado de la presión de los editores y revisores para excluir ciertos tipos de resultados de un manuscrito, como evidencia de que un modelo alternativo mostró un mejor ajuste: harking, reportar selectivamente hipótesis de investigación o incluir convenientemente variables de control.
+
+Los autores, con la convicción de que estas prácticas puedan se puedan evitar en adelante, brindan recomendaciones a nivel metodológico y procedimental; pero, sobre todo, siendo críticos con lo que hay detrás de la publicación de artículos de investigación. No en vano, inician su artículo con la siguiente afirmación:
+
+>El progreso de una disciplina científica se basa en un proceso iterativo mediante el cual se acumula la evidencia empírica para informar juicios acerca de si una hipótesis, teoría o modelo particular debe ser aceptado, modificado o rechazado (Crede y Harme, 2019; p.1).
+
+#### Referencias:
+Crede, M., y Harms, P. (2019). Questionable research practices when using confirmatory factor analysis. *Journal of Managerial Psychology*, 34(1), 18-30. [https://doi.org/10.1108/JMP-06-2018-0272](https://doi.org/10.1108/JMP-06-2018-0272){target="_blank"}
+
