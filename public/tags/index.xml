@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Análisis Factorial Confirmatorio</title>
       <link>/tags/an%C3%A1lisis-factorial-confirmatorio/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estructura interna</title>
+      <link>/tags/estructura-interna/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/estructura-interna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validez</title>
+      <link>/tags/validez/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/validez/</guid>
       <description></description>
     </item>
     
@@ -44,15 +62,6 @@
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/validaci%C3%B3n-de-escalas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validez</title>
-      <link>/tags/validez/</link>
-      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/validez/</guid>
       <description></description>
     </item>
     

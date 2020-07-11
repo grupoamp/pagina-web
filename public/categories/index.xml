@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Invarianza factorial</title>
+      <link>/categories/invarianza-factorial/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/invarianza-factorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validez</title>
+      <link>/categories/validez/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/validez/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Análisis Factorial Confirmatorio</title>
@@ -35,15 +53,6 @@
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/an%C3%A1lisis-factorial-exploratorio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Validez</title>
-      <link>/categories/validez/</link>
-      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/validez/</guid>
       <description></description>
     </item>
     
