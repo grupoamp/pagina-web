@@ -46,13 +46,16 @@ Este panorama representa la importancia que va cobrando la invarianza de medici�
 
 Las direcciones futuras, en cuanto el estudio de la invarianza de medición, apuntan a mejoras en el ámbito investigativo y teórico, que desde la óptica de Putnick y Bornstein (2016) son las siguientes:
 
-a.	Sensibilidad conceptual y estadística
+##### a.	Sensibilidad conceptual y estadística
+
 Entendida como la precisión de las pruebas de invarianza para identificar diferencias significativas en distintos grupos o momentos de medición. Asimismo, enfatiza en conocer el significado de las pequeñas violaciones en la invarianza de medición en el proceso de construcción de un instrumento y/o interpretación de los resultados del mismo. Resulta necesario el estudio del significado de cada violación de invarianza, sobre todo si las pequeñas violaciones en el estudio de la invarianza son motivo suficiente para no poder establecer comparaciones grupales o temporales.
 	
-b.	Invarianza a través de variables continuas
+##### b.	Invarianza a través de variables continuas
+
 Las aplicaciones del estudio de invarianza de medición encuentran dificultades cuando se intenta estudiarla en variables ordinales o continuas, sobre todo cuando no es sencillo agruparlas en categorías definidas. Este panorama constituye la necesidad de investigación del desempeño de las pruebas de invarianza en diferentes condiciones contando, para su realización, con diversos métodos de estimación.
 
-c.	Técnicas estadísticas para analizar datos no invariantes
+##### c.	Técnicas estadísticas para analizar datos no invariantes
+
 Cuando una construcción muestra puntuaciones no invariantes o parcialmente invariantes, no se posee un panorama claro sobre cómo continuar con el análisis e incluso sobre cómo interpretar los datos no invariantes. En este sentido, se sugiere investigar sobre los enfoques estadísticos que podrían utilizarse en casos de manejar datos que poseen una invarianza parcial o son totalmente no invariantes.
 
 #### Referencias:
@@ -67,7 +70,7 @@ Elosua, P. (2005). Evaluación progresiva de la invarianza factorial entre las v
 
 Lee, S. T. (2018). Testing for measurement invariance: Does your measure mean the same thing for different participants? *APS Observer*, *31*(8), 32–33.
 
-Putnick, D. L., Bornstein, M. H. (2016). Measurement invariance conventions and reporting: The state of the art and future directions for psychological research. *Developmental Review*, *41*, 71-90. [https://doi.org/10.1016/j.dr.2016.06.00](https://doi.org/10.1016/j.dr.2016.06.00){target="_blank"}
+Putnick, D. L., Bornstein, M. H. (2016). Measurement invariance conventions and reporting: The state of the art and future directions for psychological research. *Developmental Review*, *41*, 71-90. [https://doi.org/10.1016/j.dr.2016.06.004s](https://doi.org/10.1016/j.dr.2016.06.004){target="_blank"}
 
 
 
