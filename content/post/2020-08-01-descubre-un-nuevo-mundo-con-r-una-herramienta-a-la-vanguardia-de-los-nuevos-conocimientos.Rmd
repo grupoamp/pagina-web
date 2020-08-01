@@ -19,7 +19,7 @@ En ese sentido, Ruiz-Ruano y Puga (2016) proponen el uso de R como una herramien
  
 Ahora bien, en el campo de la Psicología no vamos a necesitar todos esos paquetes, y ciertamente sería muy difícil poder conocerlos todos, por lo que a continuación presentamos algunos paquetes relevantes en el ámbito psicométrico:
 
-![](/post/2020-08-01-descubre-un-nuevo-mundo-con-r-una-herramienta-a-la-vanguardia-de-los-nuevos-conocimientos_files/descubre-r-post.png){width=100%}
+![](/post/2020-08-01-descubre-r_files/descubre-r-post.png){width=100%}
 
 Esto es solo una pequeña muestra de la utilidad y cantidad de paquetes disponibles, hay muchos más a los que puedes acceder desde CRAN, y para que no te pierdas buscando entre los más de 16000 paquetes, están los Task View, que los clasifican por temáticas, habiendo uno exclusivamente de Métodos y Modelos Psicométricos. Aquí podrás encontrar paquetes que están clasificados de la siguiente manera:
 
