@@ -1,0 +1,59 @@
+---
+title: Repensando el uso de la inferencia estadística en la ciencia
+author: Arnold Tafur
+date: '2020-08-07'
+image: /images/post/Hacia-una-buena-ciencia.jpg
+slug: repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia
+categories:
+  - Inferencia estadística
+  - Pensamiento estadístico
+  - Valor p
+  - NHST
+tags:
+  - Inferencia estadística
+  - Pensamiento estadístico
+  - Valor p
+  - NSHT
+---
+
+En los últimos años, el papel que cumple la estadística inferencial ha sido muy cuestionada en el mundo científico. Por tal motivo, se han tenido intensos debates, plasmados en artículos o eventos académicos, respecto a las limitaciones o usos inadecuados de la inferencia estadística. Las publicaciones científicas que dan cuenta de esta problemática se han centrado en brindar un panorama de la ciencia en general (Amrhein et al., 2019; Begg, 2020; Benjamin et al., 2018; Lakens et al., 2018; Trafimow et al., 2018), y en específico, en el campo de la Psicología (Aczel et al., 2018; Cassidy et al., 2019; Trafimow & Marks, 2015). Estos cuestionamientos sobre diversos procedimientos estadísticos inferenciales, principalmente en torno a los valores p y las pruebas de significancia de la hipótesis nula (NHST), han dado lugar a buscar una reformulación de la relación que tiene la inferencia estadística y la ciencia.
+
+La inferencia estadística hace referencia a las conclusiones y afirmaciones obtenidas mediante el uso de modelos probabilísticos, con la intención de identificar determinadas características de una población o proceso, a partir de un conjunto de datos que, se supone, son muestreados de un grupo más grande. No obstante, todo procedimiento estadístico tendrá serios problemas si previamente no se ha elaborado un protocolo de estudio o establecido un modelo estadístico de trabajo. En este sentido, Tong (2019) argumenta que, estas dificultades son derivadas en gran medida por el principio de optimismo, producido por la flexibilización del modelado de datos que sigue la mayoría de estudios científicos.
+
+En el artículo de Tong (2019), centro de esta reseña, se plantea que, el principio de optimismo se debe a una vaga distinción entre objetivos exploratorios y confirmatorios por parte de los investigadores. Esta diferenciación de objetivos, brindaría un panorama para comprender la utilidad de los análisis estadísticos flexibles frente a aquellos que son especificados previamente. Asimismo, resalta que la contribución de la estadística a la ciencia debe estar enfocada a la producción, descripción y exploración de los datos, y al pensamiento estadístico, más que a la inferencia estadística.
+
+#### Hacía un pensamiento estadístico
+
+El pensamiento estadístico involucra la relación de los datos cuantitativos con un problema del mundo real, usualmente dentro de un contexto con gran variabilidad e incertidumbre. Por tanto, este tipo de pensamiento busca hacer preciso y explícito aquello que los datos quieren decir sobre el problema de interés. El pensamiento estadístico se fundamenta, principalmente, en las matemáticas o la estadística. Sin embargo, también recibe aportes de otros campos de estudio, como la informática o la psicología. En conclusión, el pensamiento estadístico proporciona las herramientas para comprender mejor nuestra realidad y los problemas existentes en esta, con la intención de describir de una manera simple, decidir con base en datos (toma de decisiones basada en evidencia) y predecir nuevas situaciones.
+
+En el campo de la investigación científica, el pensamiento estadístico debe estar presente durante todo el desarrollo de un estudio, desde su concepción hasta su aporte en la solución de la problemática abordada. Más allá de cualquier procedimiento estadístico utilizado en un estudio particular, los resultados obtenidos deben ser confirmados en otro grupo de datos o con otros procedimientos de análisis, apuntando, por ejemplo, a estudios de replicación. La replicabilidad implica obtener resultados consistentes entre todos los estudios (cada uno con sus propios datos) que buscan responder una misma pregunta de investigación. De esta manera, cualquier tipo de afirmaciones serán validadas o, por el contrario, reformuladas o refutadas.
+
+El artículo de Tong (2019) presenta el debate de diversos tópicos para comprender este proceso de cambio en el que se encuentra la inferencia estadística, y en general, la estadística, y de su aporte a la ciencia en la actualidad. Asimismo, en el artículo se muestran diversas contribuciones positivas de la metodología estadística que permitiría desarrollar una buena ciencia. A continuación, se presentan dos representaciones visuales que resumen los puntos mencionados anteriormente.
+
+![](/post/2020-08-07-repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia_files/inferencia-estadistica.png){width=100%}
+
+
+
+
+
+
+
+#### Referencias
+
+Aczel, B., Palfi, B., Szollosi, A., Kovacs, M., Szaszi, B., Szecsi, P., Zrubka, M., Gronau, Q. F., van den Bergh, D., & Wagenmakers, E.-J. (2018). Quantifying support for the null hypothesis in Psychology: An empirical investigation. *Advances in Methods and Practices in Psychological Science*, *1*(3), 357–366. [https://doi.org/10.1177/2515245918773742](https://doi.org/10.1177/2515245918773742){target="_blank"}
+
+Amrhein, V., Greenland, S., & McShane, B. (2019). Retire statistical significance. Nature, (567), 305–307. [https://doi.org/10.1038/d41586-019-00857-9](https://doi.org/10.1038/d41586-019-00857-9){target="_blank"} 
+
+Begg, C. B. (2020). In defense of p value. *JNCI Cancer Spectrum*, *4*(2), Article pkaa012. [https://doi.org/10.1093/jncics/pkaa012](https://doi.org/10.1093/jncics/pkaa012){target="_blank"} 
+
+Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A., Wagenmakers, E.-J., Berk, R., Bollen, K. A., Brembs, B., Brown, L., Camerer, C., Cesarini, D., Chambers, C. D., Clyde, M., Cook, T. D., De Boeck, P., Dienes, Z., Dreber, A., Easwaran, K., Efferson, C., … Johnson, V. E. (2018). Redefine statistical significance. *Nature Human Behaviour*, *2*(1), 6–10. [https://doi.org/10.1038/s41562-017-0189-z](https://doi.org/10.1038/s41562-017-0189-z){target="_blank"} 
+
+Cassidy, S. A., Dimova, R., Giguère, B., Spence, J. R., & Stanley, D. J. (2019). Failing grade: 89% of introduction-to-psychology textbooks that define or explain statistical significance do so incorrectly. *Advances in Methods and Practices in Psychological Science*, *2*(3), 233–239. [https://doi.org/10.1177/2515245919858072](https://doi.org/10.1177/2515245919858072){target="_blank"}  
+
+Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A. J., Argamon, S. E., Baguley, T., Becker, R. B., Benning, S. D., Bradford, D. E., Buchanan, E. M., Caldwell, A. R., Van Calster, B., Carlsson, R., Chen, S.-C., Chung, B., Colling, L. J., Collins, G. S., Crook, Z., … Zwaan, R. A. (2018). *Justify your alpha. Nature Human Behaviour*, *2*(3), 168–171. [https://doi.org/10.1038/s41562-018-0311-x](https://doi.org/10.1038/s41562-018-0311-x){target="_blank"}  
+
+Tong, C. (2019). Statistical Inference enables bad science; Statistical thinking enables good science. *The American Statistician*, *73*(S1), 246-261. [https://doi.org/10.1080/00031305.2018.1518264](https://doi.org/10.1080/00031305.2018.1518264){target="_blank"} 
+
+Trafimow, D., Amrhein, V., Areshenkoff, C. N., Barrera-Causil, C. J., Beh, E. J., Bilgiç, Y. K., Bono, R., Bradley, M. T., Briggs, W. M., Cepeda-Freyre, H. A., Chaigneau, S. E., Ciocca, D. R., Correa, J. C., Cousineau, D., de Boer, M. R., Dhar, S. S., Dolgov, I., Gómez-Benito, J., Grendar, M., … Marmolejo-Ramos, F. (2018). Manipulating the alpha level cannot cure significance testing. *Frontiers in Psychology*, *9*, Article 699. [https://doi.org/10.3389/fpsyg.2018.00699](https://doi.org/10.3389/fpsyg.2018.00699){target="_blank"} 
+
+Trafimow, D., & Marks, M. (2015). Editorial. *Basic and Applied Social Psychology*, *37*(1), 1-2. [https://doi.org/10.1080/01973533.2015.1012991](https://doi.org/10.1080/01973533.2015.1012991){target="_blank"}  
