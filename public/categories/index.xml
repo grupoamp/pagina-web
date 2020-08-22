@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Análisis de redes</title>
+      <link>/categories/an%C3%A1lisis-de-redes/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/an%C3%A1lisis-de-redes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Técnicas Estadísticas Avanzadas</title>
+      <link>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
+      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inferencia estadística</title>
