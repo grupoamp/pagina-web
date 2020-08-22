@@ -30,7 +30,7 @@ mediante una línea que los une. La representación gráfica elaborada a partir 
 la conexión entre los nodos y aristas se le conoce como **grafo**. Además, las
 redes se clasifican, estiman y analizan de la siguiente manera:
 
-![](/post/2020-08-21-análisis-de-redes-en-psicología_files/analisis-redes-post.jpg){width=100%}
+![](/post/2020-08-21-análisis-de-redes-en-psicología_files/analisis-redes-post.png){width=100%}
 
 A partir de este nuevo enfoque es que se trata de dar respuestas en algunas
 áreas de la psicología que presentan dificultades. Por otro lado, no debe ser
