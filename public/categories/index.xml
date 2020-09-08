@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modelos de ecuaciones estructurales</title>
+      <link>/categories/modelos-de-ecuaciones-estructurales/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/modelos-de-ecuaciones-estructurales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Técnicas Estadísticas Avanzadas</title>
+      <link>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Análisis de redes</title>
@@ -17,15 +44,6 @@
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/an%C3%A1lisis-de-redes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Técnicas Estadísticas Avanzadas</title>
-      <link>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
       <description></description>
     </item>
     
@@ -62,15 +80,6 @@
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/valor-p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es-es"><head>
+  <meta charset="utf-8">
+  <title>Modelo de ecuaciones estructurales por el método de mínimos cuadrados parciales (PLS-SEM) con R</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="AMP es un grupo de estudios de la UNMSM dedicado a la investigación y desarrollo de actividades a favr de la ciencia Psicológica.">
+  
+  <meta name="author" content="Avances en Medición Psicológica">
+  <meta name="generator" content="Hugo 0.72.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png " type="image/x-icon">
+
+  
+  
+  
+
+</head><body>
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="/"><img class="img-fluid" src="/images/Logo-low-size.png" alt="Avances en Medición Psicológica"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"> Inicio </a>
+          </li>
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contáctanos</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/tools">Herramientas</a>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Escribe y presiona enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto block shadow mb-5">
+        <h2>Modelo de ecuaciones estructurales por el método de mínimos cuadrados parciales (PLS-SEM) con R</h2>
+        <div class="mb-3 post-meta">
+          <a href="/author/francesca-ram%C3%ADrez">Francesca Ramírez</a>,
+          07/09/2020, 
+          <a href="/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas">Técnicas Estadísticas Avanzadas</a>
+          
+          <a href="/categories/modelos-de-ecuaciones-estructurales">Modelos De Ecuaciones Estructurales</a>
+          
+          <a href="/categories/r">R</a>
+          
+        </div>
+        
+        <img src="/images/post/pls-sem-portada.png" class="img-fluid w-100 mb-4" alt="Modelo de ecuaciones estructurales por el método de mínimos cuadrados parciales (PLS-SEM) con R">
+        
+        <div class="content mb-5">
+          
+
+
+<p>Los modelos de ecuaciones estructurales (SEM) son un conjunto de técnicas estadísticas multivariadas, denominadas de segunda generación, que combinan el uso del análisis factorial y la regresión. De esta manera, se puede experimentar a través de modelos estadísticos, fundamentados teóricamente, aspectos más amplios del comportamiento humano. Los SEM han sido difundidos cada vez más en los últimos años, buscando superar las debilidades que tenían las técnicas multivariadas de primera generación (por ejemplo, análisis clúster, análisis de varianza o regresión múltiple). En este sentido, los SEM permiten la incorporación de variables latentes o no observables medidas por variables observables o indicadores.</p>
+<p>Dentro de los SEM existen dos tipos o aproximaciones, la basada en la covarianza (CB-SEM) y otra basada en la varianza o de método de mínimos cuadrados parciales (PLS-SEM). En esta oportunidad, nos centraremos en esta segunda técnica. El PLS-SEM estima coeficientes que maximizan la varianza explicada de los constructos endógenos (variables dependientes), otorgando la característica predictora a esta técnica estadística. Entre las ventajas que tiene el PLS-SEM (Hair et al., 2011) es que, (a) no presenta problemas de identificación con tamaños muestrales reducidos, alcanzando usualmente altos niveles de potencia estadística con pequeños tamaños muestrales; (b) no tiene supuestos respecto a la distribución de los datos dado que es un método no paramétrico; (c) es robusto ante la presencia de valores perdidos, siempre y cuando estos estén por debajo de un límite razonable; (d) minimiza la cantidad de varianza no explicada; y (e) valora la fiabilidad y validez de los modelos de medida mediante diversos criterios.</p>
+<p>La siguiente imagen presenta las diferencias principales entre los dos tipos de SEM:</p>
+<p><img src="/post/2020-09-07-modelo-de-ecuaciones-estructurales-por-el-método-de-mínimos-cuadrados-parciales-pls-sem-con-r_files/diferencias%20cb-sem%20y%20pls-sem.png" /></p>
+<p>Todos los PLS-SEM están compuestos por dos partes que forman parte del modelo, una estructural (relación entre los constructos) y otra de medida (relación entre los indicadores y los constructos que miden). Dicho de otra manera, el modelo estructural describe las relaciones entre las variables latentes (constructos) y los modelos de medida representan las relaciones entre los constructos y sus correspondientes indicadores. Respecto a este último, se deben considerar dos categorías de especificación: los modelos de medida reflectivos y formativos. En los primeros, los indicadores son los efectos o manifestaciones de un constructo subyacente; por el contrario, en los segundos, los indicadores forman el constructo por medio de combinaciones lineales.</p>
+<p>El artículo de Ravand y Baghaei (2016) presenta de manera práctica la aplicación del PLS-SEM en R a través del paquete <code>plspm</code>. Los resultados de PLS-SEM se analizan siguiendo un proceso sistemático. La evaluación de la calidad de los modelos de medida y estructural se centra en estadísticos que indican la capacidad predictiva del modelo (Hair et al., 2019). De esta manera, se tienen los siguientes estadísticos de evaluación:</p>
+<p><strong>1. Modelos de medición reflectivos:</strong> consistencia interna (coeficiente alfa, rho_A o fiabilidad compuesta), validez convergente (cargas externas y varianza media extraía, AVE) y la validez discriminante (criterio de Fornell-Lacker o la ratio heterotrait-monotrait, HTMT).</p>
+<p><strong>2. Modelos de medición formativos:</strong> validez convergente (cargas externas y varianza media extraía, AVE), colinealidad entre los indicadores (factor de inflación de la varianza, VIF) y la magnitud y significación de los pesos de los indicadores.</p>
+<p><strong>3. Modelo de estructura:</strong> Magnitud y significancia de los coeficientes de ruta (path coefficients), coeficientes de determinación, índice de redundancia, estadísticos de bondad ajuste y relevancia predictiva.</p>
+<p>Los PLS-SEM presentan un potencial uso en algunos campos de la psicología, por lo que, recomendamos su revisión para conocer la versatilidad de esta técnica, que tiene un uso creciente en otras áreas como las ciencias empresariales, económicas o administrativas.</p>
+<div id="referencias" class="section level4">
+<h4>Referencias</h4>
+<p>Hair, J. F., Ringle, C. M., &amp; Sarstedt, M. (2011). PLS-SEM: indeed a Silver Bullet. <em>Journal of Marketing Theory and Practice</em>, <em>19</em>(2), 139–152. <a href="https://doi.org/10.2753/MTP1069-6679190202" target="_blank">https://doi.org/10.2753/MTP1069-6679190202</a></p>
+<p>Hair, J. F., Risher, J. J., Sarstedt, M., &amp; Ringle, C. M. (2019). When to use and how to report the results of PLS-SEM. <em>European Business Review</em>, <em>31</em>(1), 2–24. <a href="https://doi.org/10.1108/EBR-11-2018-0203" target="_blank">https://doi.org/10.1108/EBR-11-2018-0203</a></p>
+<p>Ravand, H., &amp; Baghaei, P. (2016). Partial least squares structural equation modeling with R. <em>Practical Assessment, Research &amp; Evaluation</em>, <em>21</em>(11). <a href="https://doi.org/10.7275/d2fa-qv48" target="_blank">https://doi.org/10.7275/d2fa-qv48</a></p>
+</div>
+
+        </div>
+      </div>
+      
+      <div class="col-lg-10 mx-auto block shadow">
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "medicionpsicologica" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="/" class="d-block pb-3"><img src="/images/Logo-low-size.png" class="img-fluid" alt="Avances en Medición Psicológica"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/contact">Contáctanos</a></li>
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/tools">Herramientas</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="https://www.facebook.com/amp.unmsm/"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://twitter.com/ge_amp"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/grupoamp/"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC7KqLj6zWBuJtklHSbHp4Cg"><i class="ti-youtube"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <span>© 2020 Avances en Medición Psicológica. Por una ciencia libre.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/search/fuse.min.js"></script>
+
+<script src="/plugins/search/mark.js"></script>
+
+<script src="/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- google analitycs -->
+</body>
+
+</html>
