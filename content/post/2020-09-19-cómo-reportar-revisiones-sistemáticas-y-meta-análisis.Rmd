@@ -2,7 +2,11 @@
 title: ¿Cómo reportar revisiones sistemáticas y meta-análisis?
 author: Jorge Huanca
 date: '2020-09-19'
+<<<<<<< HEAD
 image: /images/post/revision-sitematica.jpg
+=======
+image: /images/post/revision-sistematica-portada.jpg
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
 slug: cómo-reportar-revisiones-sistemáticas-y-meta-análisis
 categories:
   - Revisión sistemática
@@ -18,7 +22,11 @@ Sin embargo, la forma en cómo se reportan, es decir, cómo se especifican los p
 
 Por tal motivo, Rubio-Aparicio, Sánchez-Meca, Marín-Martínez & López-López (2018) brindan una serie de recomendaciones que puedan ser complementarias a las guías ya existentes como PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) o AMSTAR (Evaluación de Múltiples Revisiones Sistemáticas) usadas en medicina, y  MARS (Assessment of Multiple SysTemAtic Reviews) empleada en psicología. Estas sugerencias se estructuran de acuerdo a los cinco (05) apartados principales de un meta-análisis: Introducción, método, resultados, discusión, y referencias. Además, se agrega un par de sugerencias en relación con apartados iniciales como título y resumen.
 
+<<<<<<< HEAD
 ![](/post/2020-09-19-cómo-reportar-revisiones-sistemáticas-y-meta-análisis_files/photo_2020-09-19_16-04-00.jpg){width=100%}
+=======
+![](/post/2020-09-19-cómo-reportar-revisiones-sistemáticas-y-meta-análisis_files/revision-sistematica.jpg)
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
 
 Con relación al esquema, se pueden precisar ciertos puntos sobre el apartado de método:
 
@@ -34,7 +42,11 @@ e) Análisis estadístico: Especificar el marco estadístico (frecuentista o bay
 
 Finalmente, cabe indicar que la descripción detallada de cada una de las fases busca garantizar la transparencia y replicabilidad del proceso, posibilitando así que otros investigadores realicen una evaluación crítica de los resultados obtenidos
 
+<<<<<<< HEAD
 ####Referencias:
+=======
+#### Referencias
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
 
 APA Publications y Communications Board Working Group on Journal Article Reporting Standards. (2008). Reporting standards for research in psychology: Why do we need them? What might they be? *American Psychologist*, *63*, 839-851. [https://doi.org/10.1037/0003-066X.63.9.839](https://doi.org/10.1037/0003-066X.63.9.839){target="_blank"} 
 
@@ -45,6 +57,9 @@ Moher, D., Liberati, A., Tetzlaff, J., Altman, D. G., y Prisma Group. (2009). Pr
 Rubio-Aparicio, M., Sánchez-Meca, J., y Marín-Martínez, J. (2018). Recomendaciones para el reporte de revisiones sistemáticas y meta-análisis. *Anales de Psicología*, *34*(2), 412-420. [https://doi.org/10.6018/analesps.34.2.320131](https://doi.org/10.6018/analesps.34.2.320131){target="_blank"} 
 
 Shea, B. J., Grimshaw, J. M., Wells, G. A., Boers, M., Andersson, N., Hamel, C., y Bouter, L. M. (2007). Development of AMSTAR: a measurement tool to assess the methodological quality of systematic reviews. *BMC Medical Research Methodology*, *7*, 10. [https://doi.org/10.1186/1471-2288-7-10](https://doi.org/10.1186/1471-2288-7-10){target="_blank"} 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887

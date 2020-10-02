@@ -5,14 +5,19 @@
   <url>
     <loc>/</loc>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
 =======
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
 >>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
+=======
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
   </url>
   
   <url>
     <loc>/categories/</loc>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <lastmod>2020-08-07T00:00:00+00:00</lastmod>
   </url>
@@ -77,6 +82,50 @@
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
 =======
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+=======
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
+  </url>
+  
+  <url>
+    <loc>/tags/meta-an%C3%A1lisis/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+<<<<<<< HEAD
+    <loc>/categories/modelos-de-ecuaciones-estructurales/</loc>
+    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
+>>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
+=======
+    <loc>/categories/meta-an%C3%A1lisis/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/revisi%C3%B3n-sistem%C3%A1tica/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/revisi%C3%B3n-sistem%C3%A1tica/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -87,16 +136,10 @@
   <url>
     <loc>/categories/modelos-de-ecuaciones-estructurales/</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
->>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
   </url>
   
   <url>
     <loc>/tags/pls-sem/</loc>
-    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -107,11 +150,6 @@
   
   <url>
     <loc>/tags/sem/</loc>
-    <lastmod>2020-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-09-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -610,6 +648,10 @@
   
   <url>
     <loc>/author/jackeline-garcia/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/jorge-huanca/</loc>
   </url>
   
   <url>

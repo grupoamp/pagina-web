@@ -7,17 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
 =======
     <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
 >>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
+=======
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      <title>Meta-análisis</title>
+      <link>/tags/meta-an%C3%A1lisis/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/meta-an%C3%A1lisis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisión sistemática</title>
+      <link>/tags/revisi%C3%B3n-sistem%C3%A1tica/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/revisi%C3%B3n-sistem%C3%A1tica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
       <title>PLS-SEM</title>
       <link>/tags/pls-sem/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>

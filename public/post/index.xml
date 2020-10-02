@@ -7,17 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
 =======
     <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
 >>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
+=======
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      <title>¿Cómo reportar revisiones sistemáticas y meta-análisis?</title>
+      <link>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</guid>
+      <description>El meta-análisis es una metodología que, al igual que la revisión sistemática, permite integrar los resultados de estudios primarios de un tema en particular, diferenciándose de esta por la utilización de métodos estadísticos para analizar y resumir dichos resultados (Ato, López y Benavente, 2013).</description>
+    </item>
+    
+    <item>
+>>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
       <title>Modelo de ecuaciones estructurales por el método de mínimos cuadrados parciales (PLS-SEM) con R</title>
       <link>/2020/09/07/modelo-de-ecuaciones-estructurales-por-el-m%C3%A9todo-de-m%C3%ADnimos-cuadrados-parciales-pls-sem-con-r/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
