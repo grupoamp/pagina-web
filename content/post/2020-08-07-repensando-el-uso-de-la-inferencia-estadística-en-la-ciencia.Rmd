@@ -2,7 +2,11 @@
 title: Repensando el uso de la inferencia estadística en la ciencia
 author: Arnold Tafur
 date: '2020-08-07'
+<<<<<<< HEAD
 image: /images/post/Hacia-una-buena-ciencia.jpg
+=======
+image: /images/post/inferencia-estadística-en-la-ciencia.png
+>>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
 slug: repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia
 categories:
   - Inferencia estadística
@@ -30,12 +34,20 @@ En el campo de la investigación científica, el pensamiento estadístico debe e
 
 El artículo de Tong (2019) presenta el debate de diversos tópicos para comprender este proceso de cambio en el que se encuentra la inferencia estadística, y en general, la estadística, y de su aporte a la ciencia en la actualidad. Asimismo, en el artículo se muestran diversas contribuciones positivas de la metodología estadística que permitiría desarrollar una buena ciencia. A continuación, se presentan dos representaciones visuales que resumen los puntos mencionados anteriormente.
 
+<<<<<<< HEAD
 ![](/post/2020-08-07-repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia_files/inferencia-estadistica.png){width=100%}
 
 
 
 
 
+=======
+
+![](/post/2020-08-07-repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia_files/inferencia-estadistica.png)
+
+ 
+![](/post/2020-08-07-repensando-el-uso-de-la-inferencia-estadística-en-la-ciencia_files/buena-ciencia.png)
+>>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
 
 
 #### Referencias

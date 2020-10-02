@@ -1,0 +1,45 @@
+---
+title: Análisis de redes en psicología
+author: Iván Lázaro
+date: '2020-08-21'
+image: /images/post/analisis-redes.jpg
+slug: análisis-de-redes-en-psicología
+categories:
+  - Técnicas Estadísticas Avanzadas
+  - Análisis de redes
+tags:
+  - Técnicas Estadísticas Avanzadas
+  - Análisis de redes
+---
+
+El análisis de redes representa un nuevo enfoque teórico reciente en psicología
+que brinda una nueva forma de entender e intervenir en las conductas, ya que
+permite formas alternativas de observar, analizar, medir y comprender
+relaciones entre variables como los fenómenos psicopatológicos. Este nuevo
+enfoque surge como una respuesta al modelo médico que constantemente ha
+sido difundido por los principales sistemas nosológicos, por ejemplo, en este
+último se concibe el modelo de trastorno latente común que se encuentra
+presente en el Manual diagnóstico y estadístico de los trastornos mentales
+(DSM) y señala que los síntomas son solo causas pasivas de un trastorno
+subyacente. Debido a esto, conduce a forjar un razonamiento tautológico y
+también a la reificación. Por lo tanto, el sistema de redes analiza los síntomas psicopatológicos como redes de síntomas, sistemas complejos dinámicos que se encuentran interrelacionados de forma causal.
+
+Para comprender la estructura del análisis de redes psicológicas se debe partir
+que este es un modelo abstracto que contienes **nodos** y **aristas**. El primero representa variable de todo tipo u objetos de estudio, mientras que el segundo hace referencia a las conexiones entre los nodos o variables de estudio
+mediante una línea que los une. La representación gráfica elaborada a partir de
+la conexión entre los nodos y aristas se le conoce como **grafo**. Además, las
+redes se clasifican, estiman y analizan de la siguiente manera:
+
+![](/post/2020-08-21-análisis-de-redes-en-psicología_files/analisis-redes-post.png){width=100%}
+
+A partir de este nuevo enfoque es que se trata de dar respuestas en algunas
+áreas de la psicología que presentan dificultades. Por otro lado, no debe ser
+considerado como algo incompatible con otros acercamientos teóricos y
+metodológicos, sino como un enfoque complementario. Su uso adecuado
+dependerá de los objetivos que se requieran en estudios dentro del ámbito clínico. Sin embargo, existen ciertas limitaciones que son relevantes mencionar. Entre las principales se considera que los estudios que utilicen este enfoque toman un claro coste de tiempo, en especial aquellos que involucren seguimientos longitudinales de participantes, se debe distinguir los estudios que permitan un análisis bajo esta perspectiva de los que no pueden, tienden a homogeneizar los síntomas, cuando estos podrían ser cualitativamente diferentes y no se considera al error de medición en la estimación de la red, por lo que es una necesidad que sean consideradas a futuro.
+
+#### Referencias:
+
+Fonseca-Pedrero, E. (2018). Análisis de redes en psicología. *Papeles del psicólogo*, 39, 1-12. [https://doi.org/10.23923/pap.psicol2018.2852](https://doi.org/10.23923/pap.psicol2018.2852){target="_blank"} 
+
+
