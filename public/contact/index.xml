@@ -5,10 +5,6 @@
     <link>/contact/</link>
     <description>Recent content in Contáctanos on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    
-	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-es</language><atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

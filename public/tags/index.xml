@@ -6,24 +6,17 @@
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
->>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
-=======
-    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
->>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estadística Bayesiana</title>
+      <link>/tags/estad%C3%ADstica-bayesiana/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/estad%C3%ADstica-bayesiana/</guid>
+      <description></description>
+    </item>
     
     <item>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
       <title>Meta-análisis</title>
       <link>/tags/meta-an%C3%A1lisis/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
@@ -42,7 +35,6 @@
     </item>
     
     <item>
->>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
       <title>PLS-SEM</title>
       <link>/tags/pls-sem/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
@@ -79,7 +71,6 @@
     </item>
     
     <item>
->>>>>>> 96fb40728bc7626d6fc7c48447c99479c12d28cf
       <title>Inferencia estadística</title>
       <link>/tags/inferencia-estad%C3%ADstica/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
