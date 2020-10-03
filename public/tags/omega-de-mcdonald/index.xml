@@ -6,7 +6,11 @@
     <description>Recent content in Omega de Mc&#39;Donald on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/omega-de-mcdonald/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/omega-de-mcdonald/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Un viaje alrededor de alfa y omega para estimar la confiabilidad por consistencia interna</title>
       <link>/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</link>

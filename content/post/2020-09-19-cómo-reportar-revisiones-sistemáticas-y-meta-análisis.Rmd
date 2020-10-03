@@ -2,11 +2,7 @@
 title: ¿Cómo reportar revisiones sistemáticas y meta-análisis?
 author: Jorge Huanca
 date: '2020-09-19'
-<<<<<<< HEAD
 image: /images/post/revision-sitematica.jpg
-=======
-image: /images/post/revision-sistematica-portada.jpg
->>>>>>> a136a99ffc37c1083f44a5f7f63c99e06b9d5887
 slug: cómo-reportar-revisiones-sistemáticas-y-meta-análisis
 categories:
   - Revisión sistemática
