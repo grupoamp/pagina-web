@@ -2,7 +2,7 @@
 title: Ventajas del enfoque Bayesiano frente a la inferencia clásica
 author: Jackeline Garcia
 date: '2020-10-02'
-image: /images/post/Bayesian-post.jpg
+image: /images/post/Bayesian-post.png
 slug: ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-clásica
 categories:
   - Estadística Bayesiana
@@ -36,17 +36,17 @@ Se manifiesta que aumentar el tamaño de muestra resuelve todos los problemas es
 
 #### Referencias:
 
-Bernardo, J. (1988). Análisis de datos y métodos bayesianos. *Pro Mathematica*, *2*(4), 27–55.  [http://revistas.pucp.edu.pe/index.php/promathematica/article/download/6057/6063/](http://revistas.pucp.edu.pe/index.php/promathematica/article/download/6057/6063/){target="_blank"}
+Bernardo, J. (1988). Análisis de datos y métodos bayesianos. *Pro Mathematica*, *2*(4), 27–55.
 
-Gutierrez, E. (2015). Estadística Bayesiana. Teoría y conceptos. XXXI Foro de estadística. Universidad Autónoma de Chapingo  [http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf](http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf){target="_blank"} 
+Gutierrez, E. (2015). Estadística Bayesiana. Teoría y conceptos. XXXI Foro de estadística. Universidad Autónoma de Chapingo.  [http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf](http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf){target="_blank"} 
 
 Lash T. L. (2017). The Harm Done to Reproducibility by the Culture of Null Hypothesis Significance Testing. *American journal of epidemiology*, *186*(6), 627–635. [https://doi.org/10.1093/aje/kwx261](https://doi.org/10.1093/aje/kwx261){target="_blank"}
 
 Pernet C. (2015). Null hypothesis significance testing: a short tutorial. *F1000Research*, *4*, 621. [https://doi.org/10.12688/f1000research.6963.3](https://doi.org/10.12688/f1000research.6963.3){target="_blank"} 
 
-Rendón-Macías ME, Riojas-Garza A, Contreras-Estrada D, Martínez-Ezquerro JD. Análisis bayesiano (2018). Conceptos básicos y prácticos para su interpretación y uso. *Rev Alerg Mex*, *65*(3):285-298. [10.29262/ram.v65i3.512](10.29262/ram.v65i3.512){target="_blank"} 
+Rendón-Macías, M. E., Riojas-Garza, A., Contreras-Estrada, D., & Martínez-Ezquerro, J. D. (2018). Análisis bayesiano. Conceptos básicos y prácticos para su interpretación y uso. *Revista Alergia México*, *65*(3):285-298. [https://doi.org/10.29262/ram.v65i3.512](https://doi.org/10.29262/ram.v65i3.512){target="_blank"} 
 
-Szucs, D., & Ioannidis, J. (2017). When Null Hypothesis Significance Testing Is Unsuitable for Research: A Reassessment. *Frontiers in human neuroscience*, *11*, 390. [https://doi.org/10.3389/fnhum.2017.00390](https://doi.org/10.3389/fnhum.2017.00390) {target="_blank"} 
+Szucs, D., & Ioannidis, J. (2017). When Null Hypothesis Significance Testing Is Unsuitable for Research: A Reassessment. *Frontiers in Human Neuroscience*, *11*, 390. [https://doi.org/10.3389/fnhum.2017.00390](https://doi.org/10.3389/fnhum.2017.00390){target="_blank"} 
 
 Wagenmakers, E. J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Love, J., … Morey, R. D. (2018). Bayesian inference for psychology. Part I: Theoretical advantages and practical ramifications. *Psychonomic Bulletin and Review*, *25*(1), 35–57. [https://doi.org/10.3758/s13423-017-1343-3](https://doi.org/10.3758/s13423-017-1343-3){target="_blank"}  
 
