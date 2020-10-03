@@ -6,7 +6,11 @@
     <description>Recent content in Meta-análisis on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/meta-an%C3%A1lisis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meta-an%C3%A1lisis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>¿Cómo reportar revisiones sistemáticas y meta-análisis?</title>
       <link>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</link>
