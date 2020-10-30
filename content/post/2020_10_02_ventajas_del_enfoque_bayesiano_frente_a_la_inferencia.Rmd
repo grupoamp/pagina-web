@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Ventajas del enfoque Bayesiano frente a la inferencia clásica
 author: Jackeline Garcia
@@ -50,3 +51,57 @@ Szucs, D., & Ioannidis, J. (2017). When Null Hypothesis Significance Testing Is 
 
 Wagenmakers, E. J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Love, J., … Morey, R. D. (2018). Bayesian inference for psychology. Part I: Theoretical advantages and practical ramifications. *Psychonomic Bulletin and Review*, *25*(1), 35–57. [https://doi.org/10.3758/s13423-017-1343-3](https://doi.org/10.3758/s13423-017-1343-3){target="_blank"}  
 
+=======
+---
+title: Ventajas del enfoque Bayesiano frente a la inferencia clásica
+author: Jackeline Garcia
+date: '2020-10-02'
+image: /images/post/Bayesian-post.png
+slug: ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-clásica
+categories:
+  - Estadística Bayesiana
+tags:
+  - Estadística Bayesiana
+---
+
+La mayoría de afirmaciones que se realizan en la investigación psicológica se apoyan en el p valor, enmarcado en el uso de la prueba de significancia de la hipótesis nula (NHST), utilizada para realizar la inferencia estadística (Pernet, 2015). Sin embargo, esta ha sido criticada en diversos puntos (por ejemplo Szucs y Ioannidis, 2017; Lash, 2017). 
+
+El uso del p valor prevalece por diversos motivos, entre ellas que la enseñanza de la estadística se enfoque en la estadística frecuentista considerando más fácil el uso del p valor; mientras que la enseñanza de la estadística bayesiana requiere mayor esfuerzo y los software más conocidos no poseen un módulo para el método bayesiano. También existe mayor seguridad en seguir prácticas estandarizadas por el temor a ser excluído o creer que se rechace la publicación de un trabajo por no usar prácticas estandarizadas. Así también, pocos investigadores se enfocan en los detalles más finos de la metodología y puede darse una resistencia al aprendizaje de nuevos métodos (Wagenmakers, et al., 2018).
+
+La inferencia Bayesiana se basa exclusivamente en el teorema de Bayes, en un modelo básico se tiene:
+
+p(θ|data) = p(θ). p(data|θ) 
+ 
+Donde θ es un parámetro, que puede ser un valor puntual, un modelo o una hipótesis (en el ejemplo se observa que “θ” es reemplazado por una hipótesis nula, p(Ho|data) = p(Ho). p(data|Ho)). Las “p” son funciones de densidad o de distribución, “p(θ)” es la distribución a priori (inicial o antecedente), “p(data|θ)” es la verosimilitud de “θ” aportada por los datos y “p(θ|data)” es la distribución a posteriori (posterior, final o cantidad desconocida) de “θ” dados por los datos o la cantidad conocida (Bernardo, 1988).
+
+Los pasos del enfoque bayesiano implican especificar un modelo muestral p(data|θ), especificar una distribución a priori p(θ), calcular la distribución a posteriori p(θ|data) y resumir la información contenida en esta última para realizar inferencias (Gutiérrez, 2015). Donde el paso de las probabilidades a priori a las posteriori, provocado por los datos se denomina Factor Bayes (FB)(Wagenmakers, et al., 2018). Los beneficios brindados por los parámetros o criterios de la estadística Bayesiana se presentan en el primer afiche. 
+
+En cuanto a la prueba de hipótesis, los problemas con los valores p no son una razón para abandonar su práctica, sino para dejar de usar el p valor. Como alternativa se pueden realizar pruebas de hipótesis usando parámetros bayesianos, el cual compara la adecuación predictiva de dos modelos estadísticos en competencia, califica la evidencia proporcionada por los datos y cuantifica el cambio en la credibilidad que los datos producen para los dos modelos (Wagenmakers, et al., 2018), para ejemplos de su aplicación puede revisar Rendón-Macías, Riojas-Garza, Contreras-Estrada, Martínez-Ezquerro (2018), sus beneficios se presentan en el segundo afiche.
+
+![](/post/2020-10-02-ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-clásica_files/Afiche_1.png){width=100%}
+
+![](/post/2020-10-02-ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-clásica_files/Afiche_2.png){width=100%}
+
+De la misma forma como existe un gran apoyo a la prueba de hipótesis mediante la estimación de parámetros de Bayes, también se presentan algunas objeciones. 
+Se dice que las pruebas de hipótesis Bayesianas no tienen sentido bajo una especificación errónea, ante ello se puede decir que el factor Bayes no es una medida de rendimiento absoluto sino relativa y antes de sacar conclusiones inferenciales, es importante que el modelo esté correctamente especificado. Otra objeción indica que los antecedentes poco informados son preferibles a los antecedentes informados, en este caso los factores Bayes no pueden utilizarse con distribuciones poco informativas porque ocasionan predicciones absurdas, una comparación entre la Ho y H1, requiere que ambos modelos se especifiquen de forma razonable.
+
+Se menciona que los antecedentes por defecto no son suficientemente subjetivos, ante ello sucede que los antecedentes por defecto proporcionan un resultado de referencia que puede ser refinado incluyendo conocimiento subjetivo. Otra objeción indica que los antecedentes subjetivos no son suficientemente objetivos, en cuanto a esto se debe precisar que la especificación de modelos estadísticos es subjetiva, pero con una combinación de conocimiento previo y experiencia con el modelo estadístico. 
+Se manifiesta que aumentar el tamaño de muestra resuelve todos los problemas estadísticos, sin embargo, los experimentos de gran potencia pueden producir resultados desinformativos, donde el poder estadístico tiene en cuenta los datos hipotéticos, pero la evidencia está basada en el conjunto de datos obtenidos. Una última objeción da a entender que los procedimientos bayesianos, también pueden ser pirateados y esto es correcto, ya que la inferencia bayesiana es coherente y óptima, pero no protege contra las malas prácticas del investigador.
+
+#### Referencias:
+
+Bernardo, J. (1988). Análisis de datos y métodos bayesianos. *Pro Mathematica*, *2*(4), 27–55.  [http://revistas.pucp.edu.pe/index.php/promathematica/article/download/6057/6063/](http://revistas.pucp.edu.pe/index.php/promathematica/article/download/6057/6063/){target="_blank"}
+
+Gutierrez, E. (2015). Estadística Bayesiana. Teoría y conceptos. XXXI Foro de estadística. Universidad Autónoma de Chapingo  [http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf](http://www.dpye.iimas.unam.mx/soriano/BAYES/DOCUMENTOS/NOTAS/INFERENCIA%20BAYESIANA.pdf){target="_blank"} 
+
+Lash T. L. (2017). The Harm Done to Reproducibility by the Culture of Null Hypothesis Significance Testing. *American journal of epidemiology*, *186*(6), 627–635. [https://doi.org/10.1093/aje/kwx261](https://doi.org/10.1093/aje/kwx261){target="_blank"}
+
+Pernet C. (2015). Null hypothesis significance testing: a short tutorial. *F1000Research*, *4*, 621. [https://doi.org/10.12688/f1000research.6963.3](https://doi.org/10.12688/f1000research.6963.3){target="_blank"} 
+
+Rendón-Macías ME, Riojas-Garza A, Contreras-Estrada D, Martínez-Ezquerro JD. Análisis bayesiano (2018). Conceptos básicos y prácticos para su interpretación y uso. *Rev Alerg Mex*, *65*(3):285-298. [10.29262/ram.v65i3.512](10.29262/ram.v65i3.512){target="_blank"} 
+
+Szucs, D., & Ioannidis, J. (2017). When Null Hypothesis Significance Testing Is Unsuitable for Research: A Reassessment. *Frontiers in human neuroscience*, *11*, 390. [https://doi.org/10.3389/fnhum.2017.00390](https://doi.org/10.3389/fnhum.2017.00390) {target="_blank"} 
+
+Wagenmakers, E. J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Love, J., … Morey, R. D. (2018). Bayesian inference for psychology. Part I: Theoretical advantages and practical ramifications. *Psychonomic Bulletin and Review*, *25*(1), 35–57. [https://doi.org/10.3758/s13423-017-1343-3](https://doi.org/10.3758/s13423-017-1343-3){target="_blank"}  
+
+>>>>>>> 6e886aa5f61f34ef348c8e6182aa99028ff0cf66
