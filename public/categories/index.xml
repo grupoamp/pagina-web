@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Estadística Bayesiana</title>
       <link>/categories/estad%C3%ADstica-bayesiana/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/estad%C3%ADstica-bayesiana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software libre</title>
+      <link>/categories/software-libre/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/software-libre/</guid>
       <description></description>
     </item>
     
@@ -107,15 +116,6 @@
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/valor-p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software libre</title>
-      <link>/categories/software-libre/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/software-libre/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,48 @@
+---
+title: Aplicación de la estadística bayesiana con JASP
+author: Arnold Tafur
+date: '2020-10-30'
+image: /images/post/Portada_bayesiana_JASP.png
+slug: aplicación-de-la-estadística-bayesiana-con-jasp
+categories:
+  - Estadística Bayesiana
+  - Software libre
+tags:
+  - Estadística Bayesiana
+  - JASP
+  - Software libre
+---
+
+En una anterior reseña sobre las [ventajas del enfoque bayesiano frente a la inferencia clásica](https://bit.ly/30wWfs6){target="_blank"}, se brindó un panorama general de los beneficios que presenta esta nueva perspectiva en la investigación psicológica para la estimación de los parámetros bayesianos y el uso la prueba de hipótesis bayesiana a través del factor de Bayes. Todas esas bondades del enfoque bayesiano han permitido un mayor uso y aceptación por parte de diversos investigadores. Asimismo, esto se ha visto favorecido y potenciado por su implementación en diversos programas estadísticos especializados, como JAGS, Stan o WinBUGS. No obstante, estos presentan una interfaz gráfica de usuario (GUI) poco amigable para investigadores noveles en el análisis estadístico desde una perspectiva bayesiana.
+
+Una alternativa a los programas estadísticos mencionados es JASP, un programa de código abierto cuyo soporte está a cargo de la Universidad de Ámsterdam (Países Bajos), multiplataforma (puede ser utilizado en Windows, MacOS o Linux) y con una interfaz gráfica que permite de manera sencilla desarrollar análisis bajo el enfoque bayesiano. Entre las diversas ventajas que presenta JASP se encuentra el uso de paquetes en R para la realización de los análisis estadísticos, debido a JASP está basado en este lenguaje de programación, lo que le brinda una mayor versatilidad e implementación de los últimos avances en el campo bayesiano. En este enlace se puede visualizar la [lista completa de paquetes con los que trabaja JASP](https://jasp-stats.org/r-package-list/){target="_blank"}, que en la actualidad son más de 100. Por otro lado, si bien JASP tiene el objetivo de ser un nexo entre la teoría y la práctica bayesiana, también es posible realizar análisis estadísticos clásicos desde una perspectiva frecuentista.
+
+![Interfaz de JASP versión 0.14](/post/2020-10-30-aplicación-de-la-estadística-bayesiana-con-jasp_files/Interfaz de JASP.png){width=100%}
+
+En el artículo de Wagenmakers et al. (2018) se describe la filosofía de JASP resumida en cuatro principios: (a) libre y de código abierto; (b) inclusivo para el uso de métodos clásicos y bayesianos; (c) incorpora una diversidad de análisis, básicos y especializados; y (d) presenta una interfaz gráfica amigable para el usuario. Asimismo, en el artículo mencionado, se presentan cinco ejemplos prácticos de la aplicación del enfoque bayesiano mediante JASP. Es importante mencionar que, estos análisis son comunes bajo el enfoque clásico y también pueden ser desarrollados en JASP. El primer ejemplo correspondiente a un análisis correlacional bayesiano, el segundo ejemplo muestra una prueba t bayesiana, el tercer ejemplo desarrolla un análisis de varianza (ANOVA) de una vía bayesiano, en el cuarto ejemplo se muestra un ANOVA de dos vías bayesiano, y finalmente, el quinto ejemplo desarrolla un ANOVA de dos vías para medidas repetidas bayesiano.
+
+Por otro lado, existen diversos artículos donde se presentan tutoriales para la aplicación de la estadística bayesiana con JASP. En este sentido, el artículo de Jamil et al. (2017) brinda un ejemplo para el trabajo con tablas de contingencia, el artículo de van den Bergh et al. (2020) presenta el desarrollo de un ANOVA bayesiano y los artículos de Marsman y Wagenmakers (2017) y van Doorn et al. (2020) son guías más amplias para poder planificar y ejecutar un análisis, así como interpretar y reportar los resultados obtenidos.
+
+Finalmente, desde su creación, JASP ha ido incorporando progresivamente distintos análisis en el campo bayesiano y en la actualidad cuenta con una amplia gama de funcionalidades. En la siguiente figura se muestran algunos de los análisis bayesianos con lo que cuenta esta potente herramienta estadística.
+
+![](/post/2020-10-30-aplicación-de-la-estadística-bayesiana-con-jasp_files/Funcionalidades de JASP.png)
+
+A través de los siguientes video tutoriales se puede aprender distintos análisis bayesianos en JASP:
+
+- Correlación: [https://youtu.be/AoujrZBPmL0](https://youtu.be/AoujrZBPmL0){target="_blank"} 
+- Prueba t para muestras relacionadas: [https://youtu.be/rUWlwOfLyZc](https://youtu.be/rUWlwOfLyZc){target="_blank"} 
+- Análisis de varianza: [https://youtu.be/W0yTnqw5dtY](https://youtu.be/W0yTnqw5dtY){target="_blank"} 
+- Metaanálisis robusto: [https://youtu.be/5Ff9jsb1_TM](https://youtu.be/5Ff9jsb1_TM){target="_blank"} 
+
+
+#### Referencias
+
+Jamil, T., Ly, A., Morey, R. D., Love, J., Marsman, M., & Wagenmakers, E.-J. (2017). Default “Gunel and Dickey” Bayes factors for contingency tables. *Behavior Research Methods*, *49*(2), 638-652. [https://doi.org/10.3758/s13428-016-0739-8](https://doi.org/10.3758/s13428-016-0739-8){target="_blank"} 
+
+Marsman, M., & Wagenmakers, E.-J. (2017). Bayesian benefits with JASP. *European Journal of Developmental Psychology*, *14*(5), 545-555. [https://doi.org/10.1080/17405629.2016.1259614](https://doi.org/10.1080/17405629.2016.1259614){target="_blank"} 
+
+van den Bergh, D., van Doorn, J., Masrman, M., Draws, T., van Keteren, E.-J., Derks, K., Dablander, F., Gronau, Q. F., Kucharský, Š., Komarlu, A. R., N., Sarafoglou, A., Voelkel, J. G., Stefan, A., Ly, A., Hinne, M., Matzke, D., & Wagenmakers, E.-J. (2020). A tutorial on conducting and interpreting a Bayesian ANOVA in JASP. *L’Année psychologique*, *120*(1), 73-96. [https://doi.org/10.3917/anpsy1.201.0073](https://doi.org/10.3917/anpsy1.201.0073){target="_blank"} 
+
+van Doorn, J., van den Bergh, D., Böhm, U., Dablander, F., Derks, K., Draws, T., Etz, A., Evans, N. J., Gronau, Q. F., Haaf, J. M., Hinne, M., Kucharský, Š., Ly, A., Marsman, M., Matzke, D., Komarlu, A. R., Sarafoglou, A., Stefan, A., Voelkel, J. G., & Wagenmakers, E.-J. (2020). The JASP guidelines for conducting and reporting a Bayesian analysis. *Psychonomic Bulletin & Review*. [https://doi.org/10.3758/s13423-020-01798-5](https://doi.org/10.3758/s13423-020-01798-5){target="_blank"} 
+
+Wagenmakers, E.-J., Love, J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Selker, R., Gronau, Q. F., Dropmann, D., Boutin, B., Meerhoff, F., Knight, P., Raj, A., van Kesteren, E.-J., van Doorn, J., Šmíra, M., Epskamp, S., Etz, A., Matzke, D., … Morey, R. D. (2018). Bayesian inference for psychology. Part II: Example applications with JASP. *Psychonomic Bulletin & Review*, *25*(1), 58-76. [https://doi.org/10.3758/s13423-017-1323-7](https://doi.org/10.3758/s13423-017-1323-7){target="_blank"} 

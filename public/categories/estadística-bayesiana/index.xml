@@ -6,10 +6,19 @@
     <description>Recent content in Estadística Bayesiana on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/estad%C3%ADstica-bayesiana/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aplicación de la estadística bayesiana con JASP</title>
+      <link>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</guid>
+      <description>En una anterior reseña sobre las ventajas del enfoque bayesiano frente a la inferencia clásica, se brindó un panorama general de los beneficios que presenta esta nueva perspectiva en la investigación psicológica para la estimación de los parámetros bayesianos y el uso la prueba de hipótesis bayesiana a través del factor de Bayes.</description>
+    </item>
     
     <item>
       <title>Ventajas del enfoque Bayesiano frente a la inferencia clásica</title>

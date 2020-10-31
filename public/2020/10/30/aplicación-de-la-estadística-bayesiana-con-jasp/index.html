@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es-es"><head>
+  <meta charset="utf-8">
+  <title>Aplicación de la estadística bayesiana con JASP</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="AMP es un grupo de estudios de la UNMSM dedicado a la investigación y desarrollo de actividades a favr de la ciencia Psicológica.">
+  
+  <meta name="author" content="Avances en Medición Psicológica">
+  <meta name="generator" content="Hugo 0.72.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png " type="image/x-icon">
+
+  
+  
+  
+
+</head><body>
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="/"><img class="img-fluid" src="/images/Logo-low-size.png" alt="Avances en Medición Psicológica"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"> Inicio </a>
+          </li>
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contáctanos</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/tools">Herramientas</a>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Escribe y presiona enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto block shadow mb-5">
+        <h2>Aplicación de la estadística bayesiana con JASP</h2>
+        <div class="mb-3 post-meta">
+          <a href="/author/arnold-tafur">Arnold Tafur</a>,
+          30/10/2020, 
+          <a href="/categories/estad%C3%ADstica-bayesiana">Estadística Bayesiana</a>
+          
+          <a href="/categories/software-libre">Software Libre</a>
+          
+        </div>
+        
+        <img src="/images/post/Portada_bayesiana_JASP.png" class="img-fluid w-100 mb-4" alt="Aplicación de la estadística bayesiana con JASP">
+        
+        <div class="content mb-5">
+          
+
+
+<p>En una anterior reseña sobre las <a href="https://bit.ly/30wWfs6" target="_blank">ventajas del enfoque bayesiano frente a la inferencia clásica</a>, se brindó un panorama general de los beneficios que presenta esta nueva perspectiva en la investigación psicológica para la estimación de los parámetros bayesianos y el uso la prueba de hipótesis bayesiana a través del factor de Bayes. Todas esas bondades del enfoque bayesiano han permitido un mayor uso y aceptación por parte de diversos investigadores. Asimismo, esto se ha visto favorecido y potenciado por su implementación en diversos programas estadísticos especializados, como JAGS, Stan o WinBUGS. No obstante, estos presentan una interfaz gráfica de usuario (GUI) poco amigable para investigadores noveles en el análisis estadístico desde una perspectiva bayesiana.</p>
+<p>Una alternativa a los programas estadísticos mencionados es JASP, un programa de código abierto cuyo soporte está a cargo de la Universidad de Ámsterdam (Países Bajos), multiplataforma (puede ser utilizado en Windows, MacOS o Linux) y con una interfaz gráfica que permite de manera sencilla desarrollar análisis bajo el enfoque bayesiano. Entre las diversas ventajas que presenta JASP se encuentra el uso de paquetes en R para la realización de los análisis estadísticos, debido a JASP está basado en este lenguaje de programación, lo que le brinda una mayor versatilidad e implementación de los últimos avances en el campo bayesiano. En este enlace se puede visualizar la <a href="https://jasp-stats.org/r-package-list/" target="_blank">lista completa de paquetes con los que trabaja JASP</a>, que en la actualidad son más de 100. Por otro lado, si bien JASP tiene el objetivo de ser un nexo entre la teoría y la práctica bayesiana, también es posible realizar análisis estadísticos clásicos desde una perspectiva frecuentista.</p>
+<div class="figure">
+<img src="/post/2020-10-30-aplicación-de-la-estadística-bayesiana-con-jasp_files/Interfaz%20de%20JASP.png" style="width:100.0%" alt="" />
+<p class="caption">Interfaz de JASP versión 0.14</p>
+</div>
+<p>En el artículo de Wagenmakers et al. (2018) se describe la filosofía de JASP resumida en cuatro principios: (a) libre y de código abierto; (b) inclusivo para el uso de métodos clásicos y bayesianos; (c) incorpora una diversidad de análisis, básicos y especializados; y (d) presenta una interfaz gráfica amigable para el usuario. Asimismo, en el artículo mencionado, se presentan cinco ejemplos prácticos de la aplicación del enfoque bayesiano mediante JASP. Es importante mencionar que, estos análisis son comunes bajo el enfoque clásico y también pueden ser desarrollados en JASP. El primer ejemplo correspondiente a un análisis correlacional bayesiano, el segundo ejemplo muestra una prueba t bayesiana, el tercer ejemplo desarrolla un análisis de varianza (ANOVA) de una vía bayesiano, en el cuarto ejemplo se muestra un ANOVA de dos vías bayesiano, y finalmente, el quinto ejemplo desarrolla un ANOVA de dos vías para medidas repetidas bayesiano.</p>
+<p>Por otro lado, existen diversos artículos donde se presentan tutoriales para la aplicación de la estadística bayesiana con JASP. En este sentido, el artículo de Jamil et al. (2017) brinda un ejemplo para el trabajo con tablas de contingencia, el artículo de van den Bergh et al. (2020) presenta el desarrollo de un ANOVA bayesiano y los artículos de Marsman y Wagenmakers (2017) y van Doorn et al. (2020) son guías más amplias para poder planificar y ejecutar un análisis, así como interpretar y reportar los resultados obtenidos.</p>
+<p>Finalmente, desde su creación, JASP ha ido incorporando progresivamente distintos análisis en el campo bayesiano y en la actualidad cuenta con una amplia gama de funcionalidades. En la siguiente figura se muestran algunos de los análisis bayesianos con lo que cuenta esta potente herramienta estadística.</p>
+<p><img src="/post/2020-10-30-aplicación-de-la-estadística-bayesiana-con-jasp_files/Funcionalidades%20de%20JASP.png" /></p>
+<p>A través de los siguientes video tutoriales se puede aprender distintos análisis bayesianos en JASP:</p>
+<ul>
+<li>Correlación: <a href="https://youtu.be/AoujrZBPmL0" target="_blank">https://youtu.be/AoujrZBPmL0</a></li>
+<li>Prueba t para muestras relacionadas: <a href="https://youtu.be/rUWlwOfLyZc" target="_blank">https://youtu.be/rUWlwOfLyZc</a></li>
+<li>Análisis de varianza: <a href="https://youtu.be/W0yTnqw5dtY" target="_blank">https://youtu.be/W0yTnqw5dtY</a></li>
+<li>Metaanálisis robusto: <a href="https://youtu.be/5Ff9jsb1_TM" target="_blank">https://youtu.be/5Ff9jsb1_TM</a></li>
+</ul>
+<div id="referencias" class="section level4">
+<h4>Referencias</h4>
+<p>Jamil, T., Ly, A., Morey, R. D., Love, J., Marsman, M., &amp; Wagenmakers, E.-J. (2017). Default “Gunel and Dickey” Bayes factors for contingency tables. <em>Behavior Research Methods</em>, <em>49</em>(2), 638-652. <a href="https://doi.org/10.3758/s13428-016-0739-8" target="_blank">https://doi.org/10.3758/s13428-016-0739-8</a></p>
+<p>Marsman, M., &amp; Wagenmakers, E.-J. (2017). Bayesian benefits with JASP. <em>European Journal of Developmental Psychology</em>, <em>14</em>(5), 545-555. <a href="https://doi.org/10.1080/17405629.2016.1259614" target="_blank">https://doi.org/10.1080/17405629.2016.1259614</a></p>
+<p>van den Bergh, D., van Doorn, J., Masrman, M., Draws, T., van Keteren, E.-J., Derks, K., Dablander, F., Gronau, Q. F., Kucharský, Š., Komarlu, A. R., N., Sarafoglou, A., Voelkel, J. G., Stefan, A., Ly, A., Hinne, M., Matzke, D., &amp; Wagenmakers, E.-J. (2020). A tutorial on conducting and interpreting a Bayesian ANOVA in JASP. <em>L’Année psychologique</em>, <em>120</em>(1), 73-96. <a href="https://doi.org/10.3917/anpsy1.201.0073" target="_blank">https://doi.org/10.3917/anpsy1.201.0073</a></p>
+<p>van Doorn, J., van den Bergh, D., Böhm, U., Dablander, F., Derks, K., Draws, T., Etz, A., Evans, N. J., Gronau, Q. F., Haaf, J. M., Hinne, M., Kucharský, Š., Ly, A., Marsman, M., Matzke, D., Komarlu, A. R., Sarafoglou, A., Stefan, A., Voelkel, J. G., &amp; Wagenmakers, E.-J. (2020). The JASP guidelines for conducting and reporting a Bayesian analysis. <em>Psychonomic Bulletin &amp; Review</em>. <a href="https://doi.org/10.3758/s13423-020-01798-5" target="_blank">https://doi.org/10.3758/s13423-020-01798-5</a></p>
+<p>Wagenmakers, E.-J., Love, J., Marsman, M., Jamil, T., Ly, A., Verhagen, J., Selker, R., Gronau, Q. F., Dropmann, D., Boutin, B., Meerhoff, F., Knight, P., Raj, A., van Kesteren, E.-J., van Doorn, J., Šmíra, M., Epskamp, S., Etz, A., Matzke, D., … Morey, R. D. (2018). Bayesian inference for psychology. Part II: Example applications with JASP. <em>Psychonomic Bulletin &amp; Review</em>, <em>25</em>(1), 58-76. <a href="https://doi.org/10.3758/s13423-017-1323-7" target="_blank">https://doi.org/10.3758/s13423-017-1323-7</a></p>
+</div>
+
+        </div>
+      </div>
+      
+      <div class="col-lg-10 mx-auto block shadow">
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "medicionpsicologica" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="/" class="d-block pb-3"><img src="/images/Logo-low-size.png" class="img-fluid" alt="Avances en Medición Psicológica"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/contact">Contáctanos</a></li>
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="/tools">Herramientas</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="https://www.facebook.com/amp.unmsm/"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://twitter.com/ge_amp"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/grupoamp/"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC7KqLj6zWBuJtklHSbHp4Cg"><i class="ti-youtube"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <span>© 2020 Avances en Medición Psicológica. Por una ciencia libre.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/search/fuse.min.js"></script>
+
+<script src="/plugins/search/mark.js"></script>
+
+<script src="/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- google analitycs -->
+</body>
+
+</html>
