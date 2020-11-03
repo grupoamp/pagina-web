@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estadística Bayesiana on Avances en Medición Psicológica</title>
-    <link>/tags/estad%C3%ADstica-bayesiana/</link>
+    <link>https://medicionpsicologica.com/tags/estad%C3%ADstica-bayesiana/</link>
     <description>Recent content in Estadística Bayesiana on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/estad%C3%ADstica-bayesiana/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/tags/estad%C3%ADstica-bayesiana/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aplicación de la estadística bayesiana con JASP</title>
-      <link>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>
+      <link>https://medicionpsicologica.com/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</guid>
+      <guid>https://medicionpsicologica.com/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</guid>
       <description>En una anterior reseña sobre las ventajas del enfoque bayesiano frente a la inferencia clásica, se brindó un panorama general de los beneficios que presenta esta nueva perspectiva en la investigación psicológica para la estimación de los parámetros bayesianos y el uso la prueba de hipótesis bayesiana a través del factor de Bayes.</description>
     </item>
     
     <item>
       <title>Ventajas del enfoque Bayesiano frente a la inferencia clásica</title>
-      <link>/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</link>
+      <link>https://medicionpsicologica.com/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</guid>
+      <guid>https://medicionpsicologica.com/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</guid>
       <description>La mayoría de afirmaciones que se realizan en la investigación psicológica se apoyan en el p valor, enmarcado en el uso de la prueba de significancia de la hipótesis nula (NHST), utilizada para realizar la inferencia estadística (Pernet, 2015).</description>
     </item>
     

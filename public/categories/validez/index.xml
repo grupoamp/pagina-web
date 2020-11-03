@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Validez on Avances en Medición Psicológica</title>
-    <link>/categories/validez/</link>
+    <link>https://medicionpsicologica.com/categories/validez/</link>
     <description>Recent content in Validez on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/validez/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/categories/validez/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Invarianza de medición: su importancia en psicología y algunas direcciones futuras para su uso</title>
-      <link>/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</link>
+      <link>https://medicionpsicologica.com/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</guid>
+      <guid>https://medicionpsicologica.com/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</guid>
       <description>El estudio del significado y la comprobación de las puntuaciones obtenidas por los tests, constituye uno de los elementos de la validez (Elosua, 2003).</description>
     </item>
     
     <item>
       <title>Las discrepancias en el uso y comprensión de la validez</title>
-      <link>/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</link>
+      <link>https://medicionpsicologica.com/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</guid>
-      <description>¿Cómo surgen los Standards?Desde 1950, la American Psychological Association (APA), American Educational Research Association (AERA) y la National Council on Measurement in Education (NCME) han creado normas dirigidas a la medición educativa y psicológica, proporcionando una base para el desarrollo, uso y evaluación de la calidad de las pruebas.</description>
+      <guid>https://medicionpsicologica.com/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</guid>
+      <description>¿Cómo surgen los Standards? Desde 1950, la American Psychological Association (APA), American Educational Research Association (AERA) y la National Council on Measurement in Education (NCME) han creado normas dirigidas a la medición educativa y psicológica, proporcionando una base para el desarrollo, uso y evaluación de la calidad de las pruebas.</description>
     </item>
     
   </channel>

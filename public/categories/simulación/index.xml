@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simulación on Avances en Medición Psicológica</title>
-    <link>/categories/simulaci%C3%B3n/</link>
+    <link>https://medicionpsicologica.com/categories/simulaci%C3%B3n/</link>
     <description>Recent content in Simulación on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/simulaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/categories/simulaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algunas malconcepciones en psicometría</title>
-      <link>/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
+      <link>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
+      <guid>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
       <description>Sijtsma narra su experiencia, ideas, críticas y propuestas hacia la psicometría desde que fue presidente de la Dutch Committee on Tests and Testing (COTAN).</description>
     </item>
     

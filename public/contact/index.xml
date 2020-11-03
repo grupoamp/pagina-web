@@ -2,13 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contáctanos on Avances en Medición Psicológica</title>
-    <link>/contact/</link>
+    <link>https://medicionpsicologica.com/contact/</link>
     <description>Recent content in Contáctanos on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    
-	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-es</language><atom:link href="https://medicionpsicologica.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fiabilidad on Avances en Medición Psicológica</title>
-    <link>/categories/fiabilidad/</link>
+    <link>https://medicionpsicologica.com/categories/fiabilidad/</link>
     <description>Recent content in Fiabilidad on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/fiabilidad/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/categories/fiabilidad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Un viaje alrededor de alfa y omega para estimar la confiabilidad por consistencia interna</title>
-      <link>/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</link>
+      <link>https://medicionpsicologica.com/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</guid>
+      <guid>https://medicionpsicologica.com/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</guid>
       <description>Si bien el coeficiente alfa ha sido ampliamente reportado y, por ello, el artículo “Coefficient alpha and the internal structure of tests” actualmente tiene más de 44 263 citas, Cronbach y Shavelson (2004) manifestaron que, probablemente muchas de las personas que lo citaron, no lo habían revisado.</description>
     </item>
     
     <item>
       <title>Algunas malconcepciones en psicometría</title>
-      <link>/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
+      <link>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
+      <guid>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
       <description>Sijtsma narra su experiencia, ideas, críticas y propuestas hacia la psicometría desde que fue presidente de la Dutch Committee on Tests and Testing (COTAN).</description>
     </item>
     

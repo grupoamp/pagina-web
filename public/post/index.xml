@@ -2,229 +2,225 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Avances en Medición Psicológica</title>
-    <link>/post/</link>
+    <link>https://medicionpsicologica.com/post/</link>
     <description>Recent content in Posts on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aplicación de la estadística bayesiana con JASP</title>
-      <link>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>
+      <link>https://medicionpsicologica.com/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</guid>
+      <guid>https://medicionpsicologica.com/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</guid>
       <description>En una anterior reseña sobre las ventajas del enfoque bayesiano frente a la inferencia clásica, se brindó un panorama general de los beneficios que presenta esta nueva perspectiva en la investigación psicológica para la estimación de los parámetros bayesianos y el uso la prueba de hipótesis bayesiana a través del factor de Bayes.</description>
     </item>
     
     <item>
       <title>Ventajas del enfoque Bayesiano frente a la inferencia clásica</title>
-      <link>/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</link>
+      <link>https://medicionpsicologica.com/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</guid>
+      <guid>https://medicionpsicologica.com/2020/10/02/ventajas-del-enfoque-bayesiano-frente-a-la-inferencia-cl%C3%A1sica/</guid>
       <description>La mayoría de afirmaciones que se realizan en la investigación psicológica se apoyan en el p valor, enmarcado en el uso de la prueba de significancia de la hipótesis nula (NHST), utilizada para realizar la inferencia estadística (Pernet, 2015).</description>
     </item>
     
     <item>
       <title>¿Cómo reportar revisiones sistemáticas y meta-análisis?</title>
-      <link>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</link>
+      <link>https://medicionpsicologica.com/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</guid>
+      <guid>https://medicionpsicologica.com/2020/09/19/c%C3%B3mo-reportar-revisiones-sistem%C3%A1ticas-y-meta-an%C3%A1lisis/</guid>
       <description>El meta-análisis es una metodología que, al igual que la revisión sistemática, permite integrar los resultados de estudios primarios de un tema en particular, diferenciándose de esta por la utilización de métodos estadísticos para analizar y resumir dichos resultados (Ato, López y Benavente, 2013).</description>
     </item>
     
     <item>
       <title>Modelo de ecuaciones estructurales por el método de mínimos cuadrados parciales (PLS-SEM) con R</title>
-      <link>/2020/09/07/modelo-de-ecuaciones-estructurales-por-el-m%C3%A9todo-de-m%C3%ADnimos-cuadrados-parciales-pls-sem-con-r/</link>
+      <link>https://medicionpsicologica.com/2020/09/07/modelo-de-ecuaciones-estructurales-por-el-m%C3%A9todo-de-m%C3%ADnimos-cuadrados-parciales-pls-sem-con-r/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/09/07/modelo-de-ecuaciones-estructurales-por-el-m%C3%A9todo-de-m%C3%ADnimos-cuadrados-parciales-pls-sem-con-r/</guid>
+      <guid>https://medicionpsicologica.com/2020/09/07/modelo-de-ecuaciones-estructurales-por-el-m%C3%A9todo-de-m%C3%ADnimos-cuadrados-parciales-pls-sem-con-r/</guid>
       <description>Los modelos de ecuaciones estructurales (SEM) son un conjunto de técnicas estadísticas multivariadas, denominadas de segunda generación, que combinan el uso del análisis factorial y la regresión.</description>
     </item>
     
     <item>
       <title>Análisis de redes en psicología</title>
-      <link>/2020/08/21/an%C3%A1lisis-de-redes-en-psicolog%C3%ADa/</link>
+      <link>https://medicionpsicologica.com/2020/08/21/an%C3%A1lisis-de-redes-en-psicolog%C3%ADa/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/08/21/an%C3%A1lisis-de-redes-en-psicolog%C3%ADa/</guid>
-      <description>El análisis de redes representa un nuevo enfoque teórico reciente en psicologíaque brinda una nueva forma de entender e intervenir en las conductas, ya quepermite formas alternativas de observar, analizar, medir y comprenderrelaciones entre variables como los fenómenos psicopatológicos.</description>
+      <guid>https://medicionpsicologica.com/2020/08/21/an%C3%A1lisis-de-redes-en-psicolog%C3%ADa/</guid>
+      <description>El análisis de redes representa un nuevo enfoque teórico reciente en psicología que brinda una nueva forma de entender e intervenir en las conductas, ya que permite formas alternativas de observar, analizar, medir y comprender relaciones entre variables como los fenómenos psicopatológicos.</description>
     </item>
     
     <item>
       <title>Repensando el uso de la inferencia estadística en la ciencia</title>
-      <link>/2020/08/07/repensando-el-uso-de-la-inferencia-estad%C3%ADstica-en-la-ciencia/</link>
+      <link>https://medicionpsicologica.com/2020/08/07/repensando-el-uso-de-la-inferencia-estad%C3%ADstica-en-la-ciencia/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/08/07/repensando-el-uso-de-la-inferencia-estad%C3%ADstica-en-la-ciencia/</guid>
+      <guid>https://medicionpsicologica.com/2020/08/07/repensando-el-uso-de-la-inferencia-estad%C3%ADstica-en-la-ciencia/</guid>
       <description>En los últimos años, el papel que cumple la estadística inferencial ha sido muy cuestionada en el mundo científico.</description>
     </item>
     
     <item>
       <title>Descubre un nuevo mundo con R: Una herramienta a la vanguardia de los nuevos conocimientos</title>
-      <link>/2020/08/01/descubre-un-nuevo-mundo-con-r-una-herramienta-a-la-vanguardia-de-los-nuevos-conocimientos/</link>
+      <link>https://medicionpsicologica.com/2020/08/01/descubre-un-nuevo-mundo-con-r-una-herramienta-a-la-vanguardia-de-los-nuevos-conocimientos/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/08/01/descubre-un-nuevo-mundo-con-r-una-herramienta-a-la-vanguardia-de-los-nuevos-conocimientos/</guid>
+      <guid>https://medicionpsicologica.com/2020/08/01/descubre-un-nuevo-mundo-con-r-una-herramienta-a-la-vanguardia-de-los-nuevos-conocimientos/</guid>
       <description>En la actualidad, es indiscutible que el análisis de datos estadísticos tiene un papel importante en la investigación.</description>
     </item>
     
     <item>
       <title>Invarianza de medición: su importancia en psicología y algunas direcciones futuras para su uso</title>
-      <link>/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</link>
+      <link>https://medicionpsicologica.com/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</guid>
+      <guid>https://medicionpsicologica.com/2020/07/10/invarianza-de-medici%C3%B3n-su-importancia-en-psicolog%C3%ADa-y-algunas-direcciones-futuras-para-su-uso/</guid>
       <description>El estudio del significado y la comprobación de las puntuaciones obtenidas por los tests, constituye uno de los elementos de la validez (Elosua, 2003).</description>
     </item>
     
     <item>
       <title>Prácticas cuestionables en investigación al emplear Análisis Factorial Confirmatorio</title>
-      <link>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</link>
+      <link>https://medicionpsicologica.com/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <guid>https://medicionpsicologica.com/2020/06/26/pr%C3%A1cticas-cuestionables-en-investigaci%C3%B3n-al-emplear-an%C3%A1lisis-factorial-confirmatorio/</guid>
       <description>Crede y Harms (2019) afirman que actualmente los journals muestran una tendencia a ocultar evidencia que refute una teoría, modelo o hipótesis, y presentan principalmente aquella que las apoye, aun cuando esas supuestas evidencias sean el resultado de decisiones cuestionables durante el análisis de los datos.</description>
     </item>
     
     <item>
       <title>Aplicación del Análisis Factorial Exploratorio: Recomendaciones</title>
-      <link>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</link>
+      <link>https://medicionpsicologica.com/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</guid>
+      <guid>https://medicionpsicologica.com/2020/06/12/aplicaci%C3%B3n-del-an%C3%A1lisis-factorial-exploratorio-recomendaciones/</guid>
       <description>El Análisis factorial exploratorio (AFE) es considerada la técnica por excelencia para hallar las variables latentes o factores comunes de un conjunto de datos o ítems.</description>
     </item>
     
     <item>
       <title>Las discrepancias en el uso y comprensión de la validez</title>
-      <link>/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</link>
+      <link>https://medicionpsicologica.com/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</guid>
-      <description>¿Cómo surgen los Standards?Desde 1950, la American Psychological Association (APA), American Educational Research Association (AERA) y la National Council on Measurement in Education (NCME) han creado normas dirigidas a la medición educativa y psicológica, proporcionando una base para el desarrollo, uso y evaluación de la calidad de las pruebas.</description>
+      <guid>https://medicionpsicologica.com/2020/05/30/las-discrepancias-en-el-uso-y-comprensi%C3%B3n-de-la-validez/</guid>
+      <description>¿Cómo surgen los Standards? Desde 1950, la American Psychological Association (APA), American Educational Research Association (AERA) y la National Council on Measurement in Education (NCME) han creado normas dirigidas a la medición educativa y psicológica, proporcionando una base para el desarrollo, uso y evaluación de la calidad de las pruebas.</description>
     </item>
     
     <item>
       <title>Un viaje alrededor de alfa y omega para estimar la confiabilidad por consistencia interna</title>
-      <link>/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</link>
+      <link>https://medicionpsicologica.com/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</guid>
+      <guid>https://medicionpsicologica.com/2020/05/15/un-viaje-alrededor-de-alfa-y-omega-para-estimar-la-confiabilidad-por-consistencia-interna/</guid>
       <description>Si bien el coeficiente alfa ha sido ampliamente reportado y, por ello, el artículo “Coefficient alpha and the internal structure of tests” actualmente tiene más de 44 263 citas, Cronbach y Shavelson (2004) manifestaron que, probablemente muchas de las personas que lo citaron, no lo habían revisado.</description>
     </item>
     
     <item>
       <title>Algunas malconcepciones en psicometría</title>
-      <link>/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
+      <link>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
+      <guid>https://medicionpsicologica.com/2020/05/01/algunas-malconcepciones-en-psicometria/</guid>
       <description>Sijtsma narra su experiencia, ideas, críticas y propuestas hacia la psicometría desde que fue presidente de la Dutch Committee on Tests and Testing (COTAN).</description>
     </item>
     
     <item>
       <title>Directrices para la traducción y adaptación de los test</title>
-      <link>/2020/04/17/directrices-para-la-traducci%C3%B3n-y-adaptaci%C3%B3n-de-los-test/</link>
+      <link>https://medicionpsicologica.com/2020/04/17/directrices-para-la-traducci%C3%B3n-y-adaptaci%C3%B3n-de-los-test/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/04/17/directrices-para-la-traducci%C3%B3n-y-adaptaci%C3%B3n-de-los-test/</guid>
+      <guid>https://medicionpsicologica.com/2020/04/17/directrices-para-la-traducci%C3%B3n-y-adaptaci%C3%B3n-de-los-test/</guid>
       <description>Dentro de las diversas áreas de la psicología (educativa, social, clínica, organizacional, entre otros) es cada vez mayor la necesidad de disponer de pruebas y cuestionarios que puedan ser utilizados en más contextos que en los que fueron elaborados: en distintos países o en distintos idiomas; lo cual evidencia la importancia de realizar un adecuado proceso de adaptación de los instrumentos de medición.</description>
     </item>
     
     <item>
       <title>Nueve (09) Pasos para facilitar el desarrollo y la validación de Escalas para la Investigación Conductual, Social y de la Salud</title>
-      <link>/2020/04/03/nueve-09-pasos-para-facilitar-el-desarrollo-y-la-validaci%C3%B3n-de-escalas/</link>
+      <link>https://medicionpsicologica.com/2020/04/03/nueve-09-pasos-para-facilitar-el-desarrollo-y-la-validaci%C3%B3n-de-escalas/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/04/03/nueve-09-pasos-para-facilitar-el-desarrollo-y-la-validaci%C3%B3n-de-escalas/</guid>
+      <guid>https://medicionpsicologica.com/2020/04/03/nueve-09-pasos-para-facilitar-el-desarrollo-y-la-validaci%C3%B3n-de-escalas/</guid>
       <description>En una publicación anterior se comentó sobre los aspectos que se deben tener en cuenta para la construcción de un test, la cual, si aún no la ha podido leer, lo(a) invitamos a que la pueda revisar.</description>
     </item>
     
     <item>
       <title>¿Qué aspectos hay que tener en cuenta para construir un test?</title>
-      <link>/2020/03/21/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</link>
+      <link>https://medicionpsicologica.com/2020/03/21/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/03/21/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</guid>
+      <guid>https://medicionpsicologica.com/2020/03/21/qu%C3%A9-aspectos-hay-que-tener-en-cuenta-para-construir-un-test/</guid>
       <description>Considerando que los tests son instrumentos de medida ampliamente utilizados por los psicólogos para tomar serias decisiones sobre la vida de las personas, es esencial constatar que estos cumplan con estrictos estándares científicos y asegurar así su calidad e idoneidad para la medición de constructos psicológicos.</description>
     </item>
     
     <item>
       <title>Arte con R: Especial de San Valentín</title>
-      <link>/2020/02/17/arte-con-r-especial-de-san-valentin/</link>
+      <link>https://medicionpsicologica.com/2020/02/17/arte-con-r-especial-de-san-valentin/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/02/17/arte-con-r-especial-de-san-valentin/</guid>
+      <guid>https://medicionpsicologica.com/2020/02/17/arte-con-r-especial-de-san-valentin/</guid>
       <description>El software R es un lenguaje de programación con múltiples funcionalidades enfocado en el análisis estadístico y producción de gráficos.</description>
     </item>
     
     <item>
       <title>Pronunciamiento respecto al “I seminario de actualización psicométrica” – UNMSM</title>
-      <link>/2019/11/pronunciamiento-respecto-i-seminario-de-actualizacion-psicometrica-unmsm/</link>
+      <link>https://medicionpsicologica.com/2019/11/pronunciamiento-respecto-i-seminario-de-actualizacion-psicometrica-unmsm/</link>
       <pubDate>Wed, 06 Nov 2019 02:14:18 +0000</pubDate>
       
-      <guid>/2019/11/pronunciamiento-respecto-i-seminario-de-actualizacion-psicometrica-unmsm/</guid>
+      <guid>https://medicionpsicologica.com/2019/11/pronunciamiento-respecto-i-seminario-de-actualizacion-psicometrica-unmsm/</guid>
       <description>1. Calidad de los ponentes e instrumentos presentados  2.</description>
     </item>
     
     <item>
       <title>Las teorías de los test</title>
-      <link>/2019/10/las-teorias-de-los-test/</link>
+      <link>https://medicionpsicologica.com/2019/10/las-teorias-de-los-test/</link>
       <pubDate>Thu, 31 Oct 2019 01:43:47 +0000</pubDate>
       
-      <guid>/2019/10/las-teorias-de-los-test/</guid>
+      <guid>https://medicionpsicologica.com/2019/10/las-teorias-de-los-test/</guid>
       <description>¿Por qué hacen falta las teorías de los test? Los test son instrumentos sofisticados de medición mediante los cuales se llevan a cabo inferencias y toma de decisiones sobre las personas.</description>
     </item>
     
     <item>
       <title>¿Por qué reportar el tamaño del efecto en las investigaciones?</title>
-      <link>/2019/07/por-que-reportar-el-tamano-del-efecto-en-las-investigaciones/</link>
+      <link>https://medicionpsicologica.com/2019/07/por-que-reportar-el-tamano-del-efecto-en-las-investigaciones/</link>
       <pubDate>Mon, 29 Jul 2019 00:15:31 +0000</pubDate>
       
-      <guid>/2019/07/por-que-reportar-el-tamano-del-efecto-en-las-investigaciones/</guid>
+      <guid>https://medicionpsicologica.com/2019/07/por-que-reportar-el-tamano-del-efecto-en-las-investigaciones/</guid>
       <description>Las investigaciones en Psicología suelen utilizar el «test de significancia estadística de la hipótesis nula» (NHST) para interpretar los resultados inferenciales.</description>
     </item>
     
     <item>
       <title>Un sistema de clasificación de los diseños de investigación en psicología</title>
-      <link>/2019/05/un-sistema-de-clasificacion-de-los-disenos-de-investigacion-en-psicologia/</link>
+      <link>https://medicionpsicologica.com/2019/05/un-sistema-de-clasificacion-de-los-disenos-de-investigacion-en-psicologia/</link>
       <pubDate>Sun, 05 May 2019 02:01:53 +0000</pubDate>
       
-      <guid>/2019/05/un-sistema-de-clasificacion-de-los-disenos-de-investigacion-en-psicologia/</guid>
+      <guid>https://medicionpsicologica.com/2019/05/un-sistema-de-clasificacion-de-los-disenos-de-investigacion-en-psicologia/</guid>
       <description>El diseño de investigación constituye un plan que integra los elementos de una investigación, este guía la obtención y generación de datos exactos e interpretables que permiten resolver las interrogantes de la investigación; además, provee la naturaleza global que tomará el trabajo a lo largo de su desarrollo.</description>
     </item>
     
     <item>
       <title>Futuro de la psicometría: Qué puede hacer la psicometría para la psicología</title>
-      <link>/2019/03/futuro-de-la-psicometria-teoria-practica-psicologia/</link>
+      <link>https://medicionpsicologica.com/2019/03/futuro-de-la-psicometria-teoria-practica-psicologia/</link>
       <pubDate>Tue, 26 Mar 2019 03:04:43 +0000</pubDate>
       
-      <guid>/2019/03/futuro-de-la-psicometria-teoria-practica-psicologia/</guid>
+      <guid>https://medicionpsicologica.com/2019/03/futuro-de-la-psicometria-teoria-practica-psicologia/</guid>
       <description>Link del artículo: https://link.springer.com/article/10.1007/s11336-011-9242-4
 Si deseas, puedes leerlo aquí mismo [embeddoc url=»https://www.</description>
     </item>
     
     <item>
       <title>El ataque de los psicómetras</title>
-      <link>/2019/03/el-ataque-de-los-psicometristas/</link>
+      <link>https://medicionpsicologica.com/2019/03/el-ataque-de-los-psicometristas/</link>
       <pubDate>Mon, 11 Mar 2019 03:01:27 +0000</pubDate>
       
-      <guid>/2019/03/el-ataque-de-los-psicometristas/</guid>
+      <guid>https://medicionpsicologica.com/2019/03/el-ataque-de-los-psicometristas/</guid>
       <description>https://link.springer.com/content/pdf/10.1007%2Fs11336-006-1447-6.pdf</description>
     </item>
     
     <item>
       <title>Lavaan 6.1 : Uno de los mejores paquetes para SEM en R</title>
-      <link>/2018/05/lavaan-6-1-uno-de-los-mejores-paquetes-para-sem-en-r/</link>
+      <link>https://medicionpsicologica.com/2018/05/lavaan-6-1-uno-de-los-mejores-paquetes-para-sem-en-r/</link>
       <pubDate>Sun, 27 May 2018 17:54:07 +0000</pubDate>
       
-      <guid>/2018/05/lavaan-6-1-uno-de-los-mejores-paquetes-para-sem-en-r/</guid>
+      <guid>https://medicionpsicologica.com/2018/05/lavaan-6-1-uno-de-los-mejores-paquetes-para-sem-en-r/</guid>
       <description>&lt;p&gt;Se actualiza oficialmente el paquete Lavaan de R desarrollado principalmente por Yves Rosseel a la versión 6.1. Lavann es uno de los software más populares y potentes para el modelamiento de ecuaciones estructurales (SEM, incluye análisis factorial confirmatorio), con ventaja de trabajar con variables categóricas y estimadores robustos (mayormente los heredados de Mplus).Entre las novedades de esta nueva versión se encuentra:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Soporte inicial de dos niveles SEM con interceptos aleatorios.&lt;/li&gt;
@@ -238,272 +234,263 @@ Si deseas, puedes leerlo aquí mismo [embeddoc url=»https://www.</description>
     
     <item>
       <title>jMetrik: Software libre para el análisis psicométrico</title>
-      <link>/2017/07/jmetrik-software-libre-para-el-analisis-psicometrico/</link>
+      <link>https://medicionpsicologica.com/2017/07/jmetrik-software-libre-para-el-analisis-psicometrico/</link>
       <pubDate>Sat, 01 Jul 2017 01:54:31 +0000</pubDate>
       
-      <guid>/2017/07/jmetrik-software-libre-para-el-analisis-psicometrico/</guid>
+      <guid>https://medicionpsicologica.com/2017/07/jmetrik-software-libre-para-el-analisis-psicometrico/</guid>
       <description>       http://www.jmetrik.com/  Manual básico de Usuario versión para Windows Applied measurement with jMetrik Análisis de ítems con jMetrik </description>
     </item>
     
     <item>
       <title>R-Bloggers: noticias, tutoriales y más sobre R</title>
-      <link>/2017/05/r-bloggers-noticias-tutoriales-y-mas-sobre-r/</link>
+      <link>https://medicionpsicologica.com/2017/05/r-bloggers-noticias-tutoriales-y-mas-sobre-r/</link>
       <pubDate>Fri, 19 May 2017 04:55:16 +0000</pubDate>
       
-      <guid>/2017/05/r-bloggers-noticias-tutoriales-y-mas-sobre-r/</guid>
+      <guid>https://medicionpsicologica.com/2017/05/r-bloggers-noticias-tutoriales-y-mas-sobre-r/</guid>
       <description>  https://www.r-bloggers.com/ https://www.facebook.com/rbloggers/ https://twitter.com/Rbloggers </description>
     </item>
     
     <item>
       <title>Instrumentos de Evaluación en Salud: Perú</title>
-      <link>/2017/05/instrumentos-de-evaluacion-en-salud-peru/</link>
+      <link>https://medicionpsicologica.com/2017/05/instrumentos-de-evaluacion-en-salud-peru/</link>
       <pubDate>Thu, 11 May 2017 04:30:46 +0000</pubDate>
       
-      <guid>/2017/05/instrumentos-de-evaluacion-en-salud-peru/</guid>
+      <guid>https://medicionpsicologica.com/2017/05/instrumentos-de-evaluacion-en-salud-peru/</guid>
       <description>Los instrumentos recopilados fueron clasificados en tres grupos de acuerdo a sus objetivos presentados en las investigaciones analizadas:  Enlace al estudio 2008: https://goo.</description>
     </item>
     
     <item>
       <title>Grupos en Facebook sobre medición psicológica</title>
-      <link>/2017/05/grupos-en-facebook-sobre-medicion-psicologica/</link>
+      <link>https://medicionpsicologica.com/2017/05/grupos-en-facebook-sobre-medicion-psicologica/</link>
       <pubDate>Wed, 03 May 2017 04:48:52 +0000</pubDate>
       
-      <guid>/2017/05/grupos-en-facebook-sobre-medicion-psicologica/</guid>
-      <description>&amp;lt;tr&amp;gt;&amp;lt;td width=&amp;quot;200&amp;quot;&amp;gt;Psychological Methods Discussion Group / &amp;lt;a href=&amp;quot;https://www.</description>
+      <guid>https://medicionpsicologica.com/2017/05/grupos-en-facebook-sobre-medicion-psicologica/</guid>
+      <description>&amp;lt;tr&amp;gt; &amp;lt;td width=&amp;quot;200&amp;quot;&amp;gt; Psychological Methods Discussion Group / &amp;lt;a href=&amp;quot;https://www.</description>
     </item>
     
     <item>
       <title>Bondades del Software Libre R: Centro de Documentación</title>
-      <link>/2017/04/bondades-del-software-libre-r-centro-de-documentacion/</link>
+      <link>https://medicionpsicologica.com/2017/04/bondades-del-software-libre-r-centro-de-documentacion/</link>
       <pubDate>Thu, 27 Apr 2017 04:28:52 +0000</pubDate>
       
-      <guid>/2017/04/bondades-del-software-libre-r-centro-de-documentacion/</guid>
+      <guid>https://medicionpsicologica.com/2017/04/bondades-del-software-libre-r-centro-de-documentacion/</guid>
       <description>  </description>
     </item>
     
     <item>
       <title>Jamovi: Otra poderosa alternativa a IBM SPSS</title>
-      <link>/2017/04/jamovi-otra-poderosa-alternativa-a-ibm-spss/</link>
+      <link>https://medicionpsicologica.com/2017/04/jamovi-otra-poderosa-alternativa-a-ibm-spss/</link>
       <pubDate>Fri, 21 Apr 2017 04:47:59 +0000</pubDate>
       
-      <guid>/2017/04/jamovi-otra-poderosa-alternativa-a-ibm-spss/</guid>
+      <guid>https://medicionpsicologica.com/2017/04/jamovi-otra-poderosa-alternativa-a-ibm-spss/</guid>
       <description>     https://www.jamovi.org/ https://www.facebook.com/jamovistats https://twitter.com/jamovistats </description>
     </item>
     
     <item>
       <title>Medición en ciencias sociales y de la salud: «El libro»</title>
-      <link>/2017/04/medicion-en-ciencias-sociales-y-de-la-salud-el-libro/</link>
+      <link>https://medicionpsicologica.com/2017/04/medicion-en-ciencias-sociales-y-de-la-salud-el-libro/</link>
       <pubDate>Tue, 18 Apr 2017 04:42:05 +0000</pubDate>
       
-      <guid>/2017/04/medicion-en-ciencias-sociales-y-de-la-salud-el-libro/</guid>
+      <guid>https://medicionpsicologica.com/2017/04/medicion-en-ciencias-sociales-y-de-la-salud-el-libro/</guid>
       <description>   </description>
     </item>
     
     <item>
       <title>Latindex: Una gran herramienta con resultados por revistas</title>
-      <link>/2017/04/latindex-una-gran-herramienta-con-resultados-por-revistas/</link>
+      <link>https://medicionpsicologica.com/2017/04/latindex-una-gran-herramienta-con-resultados-por-revistas/</link>
       <pubDate>Sat, 15 Apr 2017 04:27:54 +0000</pubDate>
       
-      <guid>/2017/04/latindex-una-gran-herramienta-con-resultados-por-revistas/</guid>
+      <guid>https://medicionpsicologica.com/2017/04/latindex-una-gran-herramienta-con-resultados-por-revistas/</guid>
       <description>Enlace: http://www.latindex.org/ </description>
     </item>
     
     <item>
       <title>Revistas de medición en ciencias del comportamiento y de la salud</title>
-      <link>/2017/04/revistas-de-medicion-en-ciencias-del-comportamiento-y-de-la-salud/</link>
+      <link>https://medicionpsicologica.com/2017/04/revistas-de-medicion-en-ciencias-del-comportamiento-y-de-la-salud/</link>
       <pubDate>Wed, 12 Apr 2017 04:25:34 +0000</pubDate>
       
-      <guid>/2017/04/revistas-de-medicion-en-ciencias-del-comportamiento-y-de-la-salud/</guid>
-      <description>&amp;lt;tr&amp;gt;&amp;lt;td width=&amp;quot;200&amp;quot;&amp;gt;Applied Measurement in Education / Routledge / &amp;lt;a href=&amp;quot;http://www.</description>
+      <guid>https://medicionpsicologica.com/2017/04/revistas-de-medicion-en-ciencias-del-comportamiento-y-de-la-salud/</guid>
+      <description>&amp;lt;tr&amp;gt; &amp;lt;td width=&amp;quot;200&amp;quot;&amp;gt; Applied Measurement in Education / Routledge / &amp;lt;a href=&amp;quot;http://www.</description>
     </item>
     
     <item>
       <title>Ítems asimétricos y la fiabilidad de las puntuaciones del test</title>
-      <link>/2017/04/items-asimetricos-y-la-fiabilidad-de-las-puntuaciones-del-test/</link>
+      <link>https://medicionpsicologica.com/2017/04/items-asimetricos-y-la-fiabilidad-de-las-puntuaciones-del-test/</link>
       <pubDate>Sat, 01 Apr 2017 04:59:04 +0000</pubDate>
       
-      <guid>/2017/04/items-asimetricos-y-la-fiabilidad-de-las-puntuaciones-del-test/</guid>
+      <guid>https://medicionpsicologica.com/2017/04/items-asimetricos-y-la-fiabilidad-de-las-puntuaciones-del-test/</guid>
       <description>  </description>
     </item>
     
     <item>
       <title>JASP: Una nueva manera de hacer Estadística</title>
-      <link>/2017/03/jasp-una-nueva-manera-de-hacer-estadistica/</link>
+      <link>https://medicionpsicologica.com/2017/03/jasp-una-nueva-manera-de-hacer-estadistica/</link>
       <pubDate>Mon, 27 Mar 2017 02:09:27 +0000</pubDate>
       
-      <guid>/2017/03/jasp-una-nueva-manera-de-hacer-estadistica/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/jasp-una-nueva-manera-de-hacer-estadistica/</guid>
       <description>  https://jasp-stats.org/ https://www.facebook.com/JASPStats https://twitter.com/JASPStats  </description>
     </item>
     
     <item>
       <title>P-Valor: Nadie me entiende</title>
-      <link>/2017/03/p-valor-nadie-me-entiende/</link>
+      <link>https://medicionpsicologica.com/2017/03/p-valor-nadie-me-entiende/</link>
       <pubDate>Wed, 22 Mar 2017 03:48:03 +0000</pubDate>
       
-      <guid>/2017/03/p-valor-nadie-me-entiende/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/p-valor-nadie-me-entiende/</guid>
       <description>A raíz de una gran cantidad de estudios científicos (sobretodo a nivel metodológico) realizado con respecto al uso, mal interpretaciones y limitaciones del valor p en los últimos 30 años, diversos organismos se han pronunciado a fin de aclarar sus significados y/o plantar algunas condiciones en su uso.</description>
     </item>
     
     <item>
       <title>Diseños de Investigación en Psicología: Un libro de referencia</title>
-      <link>/2017/03/disenos-de-investigacion-en-psicologia-un-libro-de-referencia/</link>
+      <link>https://medicionpsicologica.com/2017/03/disenos-de-investigacion-en-psicologia-un-libro-de-referencia/</link>
       <pubDate>Sun, 19 Mar 2017 04:51:00 +0000</pubDate>
       
-      <guid>/2017/03/disenos-de-investigacion-en-psicologia-un-libro-de-referencia/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/disenos-de-investigacion-en-psicologia-un-libro-de-referencia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Criterios Homologados de Investigación en Psicología (CHIP) de la PUCP: Investigaciones cuantitativas (versión 2.0)</title>
-      <link>/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-cuantitativas-version-2-0/</link>
+      <link>https://medicionpsicologica.com/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-cuantitativas-version-2-0/</link>
       <pubDate>Mon, 13 Mar 2017 04:36:16 +0000</pubDate>
       
-      <guid>/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-cuantitativas-version-2-0/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-cuantitativas-version-2-0/</guid>
       <description> Link: https://goo.gl/ktQ0mu </description>
     </item>
     
     <item>
       <title>Harking: Acomodándome a los resultados</title>
-      <link>/2017/03/harking-acomodandome-resultados/</link>
+      <link>https://medicionpsicologica.com/2017/03/harking-acomodandome-resultados/</link>
       <pubDate>Sun, 12 Mar 2017 04:14:27 +0000</pubDate>
       
-      <guid>/2017/03/harking-acomodandome-resultados/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/harking-acomodandome-resultados/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Library Genesis: Libros, artículos y más</title>
-      <link>/2017/03/library-genesis-libros-articulos-y-mas/</link>
+      <link>https://medicionpsicologica.com/2017/03/library-genesis-libros-articulos-y-mas/</link>
       <pubDate>Fri, 10 Mar 2017 20:30:05 +0000</pubDate>
       
-      <guid>/2017/03/library-genesis-libros-articulos-y-mas/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/library-genesis-libros-articulos-y-mas/</guid>
       <description> http://gen.lib.rus.ec/ http://libgen.io/  http://gen.lib.rus.ec/scimag/ http://libgen.io/scimag/ </description>
     </item>
     
     <item>
       <title>Cuando yo digo… validez</title>
-      <link>/2017/03/cuando-yo-digo-validez/</link>
+      <link>https://medicionpsicologica.com/2017/03/cuando-yo-digo-validez/</link>
       <pubDate>Fri, 10 Mar 2017 04:15:10 +0000</pubDate>
       
-      <guid>/2017/03/cuando-yo-digo-validez/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/cuando-yo-digo-validez/</guid>
       <description>Link: https://goo.gl/XwGGK8 </description>
     </item>
     
     <item>
       <title>Estadística Bayesiana: Un enfoque con aplicación en Psicología</title>
-      <link>/2017/03/estadistica-bayesiana-aplicacion-psicologia/</link>
+      <link>https://medicionpsicologica.com/2017/03/estadistica-bayesiana-aplicacion-psicologia/</link>
       <pubDate>Thu, 09 Mar 2017 06:01:55 +0000</pubDate>
       
-      <guid>/2017/03/estadistica-bayesiana-aplicacion-psicologia/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/estadistica-bayesiana-aplicacion-psicologia/</guid>
       <description>Link: https://goo.gl/IdOq2SReferencia </description>
     </item>
     
     <item>
       <title>Revisión de artículo: “R como entorno para el análisis estadístico en evaluación psicológica” (Ruiz-Ruano y Puga, 2016)</title>
-      <link>/2017/03/revision-de-articulo-r-como-entorno-para-el-analisis-estadistico-en-evaluacion-psicologica-ruiz-ruano-y-puga-2016/</link>
+      <link>https://medicionpsicologica.com/2017/03/revision-de-articulo-r-como-entorno-para-el-analisis-estadistico-en-evaluacion-psicologica-ruiz-ruano-y-puga-2016/</link>
       <pubDate>Wed, 08 Mar 2017 04:48:40 +0000</pubDate>
       
-      <guid>/2017/03/revision-de-articulo-r-como-entorno-para-el-analisis-estadistico-en-evaluacion-psicologica-ruiz-ruano-y-puga-2016/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/revision-de-articulo-r-como-entorno-para-el-analisis-estadistico-en-evaluacion-psicologica-ruiz-ruano-y-puga-2016/</guid>
       <description>Link: https://goo.gl/YOv5s7 </description>
     </item>
     
     <item>
       <title>R: Aprende libremente. Un potente software para el análisis de datos</title>
-      <link>/2017/03/r-aprende-libremente-un-potente-software-para-el-analisis-de-datos/</link>
+      <link>https://medicionpsicologica.com/2017/03/r-aprende-libremente-un-potente-software-para-el-analisis-de-datos/</link>
       <pubDate>Tue, 07 Mar 2017 04:07:16 +0000</pubDate>
       
-      <guid>/2017/03/r-aprende-libremente-un-potente-software-para-el-analisis-de-datos/</guid>
-      <description>&amp;lt;/h6&amp;gt;&amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Idioma: Español&amp;lt;/span&amp;gt;&amp;lt;/h6&amp;gt;&amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Costo: Gratis (cuesta certificado)&amp;lt;/span&amp;gt;&amp;lt;/h6&amp;gt;&amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Enlace: &amp;lt;a style=&amp;quot;color: #003366;&amp;quot; href=&amp;quot;https://www.</description>
+      <guid>https://medicionpsicologica.com/2017/03/r-aprende-libremente-un-potente-software-para-el-analisis-de-datos/</guid>
+      <description>&amp;lt;/h6&amp;gt; &amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt; &amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Idioma: Español&amp;lt;/span&amp;gt; &amp;lt;/h6&amp;gt; &amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt; &amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Costo: Gratis (cuesta certificado)&amp;lt;/span&amp;gt; &amp;lt;/h6&amp;gt; &amp;lt;h6 style=&amp;quot;text-align: left;&amp;quot;&amp;gt; &amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Enlace: &amp;lt;a style=&amp;quot;color: #003366;&amp;quot; href=&amp;quot;https://www.</description>
     </item>
     
     <item>
       <title>Criterios Homologados de Investigación en Psicología (CHIP) de la PUCP: Investigaciones instrumentales</title>
-      <link>/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-instrumentales/</link>
+      <link>https://medicionpsicologica.com/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-instrumentales/</link>
       <pubDate>Mon, 06 Mar 2017 02:58:30 +0000</pubDate>
       
-      <guid>/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-instrumentales/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/criterios-homologados-de-investigacion-en-psicologia-chip-de-la-pucp-investigaciones-instrumentales/</guid>
       <description>Link: https://goo.gl/YOv5s7 </description>
     </item>
     
     <item>
       <title>P-Hacking: No tolero no rechazar la hipótesis nula ¡Bajo ninguna circunstancia!</title>
-      <link>/2017/03/p-hacking-no-tolero-no-rechazar-la-hipotesis-nula-bajo-ninguna-circunstancia/</link>
+      <link>https://medicionpsicologica.com/2017/03/p-hacking-no-tolero-no-rechazar-la-hipotesis-nula-bajo-ninguna-circunstancia/</link>
       <pubDate>Sun, 05 Mar 2017 04:16:24 +0000</pubDate>
       
-      <guid>/2017/03/p-hacking-no-tolero-no-rechazar-la-hipotesis-nula-bajo-ninguna-circunstancia/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/p-hacking-no-tolero-no-rechazar-la-hipotesis-nula-bajo-ninguna-circunstancia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sci-Hub: Mucho más que una herramienta, un gran filosofía</title>
-      <link>/2017/03/sci-hub-mucho-mas-que-una-herramienta-un-gran-filosofia/</link>
+      <link>https://medicionpsicologica.com/2017/03/sci-hub-mucho-mas-que-una-herramienta-un-gran-filosofia/</link>
       <pubDate>Sat, 04 Mar 2017 02:30:00 +0000</pubDate>
       
-      <guid>/2017/03/sci-hub-mucho-mas-que-una-herramienta-un-gran-filosofia/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/sci-hub-mucho-mas-que-una-herramienta-un-gran-filosofia/</guid>
       <description>Link de acceso:  https://sci-hub.tw/ https://sci-hub.hk/ https://sci-hub.la/ http://80.82.77.83/ http://80.82.77.84/  </description>
     </item>
     
     <item>
       <title>Investigación para el desarrollo en el Perú: Once balances</title>
-      <link>/2017/03/investigacion-para-el-desarrollo-en-el-peru-once-balances/</link>
+      <link>https://medicionpsicologica.com/2017/03/investigacion-para-el-desarrollo-en-el-peru-once-balances/</link>
       <pubDate>Wed, 01 Mar 2017 05:55:16 +0000</pubDate>
       
-      <guid>/2017/03/investigacion-para-el-desarrollo-en-el-peru-once-balances/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/investigacion-para-el-desarrollo-en-el-peru-once-balances/</guid>
       <description>Link: https://goo.gl/YOv5s7 </description>
     </item>
     
     <item>
       <title>7 Pecados estadísticos mortales que incluso los expertos cometen</title>
-      <link>/2017/03/7-pecados-estadisticos-mortales-que-incluso-los-expertos-cometen/</link>
+      <link>https://medicionpsicologica.com/2017/03/7-pecados-estadisticos-mortales-que-incluso-los-expertos-cometen/</link>
       <pubDate>Wed, 01 Mar 2017 05:08:54 +0000</pubDate>
       
-      <guid>/2017/03/7-pecados-estadisticos-mortales-que-incluso-los-expertos-cometen/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/7-pecados-estadisticos-mortales-que-incluso-los-expertos-cometen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Herramientas de Investigación: Guías de Investigación – PUCP</title>
-      <link>/2017/03/guias-investigacion-pucp/</link>
+      <link>https://medicionpsicologica.com/2017/03/guias-investigacion-pucp/</link>
       <pubDate>Wed, 01 Mar 2017 05:02:51 +0000</pubDate>
       
-      <guid>/2017/03/guias-investigacion-pucp/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/guias-investigacion-pucp/</guid>
       <description>Link: https://goo.gl/YOv5s7 </description>
     </item>
     
     <item>
       <title>Estándares para la evaluación psicológica y educativa</title>
-      <link>/2017/03/estandares-evaluacion-psicologica-educativa/</link>
+      <link>https://medicionpsicologica.com/2017/03/estandares-evaluacion-psicologica-educativa/</link>
       <pubDate>Wed, 01 Mar 2017 04:54:31 +0000</pubDate>
       
-      <guid>/2017/03/estandares-evaluacion-psicologica-educativa/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/estandares-evaluacion-psicologica-educativa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Entrevista a José Muñiz</title>
-      <link>/2017/03/entrevista-a-jose-muniz/</link>
+      <link>https://medicionpsicologica.com/2017/03/entrevista-a-jose-muniz/</link>
       <pubDate>Wed, 01 Mar 2017 04:46:40 +0000</pubDate>
       
-      <guid>/2017/03/entrevista-a-jose-muniz/</guid>
+      <guid>https://medicionpsicologica.com/2017/03/entrevista-a-jose-muniz/</guid>
       <description>Link: https://goo.gl/VEYqX1 </description>
     </item>
     
     <item>
       <title>Sobre la adaptación de instrumentos de medición</title>
-      <link>/2017/03/sobre-la-adaptacion-de-instrumentos-de-medicion/</link>
+      <link>https://medicionpsicologica.com/2017/03/sobre-la-adaptacion-de-instrumentos-de-medicion/</link>
       <pubDate>Wed, 01 Mar 2017 04:39:51 +0000</pubDate>
       
-      <guid>/2017/03/sobre-la-adaptacion-de-instrumentos-de-medicion/</guid>
-      <description>&amp;lt;h6 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Estos procedimiento, lineamientos, directrices y recomendaciones son abordados por Muñiz, Elosua y Hambleton (2013) en su artículo «Directrices para la traducción y adaptación de los tests: segunda edición», quienes hacen una revisión a lo planteado inicialmente por la Comisión Internacional de los Test (ITC).</description>
-    </item>
-    
-    <item>
-      <title>Una introducción didáctica a la Teoría de Respuesta al Ítem para comprender la construcción de escalas</title>
-      <link>/p538/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/p538/</guid>
-      <description></description>
+      <guid>https://medicionpsicologica.com/2017/03/sobre-la-adaptacion-de-instrumentos-de-medicion/</guid>
+      <description>&amp;lt;h6 style=&amp;quot;text-align: justify;&amp;quot;&amp;gt; &amp;lt;span style=&amp;quot;color: #003366;&amp;quot;&amp;gt;Estos procedimiento, lineamientos, directrices y recomendaciones son abordados por Muñiz, Elosua y Hambleton (2013) en su artículo «Directrices para la traducción y adaptación de los tests: segunda edición», quienes hacen una revisión a lo planteado inicialmente por la Comisión Internacional de los Test (ITC).</description>
     </item>
     
   </channel>

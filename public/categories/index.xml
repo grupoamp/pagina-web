@@ -2,210 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Avances en Medición Psicológica</title>
-    <link>/categories/</link>
+    <link>https://medicionpsicologica.com/categories/</link>
     <description>Recent content in Categories on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Estadística Bayesiana</title>
-      <link>/categories/estad%C3%ADstica-bayesiana/</link>
+      <link>https://medicionpsicologica.com/categories/estad%C3%ADstica-bayesiana/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/estad%C3%ADstica-bayesiana/</guid>
+      <guid>https://medicionpsicologica.com/categories/estad%C3%ADstica-bayesiana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software libre</title>
-      <link>/categories/software-libre/</link>
+      <link>https://medicionpsicologica.com/categories/software-libre/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/software-libre/</guid>
+      <guid>https://medicionpsicologica.com/categories/software-libre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta-análisis</title>
-      <link>/categories/meta-an%C3%A1lisis/</link>
+      <link>https://medicionpsicologica.com/categories/meta-an%C3%A1lisis/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/meta-an%C3%A1lisis/</guid>
+      <guid>https://medicionpsicologica.com/categories/meta-an%C3%A1lisis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisión sistemática</title>
-      <link>/categories/revisi%C3%B3n-sistem%C3%A1tica/</link>
+      <link>https://medicionpsicologica.com/categories/revisi%C3%B3n-sistem%C3%A1tica/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/revisi%C3%B3n-sistem%C3%A1tica/</guid>
+      <guid>https://medicionpsicologica.com/categories/revisi%C3%B3n-sistem%C3%A1tica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelos de ecuaciones estructurales</title>
-      <link>/categories/modelos-de-ecuaciones-estructurales/</link>
+      <link>https://medicionpsicologica.com/categories/modelos-de-ecuaciones-estructurales/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/modelos-de-ecuaciones-estructurales/</guid>
+      <guid>https://medicionpsicologica.com/categories/modelos-de-ecuaciones-estructurales/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://medicionpsicologica.com/categories/r/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://medicionpsicologica.com/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Técnicas Estadísticas Avanzadas</title>
-      <link>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
+      <link>https://medicionpsicologica.com/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
+      <guid>https://medicionpsicologica.com/categories/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis de redes</title>
-      <link>/categories/an%C3%A1lisis-de-redes/</link>
+      <link>https://medicionpsicologica.com/categories/an%C3%A1lisis-de-redes/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/an%C3%A1lisis-de-redes/</guid>
+      <guid>https://medicionpsicologica.com/categories/an%C3%A1lisis-de-redes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inferencia estadística</title>
-      <link>/categories/inferencia-estad%C3%ADstica/</link>
+      <link>https://medicionpsicologica.com/categories/inferencia-estad%C3%ADstica/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/inferencia-estad%C3%ADstica/</guid>
+      <guid>https://medicionpsicologica.com/categories/inferencia-estad%C3%ADstica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NHST</title>
-      <link>/categories/nhst/</link>
+      <link>https://medicionpsicologica.com/categories/nhst/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/nhst/</guid>
+      <guid>https://medicionpsicologica.com/categories/nhst/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pensamiento estadístico</title>
-      <link>/categories/pensamiento-estad%C3%ADstico/</link>
+      <link>https://medicionpsicologica.com/categories/pensamiento-estad%C3%ADstico/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/pensamiento-estad%C3%ADstico/</guid>
+      <guid>https://medicionpsicologica.com/categories/pensamiento-estad%C3%ADstico/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Valor p</title>
-      <link>/categories/valor-p/</link>
+      <link>https://medicionpsicologica.com/categories/valor-p/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/valor-p/</guid>
+      <guid>https://medicionpsicologica.com/categories/valor-p/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Invarianza factorial</title>
-      <link>/categories/invarianza-factorial/</link>
+      <link>https://medicionpsicologica.com/categories/invarianza-factorial/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/invarianza-factorial/</guid>
+      <guid>https://medicionpsicologica.com/categories/invarianza-factorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Validez</title>
-      <link>/categories/validez/</link>
+      <link>https://medicionpsicologica.com/categories/validez/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/validez/</guid>
+      <guid>https://medicionpsicologica.com/categories/validez/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis Factorial Confirmatorio</title>
-      <link>/categories/an%C3%A1lisis-factorial-confirmatorio/</link>
+      <link>https://medicionpsicologica.com/categories/an%C3%A1lisis-factorial-confirmatorio/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <guid>https://medicionpsicologica.com/categories/an%C3%A1lisis-factorial-confirmatorio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psicometría</title>
-      <link>/categories/psicometr%C3%ADa/</link>
+      <link>https://medicionpsicologica.com/categories/psicometr%C3%ADa/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/psicometr%C3%ADa/</guid>
+      <guid>https://medicionpsicologica.com/categories/psicometr%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis Factorial Exploratorio</title>
-      <link>/categories/an%C3%A1lisis-factorial-exploratorio/</link>
+      <link>https://medicionpsicologica.com/categories/an%C3%A1lisis-factorial-exploratorio/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/an%C3%A1lisis-factorial-exploratorio/</guid>
+      <guid>https://medicionpsicologica.com/categories/an%C3%A1lisis-factorial-exploratorio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fiabilidad</title>
-      <link>/categories/fiabilidad/</link>
+      <link>https://medicionpsicologica.com/categories/fiabilidad/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/fiabilidad/</guid>
+      <guid>https://medicionpsicologica.com/categories/fiabilidad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulación</title>
-      <link>/categories/simulaci%C3%B3n/</link>
+      <link>https://medicionpsicologica.com/categories/simulaci%C3%B3n/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/simulaci%C3%B3n/</guid>
+      <guid>https://medicionpsicologica.com/categories/simulaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptación de pruebas</title>
-      <link>/categories/adaptaci%C3%B3n-de-pruebas/</link>
+      <link>https://medicionpsicologica.com/categories/adaptaci%C3%B3n-de-pruebas/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/adaptaci%C3%B3n-de-pruebas/</guid>
+      <guid>https://medicionpsicologica.com/categories/adaptaci%C3%B3n-de-pruebas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Construcción de Pruebas</title>
-      <link>/categories/construcci%C3%B3n-de-pruebas/</link>
+      <link>https://medicionpsicologica.com/categories/construcci%C3%B3n-de-pruebas/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/construcci%C3%B3n-de-pruebas/</guid>
+      <guid>https://medicionpsicologica.com/categories/construcci%C3%B3n-de-pruebas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gráficos</title>
-      <link>/categories/gr%C3%A1ficos/</link>
+      <link>https://medicionpsicologica.com/categories/gr%C3%A1ficos/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/gr%C3%A1ficos/</guid>
+      <guid>https://medicionpsicologica.com/categories/gr%C3%A1ficos/</guid>
       <description></description>
     </item>
     

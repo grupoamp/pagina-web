@@ -2,282 +2,278 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Avances en Medición Psicológica</title>
-    <link>/tags/</link>
+    <link>https://medicionpsicologica.com/tags/</link>
     <description>Recent content in Tags on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Estadística Bayesiana</title>
-      <link>/tags/estad%C3%ADstica-bayesiana/</link>
+      <link>https://medicionpsicologica.com/tags/estad%C3%ADstica-bayesiana/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/estad%C3%ADstica-bayesiana/</guid>
+      <guid>https://medicionpsicologica.com/tags/estad%C3%ADstica-bayesiana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JASP</title>
-      <link>/tags/jasp/</link>
+      <link>https://medicionpsicologica.com/tags/jasp/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/jasp/</guid>
+      <guid>https://medicionpsicologica.com/tags/jasp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software libre</title>
-      <link>/tags/software-libre/</link>
+      <link>https://medicionpsicologica.com/tags/software-libre/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/software-libre/</guid>
+      <guid>https://medicionpsicologica.com/tags/software-libre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta-análisis</title>
-      <link>/tags/meta-an%C3%A1lisis/</link>
+      <link>https://medicionpsicologica.com/tags/meta-an%C3%A1lisis/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/meta-an%C3%A1lisis/</guid>
+      <guid>https://medicionpsicologica.com/tags/meta-an%C3%A1lisis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisión sistemática</title>
-      <link>/tags/revisi%C3%B3n-sistem%C3%A1tica/</link>
+      <link>https://medicionpsicologica.com/tags/revisi%C3%B3n-sistem%C3%A1tica/</link>
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/revisi%C3%B3n-sistem%C3%A1tica/</guid>
+      <guid>https://medicionpsicologica.com/tags/revisi%C3%B3n-sistem%C3%A1tica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PLS-SEM</title>
-      <link>/tags/pls-sem/</link>
+      <link>https://medicionpsicologica.com/tags/pls-sem/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/pls-sem/</guid>
+      <guid>https://medicionpsicologica.com/tags/pls-sem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SEM</title>
-      <link>/tags/sem/</link>
+      <link>https://medicionpsicologica.com/tags/sem/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sem/</guid>
+      <guid>https://medicionpsicologica.com/tags/sem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Técnicas Estadísticas Avanzadas</title>
-      <link>/tags/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
+      <link>https://medicionpsicologica.com/tags/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
+      <guid>https://medicionpsicologica.com/tags/t%C3%A9cnicas-estad%C3%ADsticas-avanzadas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis de redes</title>
-      <link>/tags/an%C3%A1lisis-de-redes/</link>
+      <link>https://medicionpsicologica.com/tags/an%C3%A1lisis-de-redes/</link>
       <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/an%C3%A1lisis-de-redes/</guid>
+      <guid>https://medicionpsicologica.com/tags/an%C3%A1lisis-de-redes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inferencia estadística</title>
-      <link>/tags/inferencia-estad%C3%ADstica/</link>
+      <link>https://medicionpsicologica.com/tags/inferencia-estad%C3%ADstica/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/inferencia-estad%C3%ADstica/</guid>
+      <guid>https://medicionpsicologica.com/tags/inferencia-estad%C3%ADstica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NSHT</title>
-      <link>/tags/nsht/</link>
+      <link>https://medicionpsicologica.com/tags/nsht/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/nsht/</guid>
+      <guid>https://medicionpsicologica.com/tags/nsht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pensamiento estadístico</title>
-      <link>/tags/pensamiento-estad%C3%ADstico/</link>
+      <link>https://medicionpsicologica.com/tags/pensamiento-estad%C3%ADstico/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/pensamiento-estad%C3%ADstico/</guid>
+      <guid>https://medicionpsicologica.com/tags/pensamiento-estad%C3%ADstico/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Valor p</title>
-      <link>/tags/valor-p/</link>
+      <link>https://medicionpsicologica.com/tags/valor-p/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/valor-p/</guid>
+      <guid>https://medicionpsicologica.com/tags/valor-p/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://medicionpsicologica.com/tags/r/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://medicionpsicologica.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis Factorial Confirmatorio</title>
-      <link>/tags/an%C3%A1lisis-factorial-confirmatorio/</link>
+      <link>https://medicionpsicologica.com/tags/an%C3%A1lisis-factorial-confirmatorio/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/an%C3%A1lisis-factorial-confirmatorio/</guid>
+      <guid>https://medicionpsicologica.com/tags/an%C3%A1lisis-factorial-confirmatorio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estructura interna</title>
-      <link>/tags/estructura-interna/</link>
+      <link>https://medicionpsicologica.com/tags/estructura-interna/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/estructura-interna/</guid>
+      <guid>https://medicionpsicologica.com/tags/estructura-interna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Validez</title>
-      <link>/tags/validez/</link>
+      <link>https://medicionpsicologica.com/tags/validez/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/validez/</guid>
+      <guid>https://medicionpsicologica.com/tags/validez/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psicometría</title>
-      <link>/tags/psicometr%C3%ADa/</link>
+      <link>https://medicionpsicologica.com/tags/psicometr%C3%ADa/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/psicometr%C3%ADa/</guid>
+      <guid>https://medicionpsicologica.com/tags/psicometr%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Análisis Factorial Exploratorio</title>
-      <link>/tags/an%C3%A1lisis-factorial-exploratorio/</link>
+      <link>https://medicionpsicologica.com/tags/an%C3%A1lisis-factorial-exploratorio/</link>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/an%C3%A1lisis-factorial-exploratorio/</guid>
+      <guid>https://medicionpsicologica.com/tags/an%C3%A1lisis-factorial-exploratorio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Validación de Escalas</title>
-      <link>/tags/validaci%C3%B3n-de-escalas/</link>
+      <link>https://medicionpsicologica.com/tags/validaci%C3%B3n-de-escalas/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/validaci%C3%B3n-de-escalas/</guid>
+      <guid>https://medicionpsicologica.com/tags/validaci%C3%B3n-de-escalas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alfa de Cronbach</title>
-      <link>/tags/alfa-de-cronbach/</link>
+      <link>https://medicionpsicologica.com/tags/alfa-de-cronbach/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/alfa-de-cronbach/</guid>
+      <guid>https://medicionpsicologica.com/tags/alfa-de-cronbach/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fiabilidad</title>
-      <link>/tags/fiabilidad/</link>
+      <link>https://medicionpsicologica.com/tags/fiabilidad/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/fiabilidad/</guid>
+      <guid>https://medicionpsicologica.com/tags/fiabilidad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Omega de Mc&#39;Donald</title>
-      <link>/tags/omega-de-mcdonald/</link>
+      <link>https://medicionpsicologica.com/tags/omega-de-mcdonald/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/omega-de-mcdonald/</guid>
+      <guid>https://medicionpsicologica.com/tags/omega-de-mcdonald/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Construcción de Pruebas</title>
-      <link>/tags/construcci%C3%B3n-de-pruebas/</link>
+      <link>https://medicionpsicologica.com/tags/construcci%C3%B3n-de-pruebas/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/construcci%C3%B3n-de-pruebas/</guid>
+      <guid>https://medicionpsicologica.com/tags/construcci%C3%B3n-de-pruebas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>glb</title>
-      <link>/tags/glb/</link>
+      <link>https://medicionpsicologica.com/tags/glb/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/glb/</guid>
+      <guid>https://medicionpsicologica.com/tags/glb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monte Carlo</title>
-      <link>/tags/monte-carlo/</link>
+      <link>https://medicionpsicologica.com/tags/monte-carlo/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/monte-carlo/</guid>
+      <guid>https://medicionpsicologica.com/tags/monte-carlo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulación</title>
-      <link>/tags/simulaci%C3%B3n/</link>
+      <link>https://medicionpsicologica.com/tags/simulaci%C3%B3n/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/simulaci%C3%B3n/</guid>
+      <guid>https://medicionpsicologica.com/tags/simulaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptación de pruebas</title>
-      <link>/tags/adaptaci%C3%B3n-de-pruebas/</link>
+      <link>https://medicionpsicologica.com/tags/adaptaci%C3%B3n-de-pruebas/</link>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/adaptaci%C3%B3n-de-pruebas/</guid>
+      <guid>https://medicionpsicologica.com/tags/adaptaci%C3%B3n-de-pruebas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gráficos</title>
-      <link>/tags/gr%C3%A1ficos/</link>
+      <link>https://medicionpsicologica.com/tags/gr%C3%A1ficos/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gr%C3%A1ficos/</guid>
+      <guid>https://medicionpsicologica.com/tags/gr%C3%A1ficos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>San Valentín</title>
-      <link>/tags/san-valent%C3%ADn/</link>
+      <link>https://medicionpsicologica.com/tags/san-valent%C3%ADn/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/san-valent%C3%ADn/</guid>
+      <guid>https://medicionpsicologica.com/tags/san-valent%C3%ADn/</guid>
       <description></description>
     </item>
     
