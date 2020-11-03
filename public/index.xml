@@ -6,7 +6,16 @@
     <description>Recent content on Avances en Medición Psicológica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Investigación reproducible en la ciencia</title>
+      <link>https://medicionpsicologica.com/2020/11/02/investigaci%C3%B3n-reproducible-en-la-ciencia/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medicionpsicologica.com/2020/11/02/investigaci%C3%B3n-reproducible-en-la-ciencia/</guid>
+      <description>Dentro de la ciencia abierta, se busca que, al realizar una investigación, esta pueda ser reproducida por otros investigadores e investigadoras a fin de aumentar la confianza de los resultados encontrados, que estos puedan ser verificados y además se tenga la posibilidad de realizar análisis alternativos.</description>
+    </item>
+    
     <item>
       <title>Aplicación de la estadística bayesiana con JASP</title>
       <link>https://medicionpsicologica.com/2020/10/30/aplicaci%C3%B3n-de-la-estad%C3%ADstica-bayesiana-con-jasp/</link>

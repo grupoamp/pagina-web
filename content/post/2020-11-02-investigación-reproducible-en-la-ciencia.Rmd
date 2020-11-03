@@ -19,7 +19,7 @@ La mejora en la reproducibilidad aumenta el rigor y calidad de la investigación
 
 Debido a los problemas que existen en torno a la crisis de reproducibilidad en la ciencia y las diversas amenazas de hallazgos incorrectos en las investigaciones, en la presente reseña se hará una revisión de las medidas planteadas por Munafó et al. (2017) que podrían ser utilizadas para mejorar la eficiencia de la investigación y la solidez de los hallazgos científicos, al enfocarse en las amenazas específicas a la ciencia reproducible, las cuales se detallan en la siguiente imagen:
 
-![](/post/2020-11-02-investigación-reproducible-en-la-ciencia_files/inv_reproc_1.png){width=100%}![]
+![](/post/2020-11-02-investigación-reproducible-en-la-ciencia_files/inv_reproc_1.png){width=100%}
 
 ![](/post/2020-11-02-investigación-reproducible-en-la-ciencia_files/inv_reproc_2.png){width=100%}
 

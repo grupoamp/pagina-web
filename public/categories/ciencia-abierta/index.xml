@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciencia abierta on Avances en Medición Psicológica</title>
+    <link>https://medicionpsicologica.com/categories/ciencia-abierta/</link>
+    <description>Recent content in Ciencia abierta on Avances en Medición Psicológica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medicionpsicologica.com/categories/ciencia-abierta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Investigación reproducible en la ciencia</title>
+      <link>https://medicionpsicologica.com/2020/11/02/investigaci%C3%B3n-reproducible-en-la-ciencia/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medicionpsicologica.com/2020/11/02/investigaci%C3%B3n-reproducible-en-la-ciencia/</guid>
+      <description>Dentro de la ciencia abierta, se busca que, al realizar una investigación, esta pueda ser reproducida por otros investigadores e investigadoras a fin de aumentar la confianza de los resultados encontrados, que estos puedan ser verificados y además se tenga la posibilidad de realizar análisis alternativos.</description>
+    </item>
+    
+  </channel>
+</rss>
