@@ -38,6 +38,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-.directory
+.directory  
 
 Thumbs.db
