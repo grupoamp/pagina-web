@@ -94,6 +94,10 @@ preloader = "" # use png, jpg, svg or gif format
 [params.search]
 enable = true
 
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
 
 ####################### banner #######################################
 [params.banner]
