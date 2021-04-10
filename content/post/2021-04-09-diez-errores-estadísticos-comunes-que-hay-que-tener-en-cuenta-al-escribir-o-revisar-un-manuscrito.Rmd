@@ -1,0 +1,75 @@
+---
+title: Diez errores estadísticos comunes que hay que tener en cuenta al escribir o revisar un manuscrito
+author: Iván Lázaro
+date: '2021-04-09'
+image: /images/post/portada-manuscrito.png
+slug: diez-errores-estadísticos-comunes-que-hay-que-tener-en-cuenta-al-escribir-o-revisar-un-manuscrito
+categories:
+  - Pensamiento estadístico
+  - Inferencia estadística
+tags:
+  - Pensamiento estadístico
+  - NHST
+  - Inferencia estadística
+  - Valor p
+---
+
+Diversos estudios han trabajado temáticas enfocadas en la mejora de la reproducibilidad de las investigaciones y las técnicas de análisis estadístico. En el presente artículo se analizan los diez errores estadísticos más comunes que se han encontrado en la literatura científica tomando en cuenta aquellos descuidos estadísticos que se encuentran a la vista de los documentos y brindan afirmaciones son generados a partir de los datos. Además, se espera proporcionar recursos a los investigadores para elaborar manuscritos o comentar preimpresos y documentos publicados. También se considera que estas directrices sean útiles para una mejor planificación de experimentos, análisis de datos y la redacción de manuscritos. Para todos los lectores en general, se desea que el artículo pueda generar un impacto positivo en el desarrollo de su pensamiento crítico al revisar artículos de investigación de diversas índoles de su interés con el fin de reconocer aquellos que han seguido un adecuado procedimiento y reporte de resultados.
+
+Se tiene conocimiento de que estos errores son interdependientes, por lo que existe una probabilidad de que estos afecten a otros investigadores que se estén iniciando y preparando en la investigación y en aquellos que busquen confirmar conocimientos. Debido a ello, se presenta una breve explicación sobre los 10 diez errores estadísticos más comunes y cómo es que se encuentran con el propósito de beneficiar al lector con una diversidad de ideas y perspectivas. 
+
+![](/post/2021-04-09-diez-errores-estadísticos-comunes-que-hay-que-tener-en-cuenta-al-escribir-o-revisar-un-manuscrito_files/imagen-contenido.png){width=100%}
+
+A continuación, se presenta una breve explicación sobre los principales errores estadísticos comunes:
+
+##### Ausencia de una condición o grupo de control adecuado
+
+Un inadecuado diseño en el grupo de control ocasiona que, respecto al grupo experimental, los tamaños no sean equivalentes, los muestreos hayan sido elaborados en diferentes momentos y se haya dado una asignación no aleatoria. Todo ello afecta en la aparición de sesgos, deficiencias en la potencia estadística, inflaciones en los tamaños del efecto y la aparición de relaciones espurias.
+
+##### Interpretar las comparaciones entre dos efectos sin compararlos directamente
+
+Los investigadores en sus estudios suelen basar las conclusiones sobre el impacto de los resultados de una intervención a partir de que esta genera un efecto significativo en el grupo experimental, mientras que respecto al grupo de control no es significativo. Con base en ello, se tiende a asumir que los efectos en la condición del grupo experimental serán mayores que en la condición de control, cuando esta inferencia es incorrecta.
+
+##### Inflando las unidades de análisis
+
+El uso inadecuado de la unidad experimental generará que existan problemas teóricos y prácticos. El primero hace referencia a que si no hay una identificación clara sobre la unidad apropiada para medir la variación de un fenómeno entonces la inferencia estadística será errónea. El segundo indica que se genera un número espurio de unidades experimentales ocasionando que los grados de libertad aumenten. Esto repercutirá disminuyendo el umbral estadístico crítico que sirve para juzgar la significación.
+
+##### Correlaciones espurias
+
+El uso de correlaciones paramétricas implica el cumplimiento de supuestos. Sin embargo, cuando estos supuestos se toman en cuenta o cuando se presentan uno o más valores atípicos para las variables se puede dar lugar a la aparición de correlaciones espurias.
+
+##### Uso de muestras pequeñas
+
+El uso de muestras pequeñas ocasiona que solo se puedan detectar tamaños del efecto grande, por lo que resulta en un problema para conocer el valor real. Además, ello también genera que sea más susceptible cometer los errores de tipo II (perder un efecto que sí existe en los datos) y que la distribución se desvíe de la normalidad haciendo complicado la verificación de su supuesto.
+
+##### Análisis circular
+
+El análisis circular es una forma de análisis que selecciona retrospectivamente características de los datos para caracterizar las variables dependientes, lo que conlleva la inflación del resultado estadístico que genera una distorsión de la prueba estadística resultante y su inferencia, que es inválida.
+
+##### Flexibilidad de análisis: p-hacking
+
+El uso de la flexibilidad en los datos repercute en el aumento de la probabilidad de obtener valores p significativos que ocasiona la aparición de falsos positivos en los resultados. Este problema es más visible cuando la comunidad científica informa sobre los resultados de la misma variable estudiada, pero calculando el valor de diferentes formas.
+
+##### No se corrigen las múltiples comparaciones
+
+Cuando los investigadores exploran los efectos de las tareas o actividades, usualmente evalúan el efecto de las condiciones de las tareas múltiples sobre varias variables y a veces se utiliza una hipótesis a priori poco determinada. Este tipo de práctica se denomina "Análisis exploratorio" y en la estadística frecuentista, la realización de múltiples comparaciones durante esta práctica puede afectar considerablemente la interpretación de resultados significativos. En el diseño de estudios experimentales con más de dos condiciones, el análisis exploratorio generará que se realicen múltiples comparaciones, por lo que aumentará la probabilidad de detectar un efecto cuando este realmente no exista (Error de tipo I).
+
+##### Sobreinterpretando los resultados no significativos
+
+En la estadística frecuentista se utiliza un umbral estadístico que usualmente es un valor alfa de .05 para determinar la significancia estadística. Sin embargo, la interpretación errónea de una prueba estadística cuando no es significativa es un error usual. Ello se debe a que los efectos no significativos pueden tener diferentes significados.
+
+##### Correlación y causalidad
+
+En la ciencia, el estudio de las correlaciones se da para evaluar si dos variables se encuentran asociadas. Cuando se encuentra que dos variables están significativamente asociadas, es usual asumir que una puede causar a la otra. Sin embargo, esto es incorrecto, debido a que ambas puedan coexistir linealmente no implica que una pueda explicar o causar la otra.
+
+Finalmente, se invita a los lectores a revisar el texto completo si se desea conocer las soluciones que brindan los autores para cada uno de los errores comunes presentados. Como punto adicional, se presenta una lista de artículos que brindan información acerca de buenas prácticas en los diferentes análisis estadísticos más comunes. 
+
+Lloret-Segura, S., Ferreres-Traver, A., Hernández-Baeza, A., y Tomás-Marco, I. (2014). El análisis factorial exploratorio de los ítems: una guía práctica, revisada y actualizada. *Anales De Psicología*, *30*(3), 1151-1169. [https://doi.org/10.6018/analesps.30.3.199361](https://doi.org/10.6018/analesps.30.3.199361){target="_blank"} 
+
+Fernández Aráuz, A. (2015). Aplicación del análisis factorial confirmatorio a un modelo de medición del rendimiento académico en lectura. *Ciencias Económicas*, *33*(2), 39-66. [https://doi.org/10.15517/RCE.V33I2.22216](https://doi.org/10.15517/RCE.V33I2.22216){target="_blank"} 
+
+
+#### Referencia:
+
+Makin, T. R., y Orban de Xivry, J.-J. (2019). Ten common statistical mistakes to watch out for when writing or reviewing a manuscript. *eLife*, 8, e48175. [https://doi.org/10.7554/eLife.48175](https://doi.org/10.7554/eLife.48175){target="_blank"}
+
