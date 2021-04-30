@@ -28,9 +28,9 @@ tools:
 - title: Essential Pack
   tool:
   # tool loop in tool category
-  - name: Sketch
-    image: "/images/tools/sketch.png"
-    link: https://www.sketch.com/
+  - name: Primera versión del Essential Pack (30-04-2021)
+    image: "/images/tools/essential-pack.png"
+    link: "/files/svetina2019.pdf"
 
 
 # tool category
