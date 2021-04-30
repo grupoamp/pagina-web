@@ -46,7 +46,7 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contacto"
+URL = "contact"
 name = "Contáctanos"
 weight = 1
 
@@ -57,7 +57,7 @@ weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contacto"
+URL = "contact"
 name = "Contáctanos"
 weight = 1
 
