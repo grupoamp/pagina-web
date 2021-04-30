@@ -1,6 +1,15 @@
 tools:
+
 # tool category
-- title: Investigaciones
+- title: Essential Pack
+  tool:
+  # tool loop in tool category
+  - name: Essential Pack - Primera Edición (Abril 2021)
+    image: "/images/tools/es.png"
+    link: "/files/Essential Pack (Primera Edición).pdf"
+
+# tool category
+- title: Publicaciones
   tool:
   # tool loop in tool category
   - name: Análisis psicométrico preliminar de la escala Perfil de Impacto Emocional COVID-19 en universitarios peruanos
@@ -23,14 +32,6 @@ tools:
     image: "/images/tools/inv-5.jpg"
     link: http://www.marianjournals.com/files/JPER_articles/JPER_29_1_2021/Tafur_Mendoza_et_al_JPER_2021_29_1_72_96.pdf
 
-
-# tool category
-- title: Essential Pack
-  tool:
-  # tool loop in tool category
-  - name: Primera versión del Essential Pack (30-04-2021)
-    image: "/images/tools/essential-pack.png"
-    link: "/files/svetina2019.pdf"
 
 
 # tool category
