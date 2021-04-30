@@ -31,24 +31,20 @@ tools:
   - name: Sketch
     image: "/images/tools/sketch.png"
     link: https://www.sketch.com/
-  # tool loop in tool category
-  - name: Adobe Illustrator
-    image: "/images/tools/illustrator.png"
-    link: https://www.adobe.com/products/illustrator.html
 
 
 # tool category
-- title: Presentaciones
-  tool:
+#- title: Presentaciones
+#  tool:
   # tool loop in tool category
-  - name: Mailchimp
-    image: "/images/tools/MailChimp.jpg"
-    link: https://mailchimp.com/
+#  - name: Mailchimp
+#    image: "/images/tools/MailChimp.jpg"
+#    link: https://mailchimp.com/
   # tool loop in tool category
-  - name: Buffer
-    image: "/images/tools/Buffer.jpg"
-    link: https://buffer.com/
-  # tool loop in tool category
-  - name: Bitly Link
-    image: "/images/tools/Bitly.jpg"
-    link: https://bitly.com/
+#  - name: Buffer
+#    image: "/images/tools/Buffer.jpg"
+#    link: https://buffer.com/
+#  # tool loop in tool category
+#  - name: Bitly Link
+#    image: "/images/tools/Bitly.jpg"
+#    link: https://bitly.com/
