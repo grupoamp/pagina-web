@@ -76,7 +76,7 @@ home = "Inicio"
 logo = "images/Logo-low-size.png"
 # meta data
 author = "Avances en Medición Psicológica"
-description = "AMP es un grupo de estudios de la UNMSM dedicado a la investigación y desarrollo de actividades a favor de la ciencia Psicológica."
+description = "Grupo de estudios de la Facultad de Psicología de la Universidad Nacional Mayor de San Marcos dedicado a la investigación y desarrollo de actividades a favor de la ciencia Psicológica."
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
