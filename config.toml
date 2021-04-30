@@ -6,9 +6,9 @@ title = "Avances en Medición Psicológica"
 # theme
 theme = "northendlab-hugo"
 # post pagination
-paginate = "5"
+paginate = "10"
 # post excerpt
-summaryLength = "10"
+summaryLength = "20"
 # disqus short name
 disqusShortname = "medicionpsicologica" # get your shortname form here : https://disqus.com
 
@@ -46,7 +46,7 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contact"
+URL = "contacto"
 name = "Contáctanos"
 weight = 1
 
@@ -57,7 +57,7 @@ weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contact"
+URL = "contacto"
 name = "Contáctanos"
 weight = 1
 
@@ -83,7 +83,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "https://formspree.io/mqklybap" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2020 Avances en Medición Psicológica. Por una ciencia libre."
+copyright = "&copy; 2021 Avances en Medición Psicológica. Por una ciencia libre."
 
 # preloader
 [params.preloader]
@@ -97,7 +97,7 @@ enable = true
 # cookies
 [params.cookies]
 enable = true
-expire_days = 2
+expire_days = 30
 
 ####################### banner #######################################
 [params.banner]
