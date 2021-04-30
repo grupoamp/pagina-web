@@ -1,31 +1,31 @@
 tools:
 # tool category
-- title: Dev Tools
+- title: Investigaciones
   tool:
   # tool loop in tool category
-  - name: Git
-    image: "/images/tools/Git.png"
-    link: https://git-scm.com/
+  - name: Análisis psicométrico preliminar de la escala Perfil de Impacto Emocional COVID-19 en universitarios peruanos
+    image: "/images/tools/inv-1.png"
+    link: https://revistas.umch.edu.pe/EducaUMCH/article/view/135
   # tool loop in tool category
-  - name: Atom
-    image: "/images/tools/Atom.png"
-    link: https://atom.io/
+  - name: Tendencias de las búsquedas en Google en habla hispana sobre temas de salud mental en el contexto de la pandemia por COVID-19
+    image: "/images/tools/inv-2.png"
+    link: https://doi.org/10.1016/j.rcp.2020.07.003
   # tool loop in tool category
-  - name: Notepad ++
-    image: "/images/tools/Notepad.png"
-    link: https://notepad-plus-plus.org/
+  - name: El mundo no debería girar alrededor del alfa de Cronbach ≥ .70
+    image: "/images/tools/inv-3.jpg"
+    link: https://doi.org/10.20882/adicciones.1576
   # tool loop in tool category
-  - name: Sublime Text
-    image: "/images/tools/sublime.png"
-    link: https://www.sublimetext.com/
+  - name: Coronavirus Anxiety Scale. New psychometric evidence for the Spanish version based on CFA and IRT models in a Peruvian sample
+    image: "/images/tools/inv-4.jpg"
+    link: https://doi.org/10.1080/07481187.2020.1865480
   # tool loop in tool category
-  - name: Visual Studio Code
-    image: "/images/tools/vs-code.png"
-    link: https://code.visualstudio.com/
+  - name: Interpretation of statistical concepts in Psychology. Knowledge level and effects of an instructional design in Peruvian university students
+    image: "/images/tools/inv-5.jpg"
+    link: http://www.marianjournals.com/files/JPER_articles/JPER_29_1_2021/Tafur_Mendoza_et_al_JPER_2021_29_1_72_96.pdf
 
 
 # tool category
-- title: Design Tools
+- title: Essential Pack
   tool:
   # tool loop in tool category
   - name: Sketch
@@ -35,22 +35,10 @@ tools:
   - name: Adobe Illustrator
     image: "/images/tools/illustrator.png"
     link: https://www.adobe.com/products/illustrator.html
-  # tool loop in tool category
-  - name: Invision
-    image: "/images/tools/invision.png"
-    link: https://www.invisionapp.com/studio
-  # tool loop in tool category
-  - name: Adobe XD
-    image: "/images/tools/xd.png"
-    link: https://www.adobe.com/products/xd.html
-  # tool loop in tool category
-  - name: Figma
-    image: "/images/tools/figma.png"
-    link: https://www.figma.com/
 
 
 # tool category
-- title: Digital Marketing Tools
+- title: Presentaciones
   tool:
   # tool loop in tool category
   - name: Mailchimp
@@ -64,19 +52,3 @@ tools:
   - name: Bitly Link
     image: "/images/tools/Bitly.jpg"
     link: https://bitly.com/
-  # tool loop in tool category
-  - name: Hotjar
-    image: "/images/tools/Hotjar.jpg"
-    link: https://www.hotjar.com/
-  # tool loop in tool category
-  - name: Ahrefs
-    image: "/images/tools/Ahrefs.jpg"
-    link: https://ahrefs.com/
-  # tool loop in tool category
-  - name: Google Trends
-    image: "/images/tools/GoogleTrends.jpg"
-    link: https://trends.google.com/trends/
-  # tool loop in tool category
-  - name: Google Analytics
-    image: "/images/tools/Google-Analytics.jpg"
-    link: https://analytics.google.com/analytics/web
