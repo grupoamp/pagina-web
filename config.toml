@@ -109,7 +109,7 @@ image = "images/banner/illustration.svg"
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/ampi-mascota.png"
+image = "images/ampi (p3)@600x.png"
 title = "Nuestras actividades e investigaciones"
 description = "Puede encontrar los materiales de nuestras actividades/investigaciones totalmente libres para compartir."
 [params.cta.button]
