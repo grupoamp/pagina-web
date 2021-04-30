@@ -5,4 +5,4 @@ image: images/contact.svg
 title: Contáctanos
 ---
 
-Si tienes alguna duda o deseas darnos a conocer tu opinión/idea sobre algo en específico. No dudes en escribirnos.
+Si tienes alguna duda o deseas darnos a conocer tu opinión sobre algo en específico, no dudes en escribirnos.
