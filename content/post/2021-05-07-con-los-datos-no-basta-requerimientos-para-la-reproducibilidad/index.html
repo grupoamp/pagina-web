@@ -1,0 +1,47 @@
+---
+title: 'Con los datos no basta: requerimientos para la reproducibilidad'
+author: Brian Peña
+date: '2021-05-07'
+description: Los datos y los códigos no son suficiente para la reproducibilidad. Epskamp nos indica que implican la reproducibilidad y replicabilidad, y que consideraciones debemos tener con respecto al software y códigos de análisis utilizados.
+image: /images/post/Portada-03-2021.png
+slug: con-los-datos-no-basta-requerimientos-para-la-reproducibilidad
+categories:
+  - Ciencia abierta
+  - Reproducibilidad
+  - Software libre
+  - R
+tags:
+  - Ciencia abierta
+  - Reproducibilidad
+  - R
+  - investigación
+  - Software libre
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>El artículo de Epskamp (2019) plantea una revisión teórica-metodológica acerca de los factores que se encuentran en juego al momento de conseguir la reproducibilidad y replicabilidad, teniendo en cuenta que nos encontramos en un escenario de enorme rapidez en el desarrollo de métodos de análisis, disponibilidad de software y auxiliares que pueden contribuir en el proceso de investigación. Para lograr la reproducibilidad y en consecuencia, poder evaluar el escenario de lograr la replicabilidad, intervienen factores como la documentación, disposición de datos, códigos de análisis, acceso al software utilizado, entre otros. Siendo el software y análisis de datos quienes cobran un protagonismo importante al momento de evaluar su factibilidad.</p>
+<p><img src="images/Contenido-03-2021.png" /></p>
+<div id="problemas-con-la-reproducibilidad" class="section level5">
+<h5>Problemas con la reproducibilidad:</h5>
+<p><strong>- Software en versiones beta:</strong> Los software tienen un ciclo de desarrollo: alfa, beta, estable; que tienen relación con la nomenclatura a la hora de indicar su versión. Por ejemplo, R está en la versión 4.0.5 al momento.</p>
+<p>Cuando un software está en desarrollo interno, se conoce como fase alfa (ultra-temprana), y generalmente cuando está disponible para testing público, pasa a ser fase beta. Es casi una regla que los software en fase beta tengan versiones por debajo de 1.0.0, por ej. lavaan que está actualmente en la versión 0.6.8. Cuando un software llega a la versión 1.0.0 se considera que llegó a una fase estable, donde se esperaría que el core (núcleo) del software no cambie más y se mantenga a lo largo de los años.</p>
+<p><strong>- Actualizaciones y dependencias:</strong> Cuando el software está en estado beta, las actualizaciones pueden contener cambios severos en la forma de hacer las cosas. Por ej. el paquete dplyr al estar aún en estado beta, dejará de usar las variaciones _at, _if y _all de mutate, select, filter, summarise, entre otros, para usar across en su lugar. Actualmente aún se pueden usar ambos, pero puede que dentro de un tiempo, ya no.</p>
+</div>
+<div id="recomendaciones-para-la-reproducibilidad" class="section level5">
+<h5>Recomendaciones para la reproducibilidad:</h5>
+<p><strong>1. Utilizar software estable.</strong> Donde, a pesar de los años, no haya cambios drásticos en el software.</p>
+<p><strong>2. Proporcionar códigos e información suficiente junto a la publicación.</strong> El nombre del software, paquete y versión podría no ser suficiente para la reproducibilidad. El escenario ideal es poder tener una captura exacta de todo el software y/o paquetes junto a sus dependencias instaladas en una máquina al momento del análisis. De esa manera, cuando alguien quisiera replicarlo, podría estar en exactamente las mismas condiciones en las que se hizo el análisis sea hace 1 mes o hace 10 años.</p>
+<p>Para hacerlo hay 3 alternativas populares:</p>
+<p><strong>- Uso de Docker:</strong> Es la manera por defecto que se utiliza en muchísimos proyectos de análisis, desarrollo de software, páginas web, etc. Sin embargo, al tener un nivel de complejidad relativamente más alta y no estar conectado directamente a R para su ejecución, hace que su uso en análisis de datos sea poco frecuente.</p>
+<p><strong>- Uso del paquete checkpoint (Ooi et al., 2020):</strong> Mediante este paquete se puede instalar paquetes y versiones de R que se encontraban vigentes en una determinada fecha. Así, mediante la función checkpoint::checkpoint(“2018-09-27”).</p>
+<p><strong>- Uso del paquete renv (Ushey &amp; RStudio, 2021):</strong> Este paquete reemplaza a packrat que se menciona en el artículo. Su función es capturar y guardar un registro de todos los paquetes utilizados en un determinado momento, incluyendo sus versiones, para que de esa manera se pueda instalar automáticamente todo ello a posterior.</p>
+<p>En el caso de la replicabilidad, no basta con llegar a encontrar los mismos resultados por ejecución de código o análisis, sino el verificar que los procedimientos sean los adecuados (supuestos estadísticos por ej.), probables errores cometidos, cambios en los escenarios teóricos-metodológicos que fundamentan la investigación hasta incluso los errores en codificación. La intención es que sea con los mismos datos o con una nueva recolección de datos, las conclusiones a las que se llegue deben apoyar las generadas en el estudio inicial.</p>
+</div>
+<div id="referencias" class="section level4">
+<h4>Referencias</h4>
+<p>Epskamp, S. (2019). Reproducibility and replicability in a fast-paced methodological world. <em>Advances in Methods and Practices in Psychological Science</em>, <em>2</em>(2), 145-155. <a href="https://doi.org/10.1177/2515245919847421" target="_blank">https://doi.org/10.1177/2515245919847421</a></p>
+<p>Ooi, H., Vries, A. de, &amp; Microsoft. (2020). <em>Checkpoint: Install packages from snapshots on the checkpoint server for reproducibility</em> (0.4.10) [Computer software]. <a href="https://CRAN.R-project.org/package=checkpoint" target="_blank">https://CRAN.R-project.org/package=checkpoint</a></p>
+<p>Ushey, K., &amp; RStudio. (2021). <em>Renv: Project environments</em> (0.13.2) [Computer software]. <a href="https://CRAN.R-project.org/package=renv" target="_blank">https://CRAN.R-project.org/package=renv</a></p>
+</div>
