@@ -1,7 +1,7 @@
 ---
-description: Miembro de Avances en Medición Psicológica
+title: "Kely Palpa"
 image: /images/author/kely-palpa.jpg
-title: Kely Palpa
+description: Miembro de Avances en Medición Psicológica
 ---
 
 Estudiante de pregrado de Psicología de la Universidad Nacional Mayor de San Marcos (UNMSM). Miembro del Grupo de Estudios Avances en Medición Psicológica (AMP). Practicante Pre-Profesional del Instituto de Estudios Peruanos (IEP). Con intereses relacionados a metodología de la investigación aplicadas a las ciencias sociales.
