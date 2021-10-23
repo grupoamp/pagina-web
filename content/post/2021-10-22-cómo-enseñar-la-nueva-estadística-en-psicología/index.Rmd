@@ -29,7 +29,7 @@ Alternativas como Jamovi o JASP, con una interfaz gráfica similar al SPSS, pero
 Podrán encontrar tutoriales muy completos en los siguientes enlaces:
 
 -	Jamovi (inglés): [https://cutt.ly/4E1ljvg](https://cutt.ly/4E1ljvg){target="_blank"} / (español): [https://cutt.ly/pE1lv9A](https://cutt.ly/pE1lv9A){target="_blank"}
--	JASP (cuenta oficial): [https://cutt.ly/xE1lEnl](https://cutt.ly/xE1lEn){target="_blank"}
+-	JASP (cuenta oficial): [https://cutt.ly/xE1lEnl](https://cutt.ly/xE1lEnl){target="_blank"}
 
 **3. Planear cuidadosamente los cursos que incorporen la “nueva estadística”.**
 Desde la estructura del curso, manteniendo un orden lógico entre los temas y permitiendo el contraste con técnicas tradicionales; hasta la incorporación de herramientas virtuales para su explicación teórica gradual y su ejecución en software.
