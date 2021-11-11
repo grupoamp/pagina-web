@@ -73,7 +73,7 @@ A modo de comparación estamos estimando ambos modelos, pero al ya saber qué mo
 
 **-	Datos categóricos:** Se considera escalas tipo Likert con 5 o menos opciones de respuesta, así como los datos binarios. Utilizan matriz de correlaciones policóricas y el estimador WLSMV.
 
-```{r}
+```{r, comment = ""}
 # Cargar la base de datos (4 opciones de respuesta)
 psyctcsm <- read.csv("https://osf.io/atqc6/download")
 
@@ -88,7 +88,7 @@ summary(fit1f_p, fit.measures = T)
 
 Evaluando los resultados, vemos que tanto CFI como TLI tienen resultados que hacen indicar un buen ajuste; y aunque RMSEA es muy alto, no tenemos más indicios que nos hagan pensar en correlacionar errores entre algunos ítems, por lo que, para este ejemplo, nos quedaremos con este modelo y pasaremos a estimar la fiabilidad:
 
-```{r}
+```{r, comment = ""}
 reliability(fit1f_p)
 ```
 
@@ -98,7 +98,7 @@ Este cálculo de omega es distinto al anterior, ya que aquí se utiliza el enfoq
 
 **- Modelos bifactor:** Consideran la presencia de un factor general que influye en todos los ítems, además de factores específicos que capturan covarianzas de subconjuntos de ítems adicionales a las provocadas por el factor general. Para estos modelos también se mantiene las consideraciones por si los ítems son considerados como continuos (matriz de correlación producto momento de Pearson) o categóricos (matriz de correlaciones policóricas).
 
-```{r}
+```{r, comment = ""}
 # Cargar base de datos (6 opciones de respuesta)
 pcs <- read.csv("https://osf.io/xd2tu/download")
 
@@ -117,7 +117,7 @@ summary(fitBf, fit.measures=T)
 
 Analizando los resultados obtenidos, se considera que el modelo presenta un buen ajuste, por lo que se procede a la estimación de la fiabilidad:
 
-```{r}
+```{r, comment = ""}
 reliability(fitBf)
 ```
 
@@ -125,7 +125,7 @@ En este caso, obtenemos resultados tanto para el factor general (“gen”) como
 
 **-	Modelos de orden superior:** Aquí se considera que existe un factor de orden superior (o segundo orden) que influye en varios factores de orden inferior (o primer orden), los cuales a su vez influenciarían directamente en las respuestas de los ítems.
 
-```{r}
+```{r, comment = ""}
 # Especificar el modelo
 homod <- 'TE =~ TE1  + TE2  + TE3  + TE4 + TE5 
           OE =~ OE1  + OE2  + OE3  + OE4
@@ -140,7 +140,7 @@ summary(fitHo, fit.measures=T)
 
 Estos resultados evidencian un buen ajuste del modelo, lo cual nos indicaría proceder a la estimación de la fiabilidad:
 
-```{r}
+```{r, comment = ""}
 reliabilityL2(fitHo, 'cost')
 ```
 
@@ -148,7 +148,7 @@ Para este caso, el cálculo se realiza considerando los efectos indirectos que v
 
 Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.
 
-Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script:
+Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: [Clic para descargar](C:/Users/universidad/Documents/GitHub/pagina-web/content/post/2021-11-10-coeficientes-omega-cuándo-y-cómo-usar-cada-uno-de-ellos/Script_Ejemplo.R)
 
 
 #### Referencias
