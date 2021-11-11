@@ -251,7 +251,7 @@ omega  0.5593717
 omega2 0.5593717
 omega3 0.5601129
 avevar 0.2294343</code></pre>
-<p>A modo de comparación estamos estimando ambos modelos, pero al ya saber qué modelo presenta un mejor ajuste, podemos decir que la estimación de fiabilidad más precisa es la del segundo modelo (re-especificado), con un omega de 0.559 (fijarse en el resultado de “omega” u “omega2”). Este sería el omega tradicional: ω<sub>u (u: unidimensional).</p>
+<p>A modo de comparación estamos estimando ambos modelos, pero al ya saber qué modelo presenta un mejor ajuste, podemos decir que la estimación de fiabilidad más precisa es la del segundo modelo (re-especificado), con un omega de 0.559 (fijarse en el resultado de “omega” u “omega2”). Este sería el omega tradicional: ω<sub>u</sub> (u: unidimensional).</p>
 <p><strong>- Datos categóricos:</strong> Se considera escalas tipo Likert con 5 o menos opciones de respuesta, así como los datos binarios. Utilizan matriz de correlaciones policóricas y el estimador WLSMV.</p>
 <pre class="r"><code># Cargar la base de datos (4 opciones de respuesta)
 psyctcsm &lt;- read.csv(&quot;https://osf.io/atqc6/download&quot;)
@@ -376,7 +376,7 @@ summary(fit1f_p, fit.measures = T)</code></pre>
 ## omega2    0.7902953
 ## omega3    0.7932682
 ## avevar    0.5289638</code></pre>
-<p>Este cálculo de omega es distinto al anterior, ya que aquí se utiliza el enfoque de Green y Yang (2009) para reescalar la métrica de la respuesta de una variable latente hacia la de una puntuación total observada, y así poder obtener una estimación de la fiabilidad más precisa. El valor obtenido en este caso sería de 0.7932682 (fijarse en “omega3”) y esta variación es llamada omega categórico: ω<sub>u-cat (u-cat: unidimensional categórico)</p>
+<p>Este cálculo de omega es distinto al anterior, ya que aquí se utiliza el enfoque de Green y Yang (2009) para reescalar la métrica de la respuesta de una variable latente hacia la de una puntuación total observada, y así poder obtener una estimación de la fiabilidad más precisa. El valor obtenido en este caso sería de 0.7932682 (fijarse en “omega3”) y esta variación es llamada omega categórico: ω<sub>u-cat</sub> (u-cat: unidimensional categórico)</p>
 <p><strong>Modelos multidimensionales</strong></p>
 <p><strong>- Modelos bifactor:</strong> Consideran la presencia de un factor general que influye en todos los ítems, además de factores específicos que capturan covarianzas de subconjuntos de ítems adicionales a las provocadas por el factor general. Para estos modelos también se mantiene las consideraciones por si los ítems son considerados como continuos (matriz de correlación producto momento de Pearson) o categóricos (matriz de correlaciones policóricas).</p>
 <pre class="r"><code># Cargar base de datos (6 opciones de respuesta)
@@ -556,7 +556,7 @@ summary(fitBf, fit.measures=T)</code></pre>
 ## omega2 0.9094893 0.09237594 0.3666293 0.1880759 0.2054075
 ## omega3 0.9077636 0.09240479 0.3666634 0.1878380 0.2053012
 ## avevar        NA         NA        NA        NA        NA</code></pre>
-<p>En este caso, obtenemos resultados tanto para el factor general (“gen”) como para los factores específicos (s1-s4). Entonces, la primera columna sería considerada para la fiabilidad de una puntuación total del constructo, mientras que las siguientes podrían ser consideradas como estimaciones de fiabilidad para subescalas de constructos más reducidos a los que hagan referencia. Para la interpretación, también nos centraremos en la fila de “omega 3”, obteniendo un valor de 0.9077636. Esta variación sería el llamado Omega jerárquico: ωh (h: hierarchical en inglés). Además, también existiría su símil para datos categóricos, que sería ω<sub>h-cat (h-cat: hierarchical categorical).</p>
+<p>En este caso, obtenemos resultados tanto para el factor general (“gen”) como para los factores específicos (s1-s4). Entonces, la primera columna sería considerada para la fiabilidad de una puntuación total del constructo, mientras que las siguientes podrían ser consideradas como estimaciones de fiabilidad para subescalas de constructos más reducidos a los que hagan referencia. Para la interpretación, también nos centraremos en la fila de “omega 3”, obteniendo un valor de 0.9077636. Esta variación sería el llamado Omega jerárquico: ωh (h: hierarchical en inglés). Además, también existiría su símil para datos categóricos, que sería ω<sub>h-cat</sub> (h-cat: hierarchical categorical).</p>
 <p><strong>- Modelos de orden superior:</strong> Aquí se considera que existe un factor de orden superior (o segundo orden) que influye en varios factores de orden inferior (o primer orden), los cuales a su vez influenciarían directamente en las respuestas de los ítems.</p>
 <pre class="r"><code># Especificar el modelo
 homod &lt;- &#39;TE =~ TE1  + TE2  + TE3  + TE4 + TE5 
@@ -691,7 +691,7 @@ summary(fitHo, fit.measures=T)</code></pre>
 <pre class="r"><code>reliabilityL2(fitHo, &#39;cost&#39;)</code></pre>
 <pre><code>##        omegaL1        omegaL2 partialOmegaL1 
 ##      0.9088176      0.9410190      0.9734520</code></pre>
-<p>Para este caso, el cálculo se realiza considerando los efectos indirectos que va a tener el factor de orden superior sobre los ítems, siendo mediados en todo momento por los factores de orden inferior. Entonces, la estimación de fiabilidad para usar puntajes totales en este tipo de modelos va a estar ubicada en “omegaL1”, siendo el valor para este ejemplo 0.9088176. Esta variación es llamada Omega de orden superior: ω<sub>ho (ho: Higher order en inglés).</p>
+<p>Para este caso, el cálculo se realiza considerando los efectos indirectos que va a tener el factor de orden superior sobre los ítems, siendo mediados en todo momento por los factores de orden inferior. Entonces, la estimación de fiabilidad para usar puntajes totales en este tipo de modelos va a estar ubicada en “omegaL1”, siendo el valor para este ejemplo 0.9088176. Esta variación es llamada Omega de orden superior: ω<sub>ho</sub> (ho: Higher order en inglés).</p>
 <p>Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.</p>
 <p>Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script:</p>
 <div id="referencias" class="section level4">
