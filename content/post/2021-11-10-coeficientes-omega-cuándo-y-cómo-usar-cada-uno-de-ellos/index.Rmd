@@ -148,7 +148,7 @@ Para este caso, el cálculo se realiza considerando los efectos indirectos que v
 
 Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.
 
-Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: ![Clic para descargar](C:/Users/universidad/Documents/GitHub/pagina-web/content/post/2021-11-10-coeficientes-omega-cuándo-y-cómo-usar-cada-uno-de-ellos/Script_Ejemplo.R)
+Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: ![Clic aquí](Images/Script_Ejemplo.R)
 
 
 #### Referencias
