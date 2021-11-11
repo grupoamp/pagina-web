@@ -111,8 +111,8 @@ modBf <- 'gen =~ TE1  + TE2  + TE3  + TE4  + TE5 + OE1 + OE2 + OE3 + OE4 +
            s4 =~ EM1  + EM2  + EM3  + EM4  + EM5 + EM6'
 
 # Estimar el modelo y visualizar los resultados
-fitBf <- cfa(modBf, data=pcs, std.lv=T, estimator='MLR', orthogonal=T)
-summary(fitBf, fit.measures=T)
+fitBf <- cfa(modBf, data = pcs, std.lv = T, estimator = 'MLR', orthogonal = T)
+summary(fitBf, fit.measures = T)
 ```
 
 Analizando los resultados obtenidos, se considera que el modelo presenta un buen ajuste, por lo que se procede a la estimación de la fiabilidad:
@@ -134,8 +134,8 @@ homod <- 'TE =~ TE1  + TE2  + TE3  + TE4 + TE5
         cost =~ TE   + OE   + LV   + EM'
 
 # Estimar el modelo y visualizar los resultados
-fitHo <- cfa(homod, data=pcs, std.lv=T, estimator='MLM')
-summary(fitHo, fit.measures=T)
+fitHo <- cfa(homod, data = pcs, std.lv = T, estimator = 'MLM')
+summary(fitHo, fit.measures = T)
 ```
 
 Estos resultados evidencian un buen ajuste del modelo, lo cual nos indicaría proceder a la estimación de la fiabilidad:
@@ -148,7 +148,7 @@ Para este caso, el cálculo se realiza considerando los efectos indirectos que v
 
 Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.
 
-Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: ![Clic aquí](Images/Script_Ejemplo.R)
+Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: [Clic aquí](https://osf.io/g93xs/){target="_blank"}
 
 
 #### Referencias

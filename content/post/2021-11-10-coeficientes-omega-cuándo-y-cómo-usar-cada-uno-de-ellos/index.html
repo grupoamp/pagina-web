@@ -391,8 +391,8 @@ modBf &lt;- &#39;gen =~ TE1  + TE2  + TE3  + TE4  + TE5 + OE1 + OE2 + OE3 + OE4 
            s4 =~ EM1  + EM2  + EM3  + EM4  + EM5 + EM6&#39;
 
 # Estimar el modelo y visualizar los resultados
-fitBf &lt;- cfa(modBf, data=pcs, std.lv=T, estimator=&#39;MLR&#39;, orthogonal=T)
-summary(fitBf, fit.measures=T)</code></pre>
+fitBf &lt;- cfa(modBf, data = pcs, std.lv = T, estimator = &#39;MLR&#39;, orthogonal = T)
+summary(fitBf, fit.measures = T)</code></pre>
 <pre><code>lavaan 0.6-9 ended normally after 36 iterations
 
   Estimator                                         ML
@@ -566,8 +566,8 @@ homod &lt;- &#39;TE =~ TE1  + TE2  + TE3  + TE4 + TE5
         cost =~ TE   + OE   + LV   + EM&#39;
 
 # Estimar el modelo y visualizar los resultados
-fitHo &lt;- cfa(homod, data=pcs, std.lv=T, estimator=&#39;MLM&#39;)
-summary(fitHo, fit.measures=T)</code></pre>
+fitHo &lt;- cfa(homod, data = pcs, std.lv = T, estimator = &#39;MLM&#39;)
+summary(fitHo, fit.measures = T)</code></pre>
 <pre><code>lavaan 0.6-9 ended normally after 57 iterations
 
   Estimator                                         ML
@@ -693,7 +693,7 @@ Variances:
      0.9088176      0.9410190      0.9734520 </code></pre>
 <p>Para este caso, el cálculo se realiza considerando los efectos indirectos que va a tener el factor de orden superior sobre los ítems, siendo mediados en todo momento por los factores de orden inferior. Entonces, la estimación de fiabilidad para usar puntajes totales en este tipo de modelos va a estar ubicada en “omegaL1”, siendo el valor para este ejemplo 0.9088176. Esta variación es llamada Omega de orden superior: ω<sub>ho</sub> (ho: Higher order en inglés).</p>
 <p>Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.</p>
-<p>Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: <img src="Images/Script_Ejemplo.R" alt="Clic aquí" /></p>
+<p>Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script: <a href="https://osf.io/g93xs/" target="_blank">Clic aquí</a></p>
 <div id="referencias" class="section level4">
 <h4>Referencias</h4>
 <p>Flora, D. B. (2020). Your coefficient alpha is probably wrong, but which coefficient omega is right? A tutorial on using R to obtain better reliability estimates. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(4), 484–501. <a href="https://doi.org/10.1177/2515245920951747" target="_blank">https://doi.org/10.1177/2515245920951747</a></p>
