@@ -1,0 +1,160 @@
+---
+title: 'Coeficientes Omega: ¿Cuándo y cómo usar cada uno de ellos?'
+author: "Enoc Arenas"
+date: '2021-11-10'
+image: /images/post/Portada-10-2021.png
+slug: coeficientes-omega-cuándo-y-cómo-usar-cada-uno-de-ellos
+categories:
+- Psicometría
+- Fiabilidad
+- Análisis Factorial Confirmatorio
+- R
+tags:
+- Omega de Mc'Donald
+- Fiabilidad
+- Análisis Factorial Confirmatorio
+- Psicometría
+- R
+---
+
+Uno de los aspectos que se consideran en la crisis de replicabilidad son los errores de medición (Loken & Gelman, 2017), siendo una alternativa ante ello, el precisar mejor la fiabilidad, para lo cual es importante saber identificar el mejor estimador según la situación en la que cada uno se encuentre.
+
+En este sentido, no basta reportar coeficientes alfa sin previa evaluación de sus supuestos, ya que, de no cumplirlos, se producirían estimaciones sesgadas de la fiabilidad. Dentro de los principales supuestos tenemos la unidimensionalidad, tau-equivalencia y no presencia de errores correlacionados, por lo que un coeficiente más realista podría ser omega (para más información sobre las diferencias y supuestos de estos coeficientes puede revisar nuestras anteriores reseñas sobre **fiabilidad**).
+
+Sin embargo, existen distintas formas de calcular el coeficiente omega y cada uno es recomendable para determinadas situaciones, por lo que su uso correcto puede llegar a ser un tanto confuso. Es así que, para aliviar estas posibles complicaciones, Flora (2020) realiza un tutorial para poder saber cuándo y cómo calcular las diversas variantes del coeficiente omega.
+
+En primer lugar, para todas las situaciones, se debe realizar un Análisis Factorial Confirmatorio (AFC), ya que el coeficiente omega toma como insumo las cargas factoriales. Además se debe analizar la dimensionalidad del instrumento. Se tomará como referencia los índices de ajuste y criterios siguientes: CFI > 0.90, TLI > 0.90 y RMSEA < 0.08 para considerar un ajuste adecuado del modelo. 
+
+A continuación, se mostrarán las situaciones más comunes con las que uno se puede encontrar, y la forma de proceder en cada una de ellas usando R:
+
+**Modelos unidimensionales (1 factor, comprobado por AFC)**
+
+**-	Datos continuos:** Se consideran escalas tipo Likert cuando poseen más de cinco opciones de respuesta. Utilizan matriz de correlación producto-momento de Pearson y el estimador MLR.
+
+```{r, echo=FALSE}
+pacman::p_load(lavaan, semTools, MBESS)
+```
+
+```{r, comment = ""}
+# Cargar la base de datos (6 opciones de respuesta)
+open <- read.csv("https://osf.io/53wdz/download")
+
+# Especificar el modelo (1 factor)
+mod1f <- 'open =~ O1 + O2 + O3 + O4 + O5'
+
+# Estimar el modelo (1 factor)
+fit1f <- cfa(mod1f, data = open, std.lv = T, missing = 'direct', estimator = 'MLR')
+
+# Visualizar los resultados
+summary(fit1f, fit.measures = T)
+```
+
+Al evaluar estos resultados, vemos que no es un modelo idóneo, ya que TLI está por debajo de 0.90 y RMSEA está al límite. Además, las cargas factoriales (en Latent Variables) oscilan entre 0.361 y 0.794, por lo que no se trataría de un modelo tau-equivalente y sería no recomendable usar el coeficiente alfa. Cabe resaltar que, los ítems O2 y O5 estaban redactados de forma negativa, por lo que se recodificó invirtiendo sus valores para el análisis, y también presentan una correlación residual pequeña, pero notable (r = 0.10), por lo que sería razonable esperar una correlación de errores entre ambos ítems. Entonces, teniendo en cuenta esto, vamos a re-especifcar el modelo:
+
+```{r, comment = ""}
+# Re-especificar el modelo (con errores correlacionados)
+mod1fR <- 'open =~ O1 + O2 + O3 + O4 + O5
+                   O2 ~~ O5'
+
+# Estimar el nuevo modelo y visualizar los resultados
+fit1fR <- cfa(mod1fR, data = open, std.lv = T, missing = 'direct', estimator = 'MLR')
+summary(fit1fR, fit.measures = T)
+```
+
+Ahora vemos que los índices de ajuste han mejorado notablemente, estando todos dentro de los criterios para considerarse un modelo con buen ajuste, por lo que recién podríamos estimar la fiabilidad con el coeficiente omega.
+
+```{r, comment = ""}
+# Estimar la fiabilidad (ambos modelos)
+reliability(fit1f)
+reliability(fit1fR)
+```
+
+A modo de comparación estamos estimando ambos modelos, pero al ya saber qué modelo presenta un mejor ajuste, podemos decir que la estimación de fiabilidad más precisa es la del segundo modelo (re-especificado), con un omega de 0.559 (fijarse en el resultado de “omega” u “omega2”). Este sería el omega tradicional: ω<sub>u (u: unidimensional).
+
+**-	Datos categóricos:** Se considera escalas tipo Likert con 5 o menos opciones de respuesta, así como los datos binarios. Utilizan matriz de correlaciones policóricas y el estimador WLSMV.
+
+```{r}
+# Cargar la base de datos (4 opciones de respuesta)
+psyctcsm <- read.csv("https://osf.io/atqc6/download")
+
+# Especificar el modelo (1 factor)
+mod1f_p <- 'psyctcsm =~ DDP1 + DDP2 + DDP3 + DDP4'
+
+# Estimar el modelo y visualizar los resultados
+fit1f_p <- cfa(mod1f_p, data = psyctcsm, std.lv = T, ordered = T,
+               estimator = 'WLSMV')
+summary(fit1f_p, fit.measures = T)
+```
+
+Evaluando los resultados, vemos que tanto CFI como TLI tienen resultados que hacen indicar un buen ajuste; y aunque RMSEA es muy alto, no tenemos más indicios que nos hagan pensar en correlacionar errores entre algunos ítems, por lo que, para este ejemplo, nos quedaremos con este modelo y pasaremos a estimar la fiabilidad:
+
+```{r}
+reliability(fit1f_p)
+```
+
+Este cálculo de omega es distinto al anterior, ya que aquí se utiliza el enfoque de Green y Yang (2009) para reescalar la métrica de la respuesta de una variable latente hacia la de una puntuación total observada, y así poder obtener una estimación de la fiabilidad más precisa. El valor obtenido en este caso sería de 0.7932682 (fijarse en “omega3”) y esta variación es llamada omega categórico: ω<sub>u-cat (u-cat: unidimensional categórico)
+
+**Modelos multidimensionales**
+
+**- Modelos bifactor:** Consideran la presencia de un factor general que influye en todos los ítems, además de factores específicos que capturan covarianzas de subconjuntos de ítems adicionales a las provocadas por el factor general. Para estos modelos también se mantiene las consideraciones por si los ítems son considerados como continuos (matriz de correlación producto momento de Pearson) o categóricos (matriz de correlaciones policóricas).
+
+```{r}
+# Cargar base de datos (6 opciones de respuesta)
+pcs <- read.csv("https://osf.io/xd2tu/download")
+
+# Especificar el modelo
+modBf <- 'gen =~ TE1  + TE2  + TE3  + TE4  + TE5 + OE1 + OE2 + OE3 + OE4 +
+                 LVA1 + LVA2 + LVA3 + LVA4 + EM1 + EM2 + EM3 + EM4 + EM5 + EM6
+           s1 =~ TE1  + TE2  + TE3  + TE4  + TE5 
+           s2 =~ OE1  + OE2  + OE3  + OE4
+           s3 =~ LVA1 + LVA2 + LVA3 + LVA4
+           s4 =~ EM1  + EM2  + EM3  + EM4  + EM5 + EM6'
+
+# Estimar el modelo y visualizar los resultados
+fitBf <- cfa(modBf, data=pcs, std.lv=T, estimator='MLR', orthogonal=T)
+summary(fitBf, fit.measures=T)
+```
+
+Analizando los resultados obtenidos, se considera que el modelo presenta un buen ajuste, por lo que se procede a la estimación de la fiabilidad:
+
+```{r}
+reliability(fitBf)
+```
+
+En este caso, obtenemos resultados tanto para el factor general (“gen”) como para los factores específicos (s1-s4). Entonces, la primera columna sería considerada para la fiabilidad de una puntuación total del constructo, mientras que las siguientes podrían ser consideradas como estimaciones de fiabilidad para subescalas de constructos más reducidos a los que hagan referencia. Para la interpretación, también nos centraremos en la fila de “omega 3”, obteniendo un valor de 0.9077636. Esta variación sería el llamado Omega jerárquico: ωh (h: hierarchical en inglés). Además, también existiría su símil para datos categóricos, que sería ω<sub>h-cat (h-cat: hierarchical categorical).
+
+**-	Modelos de orden superior:** Aquí se considera que existe un factor de orden superior (o segundo orden) que influye en varios factores de orden inferior (o primer orden), los cuales a su vez influenciarían directamente en las respuestas de los ítems.
+
+```{r}
+# Especificar el modelo
+homod <- 'TE =~ TE1  + TE2  + TE3  + TE4 + TE5 
+          OE =~ OE1  + OE2  + OE3  + OE4
+          LV =~ LVA1 + LVA2 + LVA3 + LVA4
+          EM =~ EM1  + EM2  + EM3  + EM4 + EM5 + EM6
+        cost =~ TE   + OE   + LV   + EM'
+
+# Estimar el modelo y visualizar los resultados
+fitHo <- cfa(homod, data=pcs, std.lv=T, estimator='MLM')
+summary(fitHo, fit.measures=T)
+```
+
+Estos resultados evidencian un buen ajuste del modelo, lo cual nos indicaría proceder a la estimación de la fiabilidad:
+
+```{r}
+reliabilityL2(fitHo, 'cost')
+```
+
+Para este caso, el cálculo se realiza considerando los efectos indirectos que va a tener el factor de orden superior sobre los ítems, siendo mediados en todo momento por los factores de orden inferior. Entonces, la estimación de fiabilidad para usar puntajes totales en este tipo de modelos va a estar ubicada en “omegaL1”, siendo el valor para este ejemplo 0.9088176. Esta variación es llamada Omega de orden superior: ω<sub>ho (ho: Higher order en inglés).
+
+Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.
+
+Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script:
+
+
+#### Referencias
+
+Flora, D. B. (2020). Your coefficient alpha is probably wrong, but which coefficient omega is right? A tutorial on using R to obtain better reliability estimates. *Advances in Methods and Practices in Psychological Science*, *3*(4), 484–501. [https://doi.org/10.1177/2515245920951747](https://doi.org/10.1177/2515245920951747){target="_blank"}
+
+Green, S. B., & Yang, Y. (2009). Reliability of summed item scores using Structural Equation Modeling: An alternative to coefficient alpha. *Psychometrika*, *74*, 155–167. [https://doi.org/10.1007/s11336-008-9099-3](https://doi.org/10.1007/s11336-008-9099-3){target="_blank"}
+
+Loken, E., & Gelman, A. (2017). Measurement error and the replication crisis: The assumption that measurement error always reduces effect sizes is false. *Science*, *355*(6325), 584–585. [https://doi.org/10.1126/science.aal3618](https://doi.org/10.1126/science.aal3618){target="_blank"}

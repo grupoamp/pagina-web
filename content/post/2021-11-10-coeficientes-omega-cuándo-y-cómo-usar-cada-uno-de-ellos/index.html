@@ -1,0 +1,702 @@
+---
+title: 'Coeficientes Omega: ¿Cuándo y cómo usar cada uno de ellos?'
+author: "Enoc Arenas"
+date: '2021-11-10'
+image: /images/post/Portada-10-2021.png
+slug: coeficientes-omega-cuándo-y-cómo-usar-cada-uno-de-ellos
+categories:
+- Psicometría
+- Fiabilidad
+- Análisis Factorial Confirmatorio
+- R
+tags:
+- Omega de Mc'Donald
+- Fiabilidad
+- Análisis Factorial Confirmatorio
+- Psicometría
+- R
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Uno de los aspectos que se consideran en la crisis de replicabilidad son los errores de medición (Loken &amp; Gelman, 2017), siendo una alternativa ante ello, el precisar mejor la fiabilidad, para lo cual es importante saber identificar el mejor estimador según la situación en la que cada uno se encuentre.</p>
+<p>En este sentido, no basta reportar coeficientes alfa sin previa evaluación de sus supuestos, ya que, de no cumplirlos, se producirían estimaciones sesgadas de la fiabilidad. Dentro de los principales supuestos tenemos la unidimensionalidad, tau-equivalencia y no presencia de errores correlacionados, por lo que un coeficiente más realista podría ser omega (para más información sobre las diferencias y supuestos de estos coeficientes puede revisar nuestras anteriores reseñas sobre <strong>fiabilidad</strong>).</p>
+<p>Sin embargo, existen distintas formas de calcular el coeficiente omega y cada uno es recomendable para determinadas situaciones, por lo que su uso correcto puede llegar a ser un tanto confuso. Es así que, para aliviar estas posibles complicaciones, Flora (2020) realiza un tutorial para poder saber cuándo y cómo calcular las diversas variantes del coeficiente omega.</p>
+<p>En primer lugar, para todas las situaciones, se debe realizar un Análisis Factorial Confirmatorio (AFC), ya que el coeficiente omega toma como insumo las cargas factoriales. Además se debe analizar la dimensionalidad del instrumento. Se tomará como referencia los índices de ajuste y criterios siguientes: CFI &gt; 0.90, TLI &gt; 0.90 y RMSEA &lt; 0.08 para considerar un ajuste adecuado del modelo.</p>
+<p>A continuación, se mostrarán las situaciones más comunes con las que uno se puede encontrar, y la forma de proceder en cada una de ellas usando R:</p>
+<p><strong>Modelos unidimensionales (1 factor, comprobado por AFC)</strong></p>
+<p><strong>- Datos continuos:</strong> Se consideran escalas tipo Likert cuando poseen más de cinco opciones de respuesta. Utilizan matriz de correlación producto-momento de Pearson y el estimador MLR.</p>
+<pre class="r"><code># Cargar la base de datos (6 opciones de respuesta)
+open &lt;- read.csv(&quot;https://osf.io/53wdz/download&quot;)
+
+# Especificar el modelo (1 factor)
+mod1f &lt;- &#39;open =~ O1 + O2 + O3 + O4 + O5&#39;
+
+# Estimar el modelo (1 factor)
+fit1f &lt;- cfa(mod1f, data = open, std.lv = T, missing = &#39;direct&#39;, estimator = &#39;MLR&#39;)
+
+# Visualizar los resultados
+summary(fit1f, fit.measures = T)</code></pre>
+<pre><code>lavaan 0.6-9 ended normally after 31 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        15
+                                                      
+  Number of observations                          2800
+  Number of missing patterns                         7
+                                                      
+Model Test User Model:
+                                               Standard      Robust
+  Test Statistic                                 92.411      77.828
+  Degrees of freedom                                  5           5
+  P-value (Chi-square)                            0.000       0.000
+  Scaling correction factor                                   1.187
+       Yuan-Bentler correction (Mplus variant)                     
+
+Model Test Baseline Model:
+
+  Test statistic                              1399.423    1066.430
+  Degrees of freedom                                10          10
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.312
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.937       0.931
+  Tucker-Lewis Index (TLI)                       0.874       0.862
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.938
+  Robust Tucker-Lewis Index (TLI)                            0.875
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)             -22581.302  -22581.302
+  Scaling correction factor                                  1.171
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)     -22535.096  -22535.096
+  Scaling correction factor                                  1.175
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                               45192.603   45192.603
+  Bayesian (BIC)                             45281.664   45281.664
+  Sample-size adjusted Bayesian (BIC)        45234.004   45234.004
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.079       0.072
+  90 Percent confidence interval - lower         0.065       0.060
+  90 Percent confidence interval - upper         0.094       0.085
+  P-value RMSEA &lt;= 0.05                          0.000       0.002
+                                                                  
+  Robust RMSEA                                               0.079
+  90 Percent confidence interval - lower                     0.064
+  90 Percent confidence interval - upper                     0.094
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.031       0.031
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+  open =~                                             
+    O1                0.622    0.029   21.536    0.000
+    O2                0.684    0.042   16.466    0.000
+    O3                0.794    0.032   24.572    0.000
+    O4                0.361    0.031   11.779    0.000
+    O5                0.685    0.036   19.069    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+   .O1                4.816    0.021  224.892    0.000
+   .O2                4.287    0.030  144.955    0.000
+   .O3                4.436    0.023  191.353    0.000
+   .O4                4.893    0.023  211.544    0.000
+   .O5                4.509    0.025  179.095    0.000
+    open              0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+   .O1                0.888    0.037   23.887    0.000
+   .O2                1.981    0.068   29.245    0.000
+   .O3                0.860    0.050   17.051    0.000
+   .O4                1.361    0.052   26.271    0.000
+   .O5                1.294    0.059   21.957    0.000
+    open              1.000                           </code></pre>
+<p>Al evaluar estos resultados, vemos que no es un modelo idóneo, ya que TLI está por debajo de 0.90 y RMSEA está al límite. Además, las cargas factoriales (en Latent Variables) oscilan entre 0.361 y 0.794, por lo que no se trataría de un modelo tau-equivalente y sería no recomendable usar el coeficiente alfa. Cabe resaltar que, los ítems O2 y O5 estaban redactados de forma negativa, por lo que se recodificó invirtiendo sus valores para el análisis, y también presentan una correlación residual pequeña, pero notable (r = 0.10), por lo que sería razonable esperar una correlación de errores entre ambos ítems. Entonces, teniendo en cuenta esto, vamos a re-especifcar el modelo:</p>
+<pre class="r"><code># Re-especificar el modelo (con errores correlacionados)
+mod1fR &lt;- &#39;open =~ O1 + O2 + O3 + O4 + O5
+                   O2 ~~ O5&#39;
+
+# Estimar el nuevo modelo y visualizar los resultados
+fit1fR &lt;- cfa(mod1fR, data = open, std.lv = T, missing = &#39;direct&#39;, estimator = &#39;MLR&#39;)
+summary(fit1fR, fit.measures = T)</code></pre>
+<pre><code>lavaan 0.6-9 ended normally after 37 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        16
+                                                      
+  Number of observations                          2800
+  Number of missing patterns                         7
+                                                      
+Model Test User Model:
+                                               Standard      Robust
+  Test Statistic                                 19.968      16.569
+  Degrees of freedom                                  4           4
+  P-value (Chi-square)                            0.001       0.002
+  Scaling correction factor                                   1.205
+       Yuan-Bentler correction (Mplus variant)                     
+
+Model Test Baseline Model:
+
+  Test statistic                              1399.423    1066.430
+  Degrees of freedom                                10          10
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.312
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.989       0.988
+  Tucker-Lewis Index (TLI)                       0.971       0.970
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.989
+  Robust Tucker-Lewis Index (TLI)                            0.973
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)             -22545.080  -22545.080
+  Scaling correction factor                                  1.168
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)     -22535.096  -22535.096
+  Scaling correction factor                                  1.175
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                               45122.160   45122.160
+  Bayesian (BIC)                             45217.158   45217.158
+  Sample-size adjusted Bayesian (BIC)        45166.321   45166.321
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.038       0.033
+  90 Percent confidence interval - lower         0.022       0.019
+  90 Percent confidence interval - upper         0.055       0.049
+  P-value RMSEA &lt;= 0.05                          0.871       0.957
+                                                                  
+  Robust RMSEA                                               0.037
+  90 Percent confidence interval - lower                     0.020
+  90 Percent confidence interval - upper                     0.056
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.015       0.015
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+  open =~                                             
+    O1                0.640    0.029   22.171    0.000
+    O2                0.573    0.040   14.248    0.000
+    O3                0.846    0.033   25.304    0.000
+    O4                0.363    0.031   11.639    0.000
+    O5                0.597    0.034   17.606    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+ .O2 ~~                                               
+   .O5                0.329    0.046    7.155    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+   .O1                4.816    0.021  224.930    0.000
+   .O2                4.287    0.030  144.955    0.000
+   .O3                4.436    0.023  191.343    0.000
+   .O4                4.893    0.023  211.552    0.000
+   .O5                4.509    0.025  179.133    0.000
+    open              0.000                           
+
+Variances:
+                   Estimate  Std.Err  z-value  P(&gt;|z|)
+   .O1                0.865    0.038   22.703    0.000
+   .O2                2.120    0.062   33.937    0.000
+   .O3                0.775    0.054   14.431    0.000
+   .O4                1.359    0.052   26.120    0.000
+   .O5                1.406    0.055   25.676    0.000
+    open              1.000                           </code></pre>
+<p>Ahora vemos que los índices de ajuste han mejorado notablemente, estando todos dentro de los criterios para considerarse un modelo con buen ajuste, por lo que recién podríamos estimar la fiabilidad con el coeficiente omega.</p>
+<pre class="r"><code># Estimar la fiabilidad (ambos modelos)
+reliability(fit1f)</code></pre>
+<pre><code>            open
+alpha  0.5999111
+omega  0.6079033
+omega2 0.6079033
+omega3 0.6078732
+avevar 0.2461983</code></pre>
+<pre class="r"><code>reliability(fit1fR)</code></pre>
+<pre><code>            open
+alpha  0.5999111
+omega  0.5593717
+omega2 0.5593717
+omega3 0.5601129
+avevar 0.2294343</code></pre>
+<p>A modo de comparación estamos estimando ambos modelos, pero al ya saber qué modelo presenta un mejor ajuste, podemos decir que la estimación de fiabilidad más precisa es la del segundo modelo (re-especificado), con un omega de 0.559 (fijarse en el resultado de “omega” u “omega2”). Este sería el omega tradicional: ω<sub>u (u: unidimensional).</p>
+<p><strong>- Datos categóricos:</strong> Se considera escalas tipo Likert con 5 o menos opciones de respuesta, así como los datos binarios. Utilizan matriz de correlaciones policóricas y el estimador WLSMV.</p>
+<pre class="r"><code># Cargar la base de datos (4 opciones de respuesta)
+psyctcsm &lt;- read.csv(&quot;https://osf.io/atqc6/download&quot;)
+
+# Especificar el modelo (1 factor)
+mod1f_p &lt;- &#39;psyctcsm =~ DDP1 + DDP2 + DDP3 + DDP4&#39;
+
+# Estimar el modelo y visualizar los resultados
+fit1f_p &lt;- cfa(mod1f_p, data = psyctcsm, std.lv = T, ordered = T,
+               estimator = &#39;WLSMV&#39;)
+summary(fit1f_p, fit.measures = T)</code></pre>
+<pre><code>## lavaan 0.6-9 ended normally after 10 iterations
+## 
+##   Estimator                                       DWLS
+##   Optimization method                           NLMINB
+##   Number of model parameters                        20
+##                                                       
+##                                                   Used       Total
+##   Number of observations                           498         500
+##                                                                   
+## Model Test User Model:
+##                                               Standard      Robust
+##   Test Statistic                                 7.117      14.910
+##   Degrees of freedom                                 2           2
+##   P-value (Chi-square)                           0.028       0.001
+##   Scaling correction factor                                  0.480
+##   Shift parameter                                            0.089
+##        simple second-order correction                             
+## 
+## Model Test Baseline Model:
+## 
+##   Test statistic                              1635.647    1316.086
+##   Degrees of freedom                                 6           6
+##   P-value                                        0.000       0.000
+##   Scaling correction factor                                  1.244
+## 
+## User Model versus Baseline Model:
+## 
+##   Comparative Fit Index (CFI)                    0.997       0.990
+##   Tucker-Lewis Index (TLI)                       0.991       0.970
+##                                                                   
+##   Robust Comparative Fit Index (CFI)                            NA
+##   Robust Tucker-Lewis Index (TLI)                               NA
+## 
+## Root Mean Square Error of Approximation:
+## 
+##   RMSEA                                          0.072       0.114
+##   90 Percent confidence interval - lower         0.020       0.065
+##   90 Percent confidence interval - upper         0.132       0.171
+##   P-value RMSEA &lt;= 0.05                          0.200       0.019
+##                                                                   
+##   Robust RMSEA                                                  NA
+##   90 Percent confidence interval - lower                        NA
+##   90 Percent confidence interval - upper                        NA
+## 
+## Standardized Root Mean Square Residual:
+## 
+##   SRMR                                           0.033       0.033
+## 
+## Parameter Estimates:
+## 
+##   Standard errors                           Robust.sem
+##   Information                                 Expected
+##   Information saturated (h1) model        Unstructured
+## 
+## Latent Variables:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##   psyctcsm =~                                         
+##     DDP1              0.894    0.028   31.538    0.000
+##     DDP2              0.753    0.028   26.711    0.000
+##     DDP3              0.698    0.030   23.314    0.000
+##     DDP4              0.513    0.040   12.738    0.000
+## 
+## Intercepts:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##    .DDP1              0.000                           
+##    .DDP2              0.000                           
+##    .DDP3              0.000                           
+##    .DDP4              0.000                           
+##     psyctcsm          0.000                           
+## 
+## Thresholds:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##     DDP1|t1          -0.716    0.062  -11.591    0.000
+##     DDP1|t2          -0.040    0.056   -0.716    0.474
+##     DDP1|t3           0.296    0.057    5.185    0.000
+##     DDP1|t4           1.034    0.069   15.065    0.000
+##     DDP2|t1          -0.580    0.060   -9.693    0.000
+##     DDP2|t2           0.208    0.057    3.668    0.000
+##     DDP2|t3           0.562    0.060    9.431    0.000
+##     DDP2|t4           1.096    0.070   15.570    0.000
+##     DDP3|t1          -1.203    0.074  -16.298    0.000
+##     DDP3|t2          -0.425    0.058   -7.318    0.000
+##     DDP3|t3           0.081    0.056    1.432    0.152
+##     DDP3|t4           0.913    0.066   13.909    0.000
+##     DDP4|t1          -1.605    0.092  -17.382    0.000
+##     DDP4|t2          -1.060    0.069  -15.285    0.000
+##     DDP4|t3          -0.521    0.059   -8.817    0.000
+##     DDP4|t4           0.431    0.058    7.406    0.000
+## 
+## Variances:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##    .DDP1              0.201                           
+##    .DDP2              0.433                           
+##    .DDP3              0.513                           
+##    .DDP4              0.737                           
+##     psyctcsm          1.000                           
+## 
+## Scales y*:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##     DDP1              1.000                           
+##     DDP2              1.000                           
+##     DDP3              1.000                           
+##     DDP4              1.000</code></pre>
+<p>Evaluando los resultados, vemos que tanto CFI como TLI tienen resultados que hacen indicar un buen ajuste; y aunque RMSEA es muy alto, no tenemos más indicios que nos hagan pensar en correlacionar errores entre algunos ítems, por lo que, para este ejemplo, nos quedaremos con este modelo y pasaremos a estimar la fiabilidad:</p>
+<pre class="r"><code>reliability(fit1f_p)</code></pre>
+<pre><code>## For constructs with categorical indicators, Zumbo et al.`s (2007) &quot;ordinal alpha&quot; is calculated in addition to the standard alpha, which treats ordinal variables as numeric. See Chalmers (2018) for a critique of &quot;alpha.ord&quot; and the response by Zumbo &amp; Kroc (2019). Likewise, average variance extracted is calculated from polychoric (polyserial) not Pearson correlations.</code></pre>
+<pre><code>##            psyctcsm
+## alpha     0.7680870
+## alpha.ord 0.8007496
+## omega     0.7902953
+## omega2    0.7902953
+## omega3    0.7932682
+## avevar    0.5289638</code></pre>
+<p>Este cálculo de omega es distinto al anterior, ya que aquí se utiliza el enfoque de Green y Yang (2009) para reescalar la métrica de la respuesta de una variable latente hacia la de una puntuación total observada, y así poder obtener una estimación de la fiabilidad más precisa. El valor obtenido en este caso sería de 0.7932682 (fijarse en “omega3”) y esta variación es llamada omega categórico: ω<sub>u-cat (u-cat: unidimensional categórico)</p>
+<p><strong>Modelos multidimensionales</strong></p>
+<p><strong>- Modelos bifactor:</strong> Consideran la presencia de un factor general que influye en todos los ítems, además de factores específicos que capturan covarianzas de subconjuntos de ítems adicionales a las provocadas por el factor general. Para estos modelos también se mantiene las consideraciones por si los ítems son considerados como continuos (matriz de correlación producto momento de Pearson) o categóricos (matriz de correlaciones policóricas).</p>
+<pre class="r"><code># Cargar base de datos (6 opciones de respuesta)
+pcs &lt;- read.csv(&quot;https://osf.io/xd2tu/download&quot;)
+
+# Especificar el modelo
+modBf &lt;- &#39;gen =~ TE1  + TE2  + TE3  + TE4  + TE5 + OE1 + OE2 + OE3 + OE4 +
+                 LVA1 + LVA2 + LVA3 + LVA4 + EM1 + EM2 + EM3 + EM4 + EM5 + EM6
+           s1 =~ TE1  + TE2  + TE3  + TE4  + TE5 
+           s2 =~ OE1  + OE2  + OE3  + OE4
+           s3 =~ LVA1 + LVA2 + LVA3 + LVA4
+           s4 =~ EM1  + EM2  + EM3  + EM4  + EM5 + EM6&#39;
+
+# Estimar el modelo y visualizar los resultados
+fitBf &lt;- cfa(modBf, data=pcs, std.lv=T, estimator=&#39;MLR&#39;, orthogonal=T)
+summary(fitBf, fit.measures=T)</code></pre>
+<pre><code>## lavaan 0.6-9 ended normally after 36 iterations
+## 
+##   Estimator                                         ML
+##   Optimization method                           NLMINB
+##   Number of model parameters                        57
+##                                                       
+##                                                   Used       Total
+##   Number of observations                           154         172
+##                                                                   
+## Model Test User Model:
+##                                                Standard      Robust
+##   Test Statistic                                211.382     182.509
+##   Degrees of freedom                                133         133
+##   P-value (Chi-square)                            0.000       0.003
+##   Scaling correction factor                                   1.158
+##        Yuan-Bentler correction (Mplus variant)                     
+## 
+## Model Test Baseline Model:
+## 
+##   Test statistic                              2799.877    2260.239
+##   Degrees of freedom                               171         171
+##   P-value                                        0.000       0.000
+##   Scaling correction factor                                  1.239
+## 
+## User Model versus Baseline Model:
+## 
+##   Comparative Fit Index (CFI)                    0.970       0.976
+##   Tucker-Lewis Index (TLI)                       0.962       0.970
+##                                                                   
+##   Robust Comparative Fit Index (CFI)                         0.978
+##   Robust Tucker-Lewis Index (TLI)                            0.972
+## 
+## Loglikelihood and Information Criteria:
+## 
+##   Loglikelihood user model (H0)              -3456.819   -3456.819
+##   Scaling correction factor                                  1.269
+##       for the MLR correction                                      
+##   Loglikelihood unrestricted model (H1)      -3351.128   -3351.128
+##   Scaling correction factor                                  1.191
+##       for the MLR correction                                      
+##                                                                   
+##   Akaike (AIC)                                7027.638    7027.638
+##   Bayesian (BIC)                              7200.744    7200.744
+##   Sample-size adjusted Bayesian (BIC)         7020.331    7020.331
+## 
+## Root Mean Square Error of Approximation:
+## 
+##   RMSEA                                          0.062       0.049
+##   90 Percent confidence interval - lower         0.046       0.031
+##   90 Percent confidence interval - upper         0.077       0.065
+##   P-value RMSEA &lt;= 0.05                          0.108       0.520
+##                                                                   
+##   Robust RMSEA                                               0.053
+##   90 Percent confidence interval - lower                     0.032
+##   90 Percent confidence interval - upper                     0.071
+## 
+## Standardized Root Mean Square Residual:
+## 
+##   SRMR                                           0.038       0.038
+## 
+## Parameter Estimates:
+## 
+##   Standard errors                             Sandwich
+##   Information bread                           Observed
+##   Observed information based on                Hessian
+## 
+## Latent Variables:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##   gen =~                                              
+##     TE1               1.041    0.071   14.715    0.000
+##     TE2               1.045    0.084   12.430    0.000
+##     TE3               0.848    0.090    9.392    0.000
+##     TE4               0.984    0.075   13.097    0.000
+##     TE5               1.004    0.082   12.264    0.000
+##     OE1               0.787    0.083    9.537    0.000
+##     OE2               0.819    0.080   10.207    0.000
+##     OE3               0.738    0.089    8.319    0.000
+##     OE4               0.742    0.087    8.512    0.000
+##     LVA1              0.937    0.084   11.180    0.000
+##     LVA2              0.863    0.071   12.205    0.000
+##     LVA3              0.816    0.085    9.649    0.000
+##     LVA4              0.865    0.098    8.802    0.000
+##     EM1               0.968    0.095   10.215    0.000
+##     EM2               0.930    0.078   11.957    0.000
+##     EM3               0.959    0.091   10.542    0.000
+##     EM4               0.885    0.091    9.679    0.000
+##     EM5               1.043    0.086   12.121    0.000
+##     EM6               1.108    0.100   11.054    0.000
+##   s1 =~                                               
+##     TE1               0.351    0.114    3.071    0.002
+##     TE2               0.451    0.144    3.142    0.002
+##     TE3               0.402    0.170    2.360    0.018
+##     TE4               0.162    0.111    1.457    0.145
+##     TE5               0.269    0.154    1.747    0.081
+##   s2 =~                                               
+##     OE1               0.626    0.107    5.860    0.000
+##     OE2               0.516    0.096    5.399    0.000
+##     OE3               0.673    0.107    6.291    0.000
+##     OE4               0.739    0.085    8.738    0.000
+##   s3 =~                                               
+##     LVA1              0.253    0.107    2.357    0.018
+##     LVA2              0.573    0.081    7.081    0.000
+##     LVA3              0.422    0.104    4.051    0.000
+##     LVA4              0.528    0.104    5.074    0.000
+##   s4 =~                                               
+##     EM1               0.506    0.152    3.324    0.001
+##     EM2               0.346    0.086    4.026    0.000
+##     EM3               0.567    0.121    4.682    0.000
+##     EM4               0.562    0.098    5.707    0.000
+##     EM5               0.479    0.097    4.930    0.000
+##     EM6               0.651    0.148    4.403    0.000
+## 
+## Covariances:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##   gen ~~                                              
+##     s1                0.000                           
+##     s2                0.000                           
+##     s3                0.000                           
+##     s4                0.000                           
+##   s1 ~~                                               
+##     s2                0.000                           
+##     s3                0.000                           
+##     s4                0.000                           
+##   s2 ~~                                               
+##     s3                0.000                           
+##     s4                0.000                           
+##   s3 ~~                                               
+##     s4                0.000                           
+## 
+## Variances:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##    .TE1               0.318    0.067    4.777    0.000
+##    .TE2               0.434    0.088    4.913    0.000
+##    .TE3               0.501    0.104    4.827    0.000
+##    .TE4               0.397    0.066    5.987    0.000
+##    .TE5               0.421    0.073    5.799    0.000
+##    .OE1               0.546    0.106    5.129    0.000
+##    .OE2               0.451    0.075    6.003    0.000
+##    .OE3               0.490    0.117    4.183    0.000
+##    .OE4               0.263    0.071    3.718    0.000
+##    .LVA1              0.442    0.064    6.873    0.000
+##    .LVA2              0.100    0.062    1.607    0.108
+##    .LVA3              0.443    0.075    5.892    0.000
+##    .LVA4              0.523    0.088    5.954    0.000
+##    .EM1               0.639    0.100    6.388    0.000
+##    .EM2               0.365    0.060    6.049    0.000
+##    .EM3               0.482    0.090    5.383    0.000
+##    .EM4               0.364    0.083    4.395    0.000
+##    .EM5               0.318    0.063    5.032    0.000
+##    .EM6               0.534    0.117    4.564    0.000
+##     gen               1.000                           
+##     s1                1.000                           
+##     s2                1.000                           
+##     s3                1.000                           
+##     s4                1.000</code></pre>
+<p>Analizando los resultados obtenidos, se considera que el modelo presenta un buen ajuste, por lo que se procede a la estimación de la fiabilidad:</p>
+<pre class="r"><code>reliability(fitBf)</code></pre>
+<pre><code>##              gen         s1        s2        s3        s4
+## alpha  0.9638781 0.92504205 0.8992820 0.9052459 0.9405882
+## omega  0.9741033 0.56377307 0.7884791 0.6766430 0.7816839
+## omega2 0.9094893 0.09237594 0.3666293 0.1880759 0.2054075
+## omega3 0.9077636 0.09240479 0.3666634 0.1878380 0.2053012
+## avevar        NA         NA        NA        NA        NA</code></pre>
+<p>En este caso, obtenemos resultados tanto para el factor general (“gen”) como para los factores específicos (s1-s4). Entonces, la primera columna sería considerada para la fiabilidad de una puntuación total del constructo, mientras que las siguientes podrían ser consideradas como estimaciones de fiabilidad para subescalas de constructos más reducidos a los que hagan referencia. Para la interpretación, también nos centraremos en la fila de “omega 3”, obteniendo un valor de 0.9077636. Esta variación sería el llamado Omega jerárquico: ωh (h: hierarchical en inglés). Además, también existiría su símil para datos categóricos, que sería ω<sub>h-cat (h-cat: hierarchical categorical).</p>
+<p><strong>- Modelos de orden superior:</strong> Aquí se considera que existe un factor de orden superior (o segundo orden) que influye en varios factores de orden inferior (o primer orden), los cuales a su vez influenciarían directamente en las respuestas de los ítems.</p>
+<pre class="r"><code># Especificar el modelo
+homod &lt;- &#39;TE =~ TE1  + TE2  + TE3  + TE4 + TE5 
+          OE =~ OE1  + OE2  + OE3  + OE4
+          LV =~ LVA1 + LVA2 + LVA3 + LVA4
+          EM =~ EM1  + EM2  + EM3  + EM4 + EM5 + EM6
+        cost =~ TE   + OE   + LV   + EM&#39;
+
+# Estimar el modelo y visualizar los resultados
+fitHo &lt;- cfa(homod, data=pcs, std.lv=T, estimator=&#39;MLM&#39;)
+summary(fitHo, fit.measures=T)</code></pre>
+<pre><code>## lavaan 0.6-9 ended normally after 57 iterations
+## 
+##   Estimator                                         ML
+##   Optimization method                           NLMINB
+##   Number of model parameters                        42
+##                                                       
+##                                                   Used       Total
+##   Number of observations                           154         172
+##                                                                   
+## Model Test User Model:
+##                                               Standard      Robust
+##   Test Statistic                               243.444     185.699
+##   Degrees of freedom                               148         148
+##   P-value (Chi-square)                           0.000       0.019
+##   Scaling correction factor                                  1.311
+##        Satorra-Bentler correction                                 
+## 
+## Model Test Baseline Model:
+## 
+##   Test statistic                              2799.877    2282.637
+##   Degrees of freedom                               171         171
+##   P-value                                        0.000       0.000
+##   Scaling correction factor                                  1.227
+## 
+## User Model versus Baseline Model:
+## 
+##   Comparative Fit Index (CFI)                    0.964       0.982
+##   Tucker-Lewis Index (TLI)                       0.958       0.979
+##                                                                   
+##   Robust Comparative Fit Index (CFI)                         0.981
+##   Robust Tucker-Lewis Index (TLI)                            0.978
+## 
+## Loglikelihood and Information Criteria:
+## 
+##   Loglikelihood user model (H0)              -3472.850   -3472.850
+##   Loglikelihood unrestricted model (H1)      -3351.128   -3351.128
+##                                                                   
+##   Akaike (AIC)                                7029.700    7029.700
+##   Bayesian (BIC)                              7157.252    7157.252
+##   Sample-size adjusted Bayesian (BIC)         7024.315    7024.315
+## 
+## Root Mean Square Error of Approximation:
+## 
+##   RMSEA                                          0.065       0.041
+##   90 Percent confidence interval - lower         0.050       0.021
+##   90 Percent confidence interval - upper         0.079       0.056
+##   P-value RMSEA &lt;= 0.05                          0.052       0.832
+##                                                                   
+##   Robust RMSEA                                               0.047
+##   90 Percent confidence interval - lower                     0.020
+##   90 Percent confidence interval - upper                     0.066
+## 
+## Standardized Root Mean Square Residual:
+## 
+##   SRMR                                           0.045       0.045
+## 
+## Parameter Estimates:
+## 
+##   Standard errors                           Robust.sem
+##   Information                                 Expected
+##   Information saturated (h1) model          Structured
+## 
+## Latent Variables:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##   TE =~                                               
+##     TE1               0.356    0.067    5.289    0.000
+##     TE2               0.364    0.065    5.554    0.000
+##     TE3               0.299    0.059    5.056    0.000
+##     TE4               0.323    0.058    5.605    0.000
+##     TE5               0.338    0.065    5.198    0.000
+##   OE =~                                               
+##     OE1               0.641    0.074    8.642    0.000
+##     OE2               0.616    0.060   10.334    0.000
+##     OE3               0.630    0.066    9.523    0.000
+##     OE4               0.647    0.064   10.078    0.000
+##   LV =~                                               
+##     LVA1              0.442    0.056    7.836    0.000
+##     LVA2              0.457    0.059    7.751    0.000
+##     LVA3              0.427    0.059    7.286    0.000
+##     LVA4              0.460    0.056    8.258    0.000
+##   EM =~                                               
+##     EM1               0.509    0.069    7.394    0.000
+##     EM2               0.462    0.066    7.018    0.000
+##     EM3               0.517    0.074    6.955    0.000
+##     EM4               0.483    0.067    7.179    0.000
+##     EM5               0.535    0.069    7.756    0.000
+##     EM6               0.595    0.080    7.430    0.000
+##   cost =~                                             
+##     TE                2.914    0.595    4.894    0.000
+##     OE                1.223    0.155    7.880    0.000
+##     LV                1.951    0.281    6.933    0.000
+##     EM                1.900    0.327    5.809    0.000
+## 
+## Variances:
+##                    Estimate  Std.Err  z-value  P(&gt;|z|)
+##    .TE1               0.321    0.063    5.081    0.000
+##    .TE2               0.473    0.069    6.837    0.000
+##    .TE3               0.531    0.100    5.289    0.000
+##    .TE4               0.398    0.073    5.494    0.000
+##    .TE5               0.418    0.070    5.935    0.000
+##    .OE1               0.531    0.099    5.353    0.000
+##    .OE2               0.440    0.081    5.428    0.000
+##    .OE3               0.495    0.099    5.001    0.000
+##    .OE4               0.315    0.055    5.719    0.000
+##    .LVA1              0.443    0.081    5.466    0.000
+##    .LVA2              0.170    0.035    4.851    0.000
+##    .LVA3              0.412    0.064    6.473    0.000
+##    .LVA4              0.533    0.090    5.945    0.000
+##    .EM1               0.637    0.085    7.508    0.000
+##    .EM2               0.367    0.062    5.872    0.000
+##    .EM3               0.493    0.075    6.564    0.000
+##    .EM4               0.387    0.064    6.017    0.000
+##    .EM5               0.315    0.062    5.059    0.000
+##    .EM6               0.554    0.085    6.515    0.000
+##    .TE                1.000                           
+##    .OE                1.000                           
+##    .LV                1.000                           
+##    .EM                1.000                           
+##     cost              1.000</code></pre>
+<p>Estos resultados evidencian un buen ajuste del modelo, lo cual nos indicaría proceder a la estimación de la fiabilidad:</p>
+<pre class="r"><code>reliabilityL2(fitHo, &#39;cost&#39;)</code></pre>
+<pre><code>##        omegaL1        omegaL2 partialOmegaL1 
+##      0.9088176      0.9410190      0.9734520</code></pre>
+<p>Para este caso, el cálculo se realiza considerando los efectos indirectos que va a tener el factor de orden superior sobre los ítems, siendo mediados en todo momento por los factores de orden inferior. Entonces, la estimación de fiabilidad para usar puntajes totales en este tipo de modelos va a estar ubicada en “omegaL1”, siendo el valor para este ejemplo 0.9088176. Esta variación es llamada Omega de orden superior: ω<sub>ho (ho: Higher order en inglés).</p>
+<p>Finalmente, el artículo señala que, si no contamos con un modelo a priori bien definido, o si este no se ajusta correctamente a algún modelo conocido, una posibilidad para estimar la fiabilidad sería el cálculo de un coeficiente omega a partir de un AFE.</p>
+<p>Todos los procedimientos explicados aquí, junto a la última opción sobre una estimación exploratoria de la fiabilidad por medio de un AFE y otros códigos adicionales, como explorar índices de modificación (como sugerencia para la re-especificación) o precisar intervalos de confianza para los cálculos de omega, pueden ser consultados en el siguiente script:</p>
+<div id="referencias" class="section level4">
+<h4>Referencias</h4>
+<p>Flora, D. B. (2020). Your coefficient alpha is probably wrong, but which coefficient omega is right? A tutorial on using R to obtain better reliability estimates. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(4), 484–501. <a href="https://doi.org/10.1177/2515245920951747" target="_blank">https://doi.org/10.1177/2515245920951747</a></p>
+<p>Green, S. B., &amp; Yang, Y. (2009). Reliability of summed item scores using Structural Equation Modeling: An alternative to coefficient alpha. <em>Psychometrika</em>, <em>74</em>, 155–167. <a href="https://doi.org/10.1007/s11336-008-9099-3" target="_blank">https://doi.org/10.1007/s11336-008-9099-3</a></p>
+<p>Loken, E., &amp; Gelman, A. (2017). Measurement error and the replication crisis: The assumption that measurement error always reduces effect sizes is false. <em>Science</em>, <em>355</em>(6325), 584–585. <a href="https://doi.org/10.1126/science.aal3618" target="_blank">https://doi.org/10.1126/science.aal3618</a></p>
+</div>
