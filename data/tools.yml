@@ -7,6 +7,10 @@ tools:
   - name: Essential Pack - Primera Edición (Abril 2021)
     image: "/images/tools/es.png"
     link: "/files/Essential Pack (Primera Edición).pdf"
+  # tool loop in tool category
+  - name: Essential Pack - Segunda Edición (Julio 2022)
+    image: "/images/tools/es-2.png"
+    link: "/files/Essential Pack (Segunda Edición).pdf"
 
 # tool category
 - title: Publicaciones
